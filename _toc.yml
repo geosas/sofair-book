@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Le sensorthing qu'est ce que c'est ?
+    chapters:
+    - file: page/chap0/description
+    - file: page/chap0/example_edr
+  - caption: Consommateur
+    chapters:
+    - file: page/chap1/consommation
+      sections:
+      - file: page/chap1/consommation_simple
+  - caption: Producteur
+    chapters:
+    - file: page/chap2/producteur
+  - caption: développeur
+    chapters:
+    - file: page/chap3/dev
+  - caption: Référence
+    chapters:
+    - file: page/biblio
+    - url: https://geosas.fr
+    title: Example website
