@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: SOFAIR
-author: GéoSAS
+author: UMR SAS - INRAE - Institut Agro
 logo: img/sofair-book.png
 
 # Force re-execution of notebooks on each build.
