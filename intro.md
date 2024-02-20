@@ -2,7 +2,7 @@
 
 ```{figure} img/sofair-logo.png
 :name: sofair-logo
-:width: 400px
+:width: 100px
 :align: center
 ```
 
