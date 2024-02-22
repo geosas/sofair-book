@@ -1,4 +1,4 @@
-# Accès au données simplifié
+# Accès aux données simplifiées
 
 Par une URL :
 [https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8)](https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8))
