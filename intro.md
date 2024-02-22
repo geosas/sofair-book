@@ -6,7 +6,7 @@
 :align: center
 ```
 
-Nous allons vous apprendre beaucoup de choses ! Blahblah
+Nous allons vous apprendre beaucoup de choses !
 
 ```{tableofcontents}
 ```
