@@ -22,5 +22,5 @@ parts:
   - caption: Référence
     chapters:
     - file: page/biblio
-    - url: https://geosas.fr
+    - url: https://geosas.fr/sofair-book
     title: Example website
