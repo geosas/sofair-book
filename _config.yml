@@ -3,7 +3,6 @@
 
 title: SOFAIR
 author: UMR SAS - INRAE - Institut Agro
-copyright: "2024"  # Copyright year to be placed in the footer
 logo: img/sofair-book.png
 
 # Force re-execution of notebooks on each build.
@@ -36,4 +35,8 @@ html:
   use_issues_button: true
   use_repository_button: true
   extra_footer: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> Ce travail est sous licence <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">Creative Commons Attribution 4.0 International</a>.
+
+sphinx:
+  config:
+    html_show_copyright: false
 
