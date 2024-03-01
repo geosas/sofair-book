@@ -14,7 +14,7 @@ parts:
       - file: page/chap0/sensors
   - caption: SOFAIR
     chapters:
-    - file: page/chap-sofair/intro
+    - file: page/chap5/intro
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
