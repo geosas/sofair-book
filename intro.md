@@ -1,7 +1,7 @@
 Le SOFAIR book
 ==============
 
-par UMR SAS - INRAE / Institut Agro - Rennes / Quimper
+par Mario Adam, Manuel Cheve, Paloma Cucchi, Mikaël Faucheux, Ophélie Fovet, Christophe Geneste, Tom Loree, Thierry Morvan, François Rouault, Laurent Ruiz, Hervé Squividant, Zahra Thomas, UMR SAS - INRAE / Institut Agro - Rennes / Quimper.
 
 ![creative common](img/cc-by-sa.png) Mise à disposition selon les termes de la [Licence Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.frr)
 
