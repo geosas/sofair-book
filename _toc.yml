@@ -4,8 +4,10 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Le standard SensorThings
+  - caption: Le SensorThings
     chapters:
+    - file: page/chap0/whatsthat
+    - file: page/chap0/why
     - file: page/chap0/objets
   - caption: Consommateur
     chapters:
