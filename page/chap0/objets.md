@@ -1,2 +1,2 @@
-## les objets du SensorThings
+## Les objets SensorThings
 
