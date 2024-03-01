@@ -9,10 +9,6 @@ parts:
     - file: page/chap0/whatsthat
     - file: page/chap0/why
     - file: page/chap0/objets
-      sections:
-      - file: page/chap0/things
-      - file: page/chap0/sensors
-      
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
