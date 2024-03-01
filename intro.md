@@ -5,15 +5,11 @@ par UMR SAS - INRAE / Institut Agro - Rennes / Quimper
 
 ![creative common](img/cc-by-sa.png) Mise à disposition selon les termes de la [Licence Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.frr)
 
-
 ```{figure} img/sofair-logo.png
 :name: sofair-logo
 :width: 400px
 :align: center
 ```
-
-# Introduction
-
 ```{admonition} Objectif
 L'ambition du projet SOFAIR est de partager un ensemble d'outils et de méthodes pour faciliter la publication des données produites par les observatoires de recherche en environnement.
 
