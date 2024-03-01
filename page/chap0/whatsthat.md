@@ -2,7 +2,7 @@
 Le standard OGC **SensorThings** permet de publier les différentes composantes d'un observatoire (points de mesure, capteurs, paramètres observés, mesures, géolocalisation, chroniques, ...) conformément au principe du FAIR data. 
 
 ```{note}
-Ce premier exemple d'observatoire simplifié décrit le lien entre ces différentes composantes et les objets présents dans le standard SensorThings... 
+Ce premier exemple décrit les liens entre ces différentes composantes d'un observatoire simplfié et les objets présents dans le standard SensorThings... 
 ```
 
 ```{figure} img/station_hydro_1.png
