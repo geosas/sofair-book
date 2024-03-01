@@ -3,6 +3,7 @@
 
 title: SOFAIR
 author: UMR SAS - INRAE - Institut Agro
+copyright: "2024"  # Copyright year to be placed in the footer
 logo: img/sofair-book.png
 
 # Force re-execution of notebooks on each build.
