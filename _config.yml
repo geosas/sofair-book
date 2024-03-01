@@ -34,7 +34,7 @@ html:
   favicon: img/icon.png
   use_issues_button: true
   use_repository_button: true
-  extra_footer: <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><img alt="Creative Commons License" style="border-width:0" src="image/cc-by-sa.png" /></a> Ce travail est sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International</a>.
+  extra_footer: <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><img alt="Creative Commons License" style="border-width:0" src="img/cc-by-sa.png" /></a> Ce travail est sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International</a>.
 
 sphinx:
   config:
