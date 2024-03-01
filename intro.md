@@ -1,7 +1,9 @@
 Le SOFAIR book
 ==============
 
-par Mario Adam, Manuel Cheve, Paloma Cucchi, Mikaël Faucheux, Ophélie Fovet, Christophe Geneste, Tom Loree, Thierry Morvan, François Rouault, Laurent Ruiz, Hervé Squividant, Zahra Thomas, [UMR SAS - INRAE / Institut Agro - Rennes / Quimper](https://umrsas.rennes.hub.inrae.fr/).
+par Mario Adam<sup>1</sup>, Manuel Cheve<sup>2</sup>, Paloma Cucchi<sup>1</sup>, Mikaël Faucheux<sup>1</sup>, Ophélie Fovet<sup>1</sup>, Christophe Geneste<sup>1</sup>, Tom Loree<sup>1</sup>, Thierry Morvan<sup>1</sup>, François Rouault<sup>1</sup>, Laurent Ruiz<sup>1</sup>, Hervé Squividant<sup>1</sup>, Zahra Thomas<sup>1</sup>
+1. [UMR SAS, INRAE - Institut Agro, Rennes - Quimper](https://umrsas.rennes.hub.inrae.fr/)
+2. [UMR DECOD, IFREMER - INRAE - Institut Agro, Rennes](https://www.umr-decod.fr/)
 
 ![creative common](img/cc-by-sa.png) Mise à disposition selon les termes de la [Licence Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.frr)
 
