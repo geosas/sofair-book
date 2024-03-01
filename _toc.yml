@@ -7,7 +7,6 @@ parts:
   - caption: Le standard SensorThings
     chapters:
     - file: page/chap0/whatsthat
-    - file: page/chap0/why
     - file: page/chap0/objets
   - caption: Consommateur
     chapters:
