@@ -4,8 +4,8 @@
 :name: sofair-logo
 :width: 400px
 :align: center
+
 ```{admonition} OBJECTIF
-:class: encadre
 L'ambition du projet SOFAIR est de partager un ensemble d'outils et de méthodes pour faciliter la publication des données produites par les observatoires de recherche en environnement.
 
 Il repose sur les principes du **FAIR** data qui incitent les scientifiques à publier les données produites par leurs recherches, de telle sorte qu'elles soient aisément trouvables (**F**indable), librement accessibles (**A**ccessible), interopérables (**I**nteroperable) et réutilisable (**R**eusable). 
