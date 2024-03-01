@@ -6,6 +6,7 @@ root: intro
 parts:
   - caption: Le SensorThings
     chapters:
+    - file: page/chap5/intro
     - file: page/chap0/whatsthat
     - file: page/chap0/why
     - file: page/chap0/objets
