@@ -4,10 +4,15 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Le sensorthing qu'est ce que c'est ?
+  - caption: Le standard SensorThings
     chapters:
-    - file: page/chap0/description
-    - file: page/chap0/example_edr
+    - file: page/chap0/whatsthat
+    - file: page/chap0/why
+    - file: page/chap0/objets
+      sections:
+      - file: page/chap0/things
+      - file: page/chap0/sensors
+      
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
