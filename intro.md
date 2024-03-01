@@ -1,10 +1,11 @@
+Le SOFAIR book
+==============
+
 ```{figure} img/sofair-logo.png
 :name: sofair-logo
 :width: 400px
 :align: center
 
-Le SOFAIR book
-==============
 par UMR SAS - INRAE / Insitut Agro - Rennes / Quimper
 ![creative common](img/cc-by-sa.png)
 
