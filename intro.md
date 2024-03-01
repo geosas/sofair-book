@@ -26,6 +26,6 @@ SOFAIR est le fruit d'un groupe de travail mélant différentes compétences :
 - des **spécialistes des Systèmes d'Information**, responsables de plateformes Open Data.
 
 ```{important}
-SOFAIR repose principalement sur l'adoption d'un standard de l'Open Geospataial Consortium, nommé **SensorThings**, adapaté à la FAIRisation des données d'observation.
+SOFAIR repose principalement sur l'adoption d'un standard de l'Open Geospataial Consortium (OGC), nommé **SensorThings**, adapaté à la FAIRisation des données d'observation.
 ```
 
