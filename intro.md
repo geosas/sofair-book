@@ -3,7 +3,7 @@ Le SOFAIR book
 
 par UMR SAS - INRAE / Institut Agro - Rennes / Quimper
 
-![creative common](img/cc-by-sa.png) Mise à disposition selon les termes de la [License Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.frr)
+![creative common](img/cc-by-sa.png) Mise à disposition selon les termes de la [Licence Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.frr)
 
 
 ```{figure} img/sofair-logo.png
@@ -12,7 +12,7 @@ par UMR SAS - INRAE / Institut Agro - Rennes / Quimper
 :align: center
 ```
 
-#Introduction
+# Introduction
 
 ```{admonition} Objectif
 L'ambition du projet SOFAIR est de partager un ensemble d'outils et de méthodes pour faciliter la publication des données produites par les observatoires de recherche en environnement.
@@ -31,6 +31,3 @@ SOFAIR est le fruit d'un groupe de travail mélant différentes compétences :
 SOFAIR repose principalement sur l'adoption d'un standard de l'Open Geospataial Consortium, nommé **SensorThings**, adapaté à la FAIRisation des données d'observation.
 ```
 
-  
-```{tableofcontents}
-```
