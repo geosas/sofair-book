@@ -1,1 +1,0 @@
-## Configurer une API SensorThings
