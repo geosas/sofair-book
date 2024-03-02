@@ -16,6 +16,10 @@ parts:
   - caption: SOFAIR
     chapters:
     - file: page/chap-sofair/intro
+  - caption: FAIRiser un observatoire
+    chapters:
+    - file: page/chap-fairiser/creer
+    - file: page/chap-fairiser/configurer
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
