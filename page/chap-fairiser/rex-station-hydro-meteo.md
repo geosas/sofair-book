@@ -1,1 +1,1 @@
-## REX Station Hydro-Météo Institut Agro
+## REX Station Hydro-Météo
