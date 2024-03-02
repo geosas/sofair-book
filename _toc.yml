@@ -1,4 +1,4 @@
-# Table of contents
+orthings# Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
@@ -6,12 +6,12 @@ root: intro
 parts:
   - caption: Le SensorThings
     chapters:
-    - file: page/chap0/whatsthat
-    - file: page/chap0/why
-    - file: page/chap0/objets
+    - file: page/chap-sensorthings/whatsthat
+    - file: page/chap-sensorthings/why
+    - file: page/chap-sensorthings/objets
       sections:
-      - file: page/chap0/things
-      - file: page/chap0/sensors
+      - file: page/chap-sensorthings/things
+      - file: page/chap-sensorthings/sensors
   - caption: SOFAIR
     chapters:
     - file: page/chap-sofair/intro
