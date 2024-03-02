@@ -20,6 +20,12 @@ parts:
     chapters:
     - file: page/chap-fairiser/creer
     - file: page/chap-fairiser/configurer
+    - file: page/chap-fairiser/peupler
+    - file: page/chap-fairiser/rex
+      sections:
+      - file: page/chap-fairiser/rex-efele
+      - file: page/chap-fairiser/rex-agrhys
+      - file: page/chap-fairiser/rex-station-hydro-meteo
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
