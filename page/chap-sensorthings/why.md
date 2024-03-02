@@ -1,2 +1,2 @@
-## Pourquoi ?
+## Pourquoi le SensorThings ?
 Le choix du standard OGC **SensorThings** ...
