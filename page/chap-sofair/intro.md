@@ -16,4 +16,4 @@ Ce projet propose
 4. la connexion de ce service aux infrastructures de données géographiques en termes de métadonnées et de couches géographiques,
 5. la génération de visualisateurs de ce service dans des portails cartographiques ou temporels.
 
-Cet outil nous semble être le chaînon manquant dans le concept d'Infrastructure de **Données Spatiales et Temporelles** : STDS.
+Cet outil nous semble être le chaînon manquant dans le concept d'**Infrastructure de Données Spatiales et Temporelles** : STDS.
