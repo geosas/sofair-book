@@ -1,1 +1,1 @@
-## Déployer SOFAIR
+## Installer SOFAIR
