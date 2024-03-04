@@ -40,17 +40,10 @@ parts:
       sections:
       - file: page/chap-reutiliser/requetes-simples
       - file: page/chap-reutiliser/requetes-avancees
-  - caption: Consommateur
+  - caption: Développer
     chapters:
-    - file: page/chap1/consommation
-      sections:
-      - file: page/chap1/consommation_simple
-  - caption: Producteur
-    chapters:
-    - file: page/chap2/producteur
-  - caption: développeur
-    chapters:
-    - file: page/chap3/dev
+    - file: page/chap-dev/stean
+    - file: page/chap-dev/frost
   - caption: Référence
     chapters:
     - file: page/biblio
