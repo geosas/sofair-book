@@ -43,7 +43,11 @@ parts:
   - caption: Développer
     chapters:
     - file: page/chap-dev/stean
-    - file: page/chap-dev/frost
+    - file: page/chap-dev/sofair
+  - caption: Déployer
+    chapters:
+    - file: page/chap-deployer/stean
+    - file: page/chap-deployer/sofair
   - caption: Référence
     chapters:
     - file: page/biblio
