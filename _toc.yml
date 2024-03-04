@@ -38,8 +38,8 @@ parts:
       - file: page/chap-reutiliser/qgis
     - file: page/reutiliser/requetes
       section:
-        - file: page/reutiliser/requetes-simples
-        - file: page/reutiliser/requetes-avancees
+      - file: page/reutiliser/requetes-simples
+      - file: page/reutiliser/requetes-avancees
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
