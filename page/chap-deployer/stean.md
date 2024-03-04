@@ -1,1 +1,1 @@
-## installer STEAN
+## Installer STEAN
