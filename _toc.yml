@@ -16,6 +16,9 @@ parts:
   - caption: SOFAIR
     chapters:
     - file: page/chap-sofair/intro
+    - file: page/chap-sofair/portail
+    - file: page/chap-sofair/api
+    - file: page/chap-sofair/gallerie
   - caption: FAIRiser un observatoire
     chapters:
     - file: page/chap-fairiser/creer
