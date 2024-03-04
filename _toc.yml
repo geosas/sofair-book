@@ -26,7 +26,7 @@ parts:
       - file: page/chap-fairiser/rex-efele
       - file: page/chap-fairiser/rex-agrhys
       - file: page/chap-fairiser/rex-station-hydro-meteo
-  - caption: Voir, télécharger les données
+  - caption: Voir et télécharger les données
     - chapters:
     - file: page/chap-reutiliser/web
       section: 
