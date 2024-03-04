@@ -29,15 +29,15 @@ parts:
   - caption: Voir et télécharger les données
     chapters:
     - file: page/chap-reutiliser/web
-      section: 
+      sections: 
       - file: page/chap-reutiliser/mviewer
       - file: page/chap-reutiliser/STEAN-viewer
       - file: page/chap-reutiliser/grafana
     - file: page/chap-reutiliser/desktop
-      section:
+      sections:
       - file: page/chap-reutiliser/qgis
     - file: page/reutiliser/requetes
-      section:
+      sections:
       - file: page/reutiliser/requetes-simples
       - file: page/reutiliser/requetes-avancees
   - caption: Consommateur
