@@ -36,10 +36,10 @@ parts:
     - file: page/chap-reutiliser/desktop
       sections:
       - file: page/chap-reutiliser/qgis
-    - file: page/reutiliser/requetes
+    - file: page/chap-reutiliser/requetes
       sections:
-      - file: page/reutiliser/requetes-simples
-      - file: page/reutiliser/requetes-avancees
+      - file: page/chap-reutiliser/requetes-simples
+      - file: page/chap-reutiliser/requetes-avancees
   - caption: Consommateur
     chapters:
     - file: page/chap1/consommation
