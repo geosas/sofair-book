@@ -31,7 +31,7 @@ parts:
     - file: page/chap-reutiliser/web
       sections: 
       - file: page/chap-reutiliser/mviewer
-      - file: page/chap-reutiliser/STEAN-viewer
+      - file: page/chap-reutiliser/stean-query
       - file: page/chap-reutiliser/grafana
     - file: page/chap-reutiliser/desktop
       sections:
@@ -48,4 +48,3 @@ parts:
     chapters:
     - file: page/biblio
     - url: https://geosas.fr/sofair-book
-    title: Example website
