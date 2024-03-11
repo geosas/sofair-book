@@ -12,6 +12,7 @@ execute:
     - '*example_edr*'
     - '*csv_to_zarr*'
     - '*notebooks*'
+    - '*rex-meteo-france*'
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -40,4 +41,3 @@ sphinx:
   config:
     html_show_copyright: false
     bibtex_reference_style: author_year
-
