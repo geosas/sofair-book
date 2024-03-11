@@ -61,7 +61,7 @@ Le champ « properties » est un objet JSON contenant les propriétés annotées
   * SOERE PRO EFELE
 ```json
 { 
-  "projet": "https://geosas.fr/web/$1page_id=2476",  
+  "projet": "https://geosas.fr/web/?page_id=2476",  
   "manuel d'utilisation": "https://s.campbellsci.com/documents/fr/product-brochures/b_cr1000.pdf",
   "date de mise en place": "Septembre 2013" 
 }
