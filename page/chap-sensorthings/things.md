@@ -93,7 +93,7 @@ Une « Things » DOIT avoir des relations directes avec les autres d’entités 
   "name": "Station météo Campbell EFELE",
   "description": "Station météo Campbell personnalisée, équipée du data logger Campbell CR1000 ",
   "properties": { 
-       "projet": "https://geosas.fr/web/$1page_id=2476", 
+       "projet": "https://geosas.fr/web/?page_id=2476", 
        "manuel d'utilisation": "https://s.campbellsci.com/documents/fr/product-brochures/b_cr1000.pdf", 
        "date de mise en place": "Septembre 2013" 
   }
