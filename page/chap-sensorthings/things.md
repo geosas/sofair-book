@@ -89,7 +89,7 @@ Une « Things » DOIT avoir des relations directes avec les autres d’entités 
 ```json
 {
   @iot.id: 1
-  @iot.selfLink: "https://api.geosas.fr/efele/v1.0/Things(1)",
+  @iot.selfLink: "https://sensorthings.geosas.fr/efele/v1.0/Things(1)",
   name: "Station météo Campbell EFELE",
   description: "Station météo Campbell personnalisée, équipée du data logger Campbell CR1000 ",
   properties: { 
@@ -97,9 +97,9 @@ Une « Things » DOIT avoir des relations directes avec les autres d’entités 
        "manuel d'utilisation": "https://s.campbellsci.com/documents/fr/product-brochures/b_cr1000.pdf", 
        "date de mise en place": "Septembre 2013" 
   }
-  Locations@iot.navigationLink: "https://api.geosas.fr/efele/v1.0/Things(1)/Locations",
-  HistoricalLocations@iot.navigationLink: "https://api.geosas.fr/efele/v1.0/Things(1)/HistoricalLocations",
-  Datastreams@iot.navigationLink: "https://api.geosas.fr/efele/v1.0/Things(1)/Datastreams",
-  MultiDatastreams@iot.navigationLink: "https://api.geosas.fr/efele/v1.0/Things(1)/MultiDatastreams"
+  Locations@iot.navigationLink: "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/Locations",
+  HistoricalLocations@iot.navigationLink: "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/HistoricalLocations",
+  Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/Datastreams",
+  MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/MultiDatastreams"
 }
 ```
