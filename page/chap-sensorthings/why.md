@@ -14,13 +14,20 @@ après la création de prototypes initiaux utilisant des services de données sp
 - Sensor Model Language (**SensorML**) - Modèles et schéma XML pour décrire les informations nécessaires à la découverte des capteurs, à la localisation des observations, au traitement des observations et des mesures des capteurs et l'énumération des propriétés mesurées,
 - Sensor Observations Service (**SOS**) - Interface de service web standard pour la recherche, le filtrage et le traitement d'observations de capteurs.
 
+A la fin de la décénie 2000-2010, bien que les données géographiques et les données temporelles bénéficiaient, toutes deux, de différents standards OGC permettant leur diffusion dans le cadre défini par la directive INSPIRE (Trouver, Voir, Télécharger), on pouvait faire le constat d'une **assymétrie** dans les facultés de ces standards à répondre aux besoins des utilisateurs.
+Pour les données géographiques, l'attelage i) WMS pour la visualisation et ii) WFS/WCS pour le téléchargement était fonctionnel et adapté au besoins des utilisateurs y conpris pour les données très volumineuses. Pour les données temporelles, l'équivalement du WMS n'existant pas, les utlisateurs des services SOS constataient des problèmes de lenteur dans le téléchargement dû princiaplement au format XML proposé par le stanard SensorML.
 
-
-### L'ouverture des donnéees d'observation, un long chemin de croix
 
 ### L'avènement du standard OGC SensorThings API
 - bien qu'il soit adopté et déployé par la communauté
 - pb de volumétrie du SOS et du SensorML
+- A standard for exchanging sensor data and metadata
+- Historic data & current data
+- JSON Encoded
+- RESTful
+- Adapting OASIS OData URL patterns and query options
+- Supporting ISO MQTT messaging
+- Discoverable with only a web browser
 
 
 
