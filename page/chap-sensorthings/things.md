@@ -1,23 +1,23 @@
 # Things
 
-### Définition  
+## Définition  
 
-L’API SensorThings de l’OGC suit la définition de l’UIT-T, c’est-à-dire qu’en ce qui concerne l’Internet des objets, une « Things » est un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication [UIT-T Y.2060].
+L’API SensorThings de l’OGC suit la définition de l’UIT-T, qui définit une « Things » comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
 
-### Propriètés
+## Propriètés
 
 
 Chaque « Things » DOIT avoir les propriétés obligatoires et PEUT avoir les propriétés optionnelles dans le tableau 1.
 
 |  Nom         |  Définition                                                                                      |  Format               |  Cardinalité          |
 |--------------|--------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
-| name         | Étiquette correspondant à une « Things », généralement un nom descriptif.                        | Chaine de caractères  | Obligatoire           |
-| description  | Courte description de la « Things ».                                                             | Chaine de caractères  | Obligatoire           |
-| properties   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON            | Optionnelle (0 ou 1)  |
+| **name**         | Étiquette correspondant à une « Things », généralement un nom descriptif.                        | Chaine de caractères  | Obligatoire           |
+| **description**  | Courte description de la « Things ».                                                             | Chaine de caractères  | Obligatoire           |
+| **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON            | Optionnelle (0 ou 1)  |
 
-Tableau 1. Propriétés de l’entité « Things ».
+Tableau 1. Les différentes propriétés de l’entité « Things ».
 
-#### « name » 
+### 1. name
 
 
 Le champ « name » correspond à une étiquette/un identifiant de la « Things », généralement sous la forme d’un nom descriptif.
@@ -32,7 +32,7 @@ Le champ « name » correspond à une étiquette/un identifiant de la « Things 
     * Kerbenez Puits E30
     * Naizin Kervidy Exutoire
 
-#### « description » 
+### 2. description 
 
 Le champ « description » contient une courte description de la « Things ».
 
@@ -46,7 +46,7 @@ Le champ « description » contient une courte description de la « Things ».
     * Exutoire du bassin versant du Puits
     * Exutoir à Naizin Kervidy
 
-##### « properties »
+#### 3. properties
 
 
 Le champ « properties » est un objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.
