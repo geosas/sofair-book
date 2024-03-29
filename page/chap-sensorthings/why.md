@@ -18,7 +18,7 @@ après la création de prototypes initiaux utilisant des services de données sp
 - Sensor Observations Service (**SOS**) en 2006 - Interface de service web standard pour la recherche, le filtrage et le traitement d'observations de capteurs.
 
 A la fin de la décénie 2000-2010, bien que les données géographiques et les données temporelles bénéficiaient, toutes deux, de différents standards OGC permettant leur diffusion dans le cadre défini par la directive INSPIRE (Trouver, Voir, Télécharger), on pouvait faire le constat d'une **assymétrie** dans les facultés de ces standards à répondre aux besoins des utilisateurs.
-Pour les données géographiques, l'attelage WMS pour la visualisation et WFS/WCS pour le téléchargement était fonctionnel et **adapté au besoins des utilisateurs* y compris pour les données très volumineuses. Pour les données temporelles, l'équivalement du WMS n'existant pas, aucun standard ne proposait de visualisation et concenrnant le téléchargement, les utlisateurs des services SOS constataient des problèmes de **lenteur principalement dûs au format XML** proposé par le standard SensorML.
+Pour les **données géographiques**, l'attelage WMS pour la visualisation et WFS/WCS pour le téléchargement était fonctionnel et **adapté au besoins des utilisateurs** y compris pour les données très volumineuses. Pour les **données temporelles**, l'équivalement du WMS n'existant pas, aucun standard ne proposait de visualisation et concenrnant le téléchargement, les utlisateurs des services SOS constataient des problèmes de **lenteur principalement dûs au format XML** proposé par le standard SensorML.
 
 
 ### L'avènement du standard OGC SensorThings API
