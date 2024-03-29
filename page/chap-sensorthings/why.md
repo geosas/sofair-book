@@ -7,11 +7,13 @@ Dès 1978, La **loi CADA** {cite}`cada-1978` veillait à la liberté d’accès 
 ### Données géographiques VS données temporelles
 L'un des défis rencontrés dans la spécification des exigences de la directive INSPIRE a été l'intégration des données de mesure avec les données spatiales qui composent habituellement une Infrastructure de Données Géographiques {cite}`kotsev-2018`. Les spécifications et l'adoption par les différentes communautés des standards OGC relatifs aux données géographiques d'une part, et aux données d'observations d'autre part, n'ont pas connu la même histoire et n'ont pas suivi le même chemin.
 Précédant de plusieurs années la directive INSPIRE, les standards dédiés aux données géographiques furent edictés très tôt par l'OGC et répondaient aux besoins de visualisation et de téléchargement adaptés aux différents formats: i) le Web Mappging Service (**WMS**) en 2000 pour la visualisation et l'interrogation, ii) le Web Feature Service (**WFS**) en 2002 pour le téléchargement des données vectorielles et iii) le Web Coverage Service (**WCS**) en 2003 pour le téléchargement des données matricielles autrement appelées raster. 
+
 Du fait de sa complexité, la définition des standards OGC dédiés aux données d'observation et de mesure s'est faites en plusieurs étapes. En premier lieu, 
-après la création de prototypes initiaux utilisant des services de données spatiales normalisés tels que le Web Feature Service (WFS), il a été conclu que ces technologies n'étaient pas adaptées à la fourniture de données de mesure. en 2006, l'OGC a alors construit un cadre général pour l'exploitation des capteurs et systèmes de capteurs connectés au web via le standard Sensor Web Enablement (**SWE**) {cite}`ogc-06-021r1` et qui abaouti à la définition de nouveaux standards {cite}`botts-2008`:
+après la création de prototypes initiaux utilisant des services de données spatiales normalisés tels que le Web Feature Service (WFS), il a été conclu que ces technologies n'étaient pas adaptées à la fourniture de données de mesure. en 2006, l'OGC a alors construit un cadre général pour l'exploitation des capteurs et systèmes de capteurs connectés au web via le standard Sensor Web Enablement (**SWE**) {cite}`ogc-06-021r1`, qui a permis la définition de nouveaux standards {cite}`botts-2008`:
 - Observations & Measurements Schema (**O&M**) - Modèles et schéma XML pour le codage des observations et des mesures d'un capteur,
 - Sensor Model Language (**SensorML**) - Modèles et schéma XML pour décrire les informations nécessaires à la découverte des capteurs, à la localisation des observations, au traitement des observations et des mesures des capteurs et l'énumération des propriétés mesurées,
 - Sensor Observations Service (**SOS**) - Interface de service web standard pour la recherche, le filtrage et le traitement d'observations de capteurs.
+
 
 
 ### L'ouverture des donnéees d'observation, un long chemin de croix
