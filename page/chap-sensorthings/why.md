@@ -18,19 +18,34 @@ après la création de prototypes initiaux utilisant des services de données sp
 - Sensor Observations Service (**SOS**) en 2006 - Interface de service web standard pour la recherche, le filtrage et le traitement d'observations de capteurs.
 
 A la fin de la décénie 2000-2010, bien que les données géographiques et les données temporelles bénéficiaient, toutes deux, de différents standards OGC permettant leur diffusion dans le cadre défini par la directive INSPIRE (Trouver, Voir, Télécharger), on pouvait faire le constat d'une **assymétrie** dans les facultés de ces standards à répondre aux besoins des utilisateurs.
-Pour les données géographiques, l'attelage WMS pour la visualisation et WFS/WCS pour le téléchargement était fonctionnel et adapté au besoins des utilisateurs y compris pour les données très volumineuses. Pour les données temporelles, l'équivalement du WMS n'existant pas, aucun standard ne proposait de visualisation et concenrnant le téléchargement, les utlisateurs des services SOS constataient des problèmes de lenteur principalement dûs au format XML proposé par le standard SensorML.
+Pour les données géographiques, l'attelage contitué par le standard WMS pour la visualisation et les standards WFS/WCS pour le téléchargement était fonctionnel et adapté au besoins des utilisateurs y compris pour les données très volumineuses. Pour la visualisation des données temporelles, aucun équivalement du WMS n'existait et concenrnant le téléchargement, les utlisateurs des services SOS constataient des problèmes de lenteur principalement dûs au format XML proposé par le standard SensorML.
 
 
 ### L'avènement du standard OGC SensorThings API
-- bien qu'il soit adopté et déployé par la communauté
+
+Outres ces problèmes de performance, le standard SOS ne proposait pas des fonctionnalités attendues pour ce type de service comme i) le filtrage des observations sur la base de leurs valeurs, ii) la pagination du résultat des requêtes , iii) une interface basée sur l'architecture RESTful {cite}`kotsev-2018`.
+
+Afin de pallier à ces différentes insuffisances des standards exsitants fut créé en 2016 l'API SensorThings de l'OGC, comme une norme ouverte et géospatiale conçue pour aider à relever le défi de l'interopérabilité dans le domaine de l'Internet des Objets (IoT).
+Cette nouvelle API peut être décrite comme une évolution du Sensor Web Enablement (SWE) pour l'internet des Objets conçue pour interconnecter des dispositifs, des données et des applications hétérogènes via le web. 
+La norme définit une API) de type REST pour manipuler les données. 
+Une extension du protocole de messagerie basée sur la publication et l'abonnement est disponible pour les opérations en temps réel. Le protocole utilise la norme ISO Message Queuing Telemetry Transport (MQTT)
+L'API SensorThings bénéficie de l'utilisation de JSON comme technologie de codage des données. 
+En outre, l'API SensorThings est basée sur les normes SWE de l'OGC et sur OData [3], l'accent étant mis sur la légèreté, la fourniture d'un modèle de données complet applicable à différents cas d'utilisation de l'IdO et la facilité d'utilisation. Un nombre croissant d'implémentations utilisent la norme pour traiter les données d'observation spatio-temporelles.
+Elles couvrent différents domaines d'application tels que la surveillance de la pollution de l'air [17], les services de ville intelligente [18,19] et d'autres cas d'utilisation de l'internet des objets [20].
+La norme se compose de deux parties : "Sensing" et "Tasking". La partie "Sensing", qui fait l'objet du présent document, concerne la détection et la collecte d'observations à partir de dispositifs de détection. La partie "Tasking" [21] se concentre sur le contrôle des appareils IoT et sort du cadre de cet article. Par conséquent, dans le présent document, l'API SensorThings se réfère uniquement à la partie "Sensing".
+
 - pb de volumétrie du SOS et du SensorML
-- A standard for exchanging sensor data and metadata
-- Historic data & current data
-- JSON Encoded
+Une norme pour l'échange de données métadonnées des capteurs :
+- Données historiques et données actuelles
+- pagination
+- Encodage JSON
 - RESTful
-- Adapting OASIS OData URL patterns and query options
-- Supporting ISO MQTT messaging
-- Discoverable with only a web browser
+- Adaptation des modèles d'URL et des options de requête OASIS OData
+- Prise en charge de la messagerie ISO MQTT
+
+Découvrable à l'aide d'un simple navigateur web
+
+
 
 
 
