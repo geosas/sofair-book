@@ -23,7 +23,7 @@ Pour les données géographiques, l'attelage contitué par le standard WMS pour 
 
 ### L'avènement du standard OGC SensorThings API
 
-Outres ces problèmes de performance, le standard SOS ne proposait pas des fonctionnalités attendues pour ce type de service comme le filtrage des observations sur la base de leurs valeurs, la pagination du résultat des requêtes ou une interface basée sur l'architecture RESTful {cite}`kotsev-2018`.
+Outre ces problèmes de performance, le standard SOS ne proposait pas des fonctionnalités attendues pour ce type de service comme le filtrage des observations sur la base de leurs valeurs, la pagination du résultat des requêtes ou une interface basée sur l'architecture RESTful {cite}`kotsev-2018`.
 Afin de pallier aux différentes insuffisances des standards existants fut créé en 2016 l'**API SensorThings** de l'OGC, comme une norme ouverte et géospatiale conçue pour aider à relever le défi de l'interopérabilité dans le domaine de l'Internet des Objets (IoT).
 Cette nouvelle API peut être décrite comme une évolution du Sensor Web Enablement (SWE) pour l'internet des Objets conçue pour interconnecter des dispositifs, des données et des applications hétérogènes via le web. 
 Les spécificités de l'API SensorThings sont :
@@ -34,7 +34,7 @@ Les spécificités de l'API SensorThings sont :
 - un système de **pagination** du résultat des requêtes,
 - La capacité de **découverte** à l'aide d'un simple navigateur web.
  
-La norme se compose de deux parties : "Sensing" et "Tasking". La partie "**Sensing**" concerne la recherche et la collecte d'observations. La partie "**Tasking**" se concentre sur le contrôle des appareils IoT. 
+La norme se compose de deux parties : "**Sensing**" {cite}`ogc-sensorthings-sensing` et "**Tasking**" {cite}`ogc-sensorthings-tasking`. La partie "Sensing" concerne la recherche et la collecte d'observations. La partie "Tasking" se concentre sur le contrôle des appareils IoT. 
 
 
 
