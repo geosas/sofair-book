@@ -32,7 +32,7 @@ Les spécificités de l'API SensorThings sont :
 - l'encodage des données au format JavaScript Object Notation (**JSON**),
 - une extension du protocole de messagerie pour la publication et l'abonnement disponible pour les opérations en temps réel, basée sur la norme ISO Message Queuing Telemetry Transport (**MQTT**),
 - un système de **pagination** du résultat des requêtes,
-- La capacité de découverteà l'aide d'un simple navigateur web.
+- La capacité de **découverte** à l'aide d'un simple navigateur web.
  
 La norme se compose de deux parties : "Sensing" et "Tasking". La partie "**Sensing**" concerne la recherche et la collecte d'observations. La partie "**Tasking**" se concentre sur le contrôle des appareils IoT. 
 
