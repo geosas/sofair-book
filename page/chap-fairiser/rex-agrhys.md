@@ -20,3 +20,4 @@ Pour soulever ces verrous, ce travail nécessite 3 compétences:
 ## Configurer une instance STEAN  
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
 
+La première difficulté est de terminer les Things et Feature of Interet. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
