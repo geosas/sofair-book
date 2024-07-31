@@ -13,7 +13,7 @@
 <a id="postgresl"></a>
 ## 1.1 PostgreSQL et PostGIS
 
-<https://www.enterprisedb.com/downloads/postgres-postgresql-downloads>
+<a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads">www.enterprisedb.com/downloads/postgres-postgresql-downloads</a>
 
 Effectuer l'installation suivant les copies d'écran. Stack Builmder est nécessaire pour installer de PostGIS.
 
