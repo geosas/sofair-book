@@ -1,14 +1,18 @@
-[Prérequis](#prérequis)  
-[PostgreSQL et PostGIS](#postgresql-et-postgis)  
-[NodeJS et nodemon](#nodejs-et-nodemon)  
-[STEAN](#stean)  
-[Configuration](#configuration)  
-[Arrêt, mise à jour, démarrage de STEAN](#arrêt-mise-à-jour-démarrage-de-stean)  
-[Décodage du fichier de configuration](#décodage-du-fichier-de-configuration)  
+- [1 Prérequis](#prerequis)  
+  - [1.1 PostgreSQL et PostGIS](#postgresl)  
+  - [1.2 NodeJS et nodemon](#nodejs)  
+- [2 STEAN](stean)  
+  - [Configuration](#configuration)  
+  - [Arrêt, mise à jour, démarrage de STEAN](#start)  
+  - [Décodage du fichier de configuration](#configuration)  
 
-# Prérequis
+<a id="top"></a>
 
-## PostgreSQL et PostGIS
+<a id="prerequis"></a>
+# 1 Prérequis
+
+<a id="postgresl"></a>
+## 1.1 PostgreSQL et PostGIS
 
 <https://www.enterprisedb.com/downloads/postgres-postgresql-downloads>
 
@@ -20,7 +24,7 @@ Dossier d'installation
 
 Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
-<img src="composants_PostgreSQL.png" width="400" />
+<img src="composants_PostgreSQL.png" />
 
 Choisir le répertoire de stockage des bases de données.
 
@@ -31,12 +35,12 @@ locale de test.
 
 <img src="port_postgresql.png" width="400" /><img src="postgreSQl_local.png" width="400" />
 
-Après la première phase d'installation, on installe **PostGIS**
-(stackbulider)
+Après la première phase d'installation, on installe **PostGIS** (stackbulider)  
+Vous pouvez égalment installer PostGIS séparément, mais c'est plus compliqué.
 
-<https://postgis.net/documentation/getting_started/install_windows/>
+[Documentation d'installation PostGIS](https://postgis.net/documentation/getting_started/install_windows)
 
-<https://download.osgeo.org/postgis/windows/pg16/?C=M&O=D>
+[Dépôt des paquets PostGIS](https://download.osgeo.org/postgis/windows/pg16/?C=M&O=D>)
 
 Regarder [la
 vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee),
@@ -44,37 +48,33 @@ très bien expliquer!
 
 <img src="stackbuiler1.png" width="400" />
 
-Sélectionner l'extension PostGIS
+Sélectionner l'extension **PostGIS**
 
 <img src="stackbuiler2.png" width="400" />
 
-Sélectionner un répertoire de téléchargement
+Sélectionner un répertoire de téléchargement.
 
 <img src="stackbuiler3.png" width="400" />
 
-Cliquer 2 fois suivant pour commencer l'installation
+Cliquer **2 fois** suivant pour commencer l'installation.
 
-Demander de créer une base spéciale pour PostGIS et d'installer tous les
-pilotes GDAL
+Demander de créer une **base spéciale** pour PostGIS et d'installer tous les pilotes **GDAL**.
 
 <img src="postgis1.png" width="400" />
 
-Le dossier d'installation est identique à PostgreSQL.
+Le dossier d'installation est identique à **PostgreSQL**.
 
-Renseigner le mot de passe du super user saisie lors de l'installation
-de PostgreSQL.
+Renseigner le mot de passe du **super user** saisie lors de l'installation de PostgreSQL.
 
-Préciser un nom de base de données pour PostGIS et lancer
-l'installation.
+Préciser un nom de base de données pour PostGIS et lancer l'installation.
 
 <img src="postgis2.png" width="400" />
 
 **PostgreSQL en local (configuration par défaut)**
 
-Limiter l'accès au serveur PostgreSQl en local uniquement
-
+Limiter l'accès au serveur PostgreSQl en local uniquement.  
 Adapter le fichier D:\postgresql_data\pg_hba.conf
-
+```
 \# TYPE DATABASE USER ADDRESS METHOD
 
 \# "local" is for Unix domain socket connections only
@@ -98,7 +98,9 @@ local replication all scram-sha-256
 host replication all 127.0.0.1/32 scram-sha-256
 
 host replication all ::1/128 scram-sha-256
-
+```
+[Top](#top)
+<a id="nodejs"></a>
 ## NodeJS et nodemon
 
 <https://nodejs.org/en/download>
@@ -115,7 +117,7 @@ Gestionnaire de paquets NodeJs, npm
 
 <img src="media/image12.png" style="width:3.16587in;height:0.57644in" />
 
-# STEAN
+# 2 STEAN
 
 <https://github.com/Mario-35/STEAN>
 
@@ -148,6 +150,7 @@ La fenêtre de configuration vierge apparait. A vous de la renseigner.
 Après validation, le service est accessible selon le nom du service
 saisi sous l'URl <http://localhost:8029/agrhys/v1.1/>
 
+<a id="start"></a>
 ## Arrêt, mise à jour, démarrage de STEAN
 
 Arrêt: dans la console PowerShell, touche crtl+c
