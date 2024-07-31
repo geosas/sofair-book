@@ -7,7 +7,6 @@
   - [Décodage du fichier de configuration](#configuration)  
 
 <a id="top"></a>
-
 <a id="prerequis"></a>
 # 1 Prérequis
 
@@ -99,7 +98,8 @@ host replication all 127.0.0.1/32 scram-sha-256
 
 host replication all ::1/128 scram-sha-256
 ```
-[Top](#top)
+<div align="right">[Top](#top)</div>div>  
+
 <a id="nodejs"></a>
 ## NodeJS et nodemon
 
