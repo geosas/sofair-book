@@ -1,16 +1,9 @@
 [Prérequis](#prérequis)
-
 [PostgreSQL et PostGIS](#postgresql-et-postgis)
-
 [NodeJS et nodemon](#nodejs-et-nodemon)
-
 [STEAN](#stean)
-[2 STEAN [4](#stean)](#stean)
-
 [Configuration](#configuration)
-
 [Arrêt, mise à jour, démarrage de STEAN](#arrêt-mise-à-jour-démarrage-de-stean)
-
 [Décodage du fichier de configuration](#décodage-du-fichier-de-configuration)
 
 # Prérequis
@@ -19,8 +12,7 @@
 
 <https://www.enterprisedb.com/downloads/postgres-postgresql-downloads>
 
-Effectuer l'installation suivant les copies d'écran. Stack Builmder est
-nécessaire pour installer PostGIS.
+Effectuer l'installation suivant les copies d'écran. Stack Builmder est nécessaire pour installer de PostGIS.
 
 Dossier d'installation
 
