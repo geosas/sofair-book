@@ -1,21 +1,17 @@
-# Table des matières [table-des-matières]
+[Prérequis](#prérequis)
 
-[1 Prérequis [1](#prérequis)](#prérequis)
+[PostgreSQL et PostGIS](#postgresql-et-postgis)
 
-[1.1 PostgreSQL et PostGIS
-[1](#postgresql-et-postgis)](#postgresql-et-postgis)
+[NodeJS et nodemon](#nodejs-et-nodemon)
 
-[1.2 NodeJS et nodemon [4](#nodejs-et-nodemon)](#nodejs-et-nodemon)
-
+[STEAN](#stean)
 [2 STEAN [4](#stean)](#stean)
 
-[2.1 Configuration [4](#configuration)](#configuration)
+[Configuration](#configuration)
 
-[2.2 Arrêt, mise à jour, démarrage de STEAN
-[6](#arrêt-mise-à-jour-démarrage-de-stean)](#arrêt-mise-à-jour-démarrage-de-stean)
+[Arrêt, mise à jour, démarrage de STEAN](#arrêt-mise-à-jour-démarrage-de-stean)
 
-[2.3 Décodage du fichier de configuration
-[6](#décodage-du-fichier-de-configuration)](#décodage-du-fichier-de-configuration)
+[Décodage du fichier de configuration](#décodage-du-fichier-de-configuration)
 
 # Prérequis
 
