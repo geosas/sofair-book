@@ -2,9 +2,9 @@
   - [1.1 PostgreSQL et PostGIS](#postgresl)  
   - [1.2 NodeJS et nodemon](#nodejs)  
 - [2 STEAN](stean)  
-  - [Configuration](#configuration)  
-  - [Arrêt, mise à jour, démarrage de STEAN](#start)  
-  - [Décodage du fichier de configuration](#configuration)  
+  - [2.1 Configuration](#configuration)  
+  - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)  
+  - [2.3Décodage du fichier de configuration](#configuration)  
 
 <a id="top"></a>
 <a id="prerequis"></a>
@@ -35,7 +35,9 @@ locale de test.
 <img src="port_postgresql.png" width="400" /><img src="postgreSQl_local.png" width="400" />
 
 Après la première phase d'installation, on installe **PostGIS** (stackbulider)  
-Vous pouvez égalment installer PostGIS séparément, mais c'est plus compliqué.
+
+> [!NOTE]
+> Vous pouvez également installer PostGIS séparément, mais c'est plus compliqué.
 
 [Documentation d'installation PostGIS](https://postgis.net/documentation/getting_started/install_windows)
 
@@ -98,8 +100,7 @@ host replication all 127.0.0.1/32 scram-sha-256
 
 host replication all ::1/128 scram-sha-256
 ```
-<div align="right">[Top](#top)</div>div>  
-
+[Revenir en haut](#top)
 <a id="nodejs"></a>
 ## NodeJS et nodemon
 
