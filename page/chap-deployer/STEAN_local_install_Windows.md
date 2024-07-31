@@ -43,21 +43,19 @@ Après la première phase d'installation, on installe **PostGIS** (stackbulider)
 
 [Dépôt des paquets PostGIS](https://download.osgeo.org/postgis/windows/pg16/?C=M&O=D>)
 
-Regarder [la
-vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee),
-très bien expliquer!
+Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee), très bien expliquer!
 
 <img src="stackbuiler1.png" width="400" />
 
-Sélectionner l'extension **PostGIS**
+* Sélectionner l'extension **PostGIS**
 
 <img src="stackbuiler2.png" width="400" />
 
-Sélectionner un répertoire de téléchargement.
+* Sélectionner un répertoire de téléchargement.
 
 <img src="stackbuiler3.png" width="400" />
 
-Cliquer **2 fois** suivant pour commencer l'installation.
+* Cliquer **2 fois** suivant pour commencer l'installation.
 
 Demander de créer une **base spéciale** pour PostGIS et d'installer tous les pilotes **GDAL**.
 
@@ -65,7 +63,7 @@ Demander de créer une **base spéciale** pour PostGIS et d'installer tous les p
 
 Le dossier d'installation est identique à **PostgreSQL**.
 
-Renseigner le mot de passe du **super user** saisie lors de l'installation de PostgreSQL.
+* Renseigner le mot de passe du **super user** saisie lors de l'installation de PostgreSQL.
 
 Préciser un nom de base de données pour PostGIS et lancer l'installation.
 
@@ -104,18 +102,18 @@ host replication all ::1/128 scram-sha-256
 <a id="nodejs"></a>
 ## NodeJS et nodemon
 
-<https://nodejs.org/en/download>
+[Télécharger Nodejs](https://nodejs.org/en/download)
 
-<https://kinsta.com/fr/blog/comment-installer-node-js/>
+Un tutoriel d'installation](https://kinsta.com/fr/blog/comment-installer-node-js/)
 
 Pour l'installation, laissez tout par défaut et cliquez!
 
-Vérifier le bon fonctionnement dans une console PowerShell.  
-Obtenir lea version de **nodejs**.
+* Vérifier le bon fonctionnement dans une console PowerShell.  
+Obtenir la version de **nodejs**.
 ```
 node --version
 ```
-Gestionnaire de paquets NodeJs, npm
+* Gestionnaire de paquets NodeJs, npm  
 Obtenir lea version du gestionnaore de paquet de  **nodejs**.
 
 ```
@@ -135,8 +133,7 @@ Ouvrir une console PowerShell et lancer le script
 [Revenir en haut](#top)  
 ## Configuration 
 
-Dans un navigateur saisir l'URL de base amendée de n'importe quel
-caractère, exemple:
+Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:
 [localhost:8029/importenayouak](localhost:8029/importenayoik)
 
 La fenêtre de configuration vierge apparait. A vous de la renseigner.
@@ -174,22 +171,19 @@ La phase de configuration génère un fichier codé nommé
 
 Dans une console CMD ou PowerShell, se placer dans le fichier de
 configuration et lancer la commande
-
+```
 node decode.js
+```
 
-Copier/coller la sortie dans un éditeur de texte, sans les caractères
-bizards.
+Copier/coller la sortie dans un éditeur de texte, sans les caractères bizards.
 
-Adapter ou corriger la configuration. Exemple: retirer le v devant 1.1 à
-la ligne 40.
+Adapter ou corriger la configuration. Exemple: retirer le v devant 1.1 à la ligne 40.
 
-Sauvegarder le contenu dans le fichier
-**C:\Users\cgeneste\STEAN\api\configuration\configuration.json**.
+Sauvegarder le contenu dans le fichier **C:\Users\cgeneste\STEAN\api\configuration\configuration.json**.
 
-Relancer le service, puis aller à <http://localhost:8029/agrhys/v1.1/>,
-si le service se nomme **agrhys.**
+Relancer le service, puis aller à <http://localhost:8029/agrhys/v1.1/>, si le service se nomme **agrhys.**
 
-Du coup, Le **Query* est <a href="http://localhost:8029/agrhys/v1.1/Query" target="_blank">http://localhost:8029/agrhys/v1.1/Query</a>
+Du coup, Le **Query* est <http://localhost:8029/agrhys/v1.1/Query>
 
  
 
