@@ -128,7 +128,12 @@ A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), téléchar
 dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
 
 Ouvrir une console PowerShell et lancer le script
-[install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).
+[install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
+
+>[!NOTE]
+>Si vous obtenez l'erreur **PostgreSQL is installed. (16)**.
+>Editez le fichier install.ps1 à la ligne 112 et remplacer  
+```POSTGIS = "$latest\share\contrib" par $POSTGIS = "$POSTGRES\$latest\share\contrib"```
 
 [Revenir en haut](#top)  
 ## Configuration 
