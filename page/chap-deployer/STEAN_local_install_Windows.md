@@ -1,10 +1,10 @@
-[Prérequis](#prérequis)
-[PostgreSQL et PostGIS](#postgresql-et-postgis)
-[NodeJS et nodemon](#nodejs-et-nodemon)
-[STEAN](#stean)
-[Configuration](#configuration)
-[Arrêt, mise à jour, démarrage de STEAN](#arrêt-mise-à-jour-démarrage-de-stean)
-[Décodage du fichier de configuration](#décodage-du-fichier-de-configuration)
+[Prérequis](#prérequis)  
+[PostgreSQL et PostGIS](#postgresql-et-postgis)  
+[NodeJS et nodemon](#nodejs-et-nodemon)  
+[STEAN](#stean)  
+[Configuration](#configuration)  
+[Arrêt, mise à jour, démarrage de STEAN](#arrêt-mise-à-jour-démarrage-de-stean)  
+[Décodage du fichier de configuration](#décodage-du-fichier-de-configuration)  
 
 # Prérequis
 
@@ -16,20 +16,20 @@ Effectuer l'installation suivant les copies d'écran. Stack Builmder est nécess
 
 Dossier d'installation
 
-<img src="media/image1.png" style="width:2.80561in;height:0.91645in" />
+<img src="dossier_install_PostgreSQL.png" width="400" />
 
-Les composants à installer. Conseil: installer pgadmin séparément.
+Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
-<img src="media/image2.png" style="width:1.94417in;height:1.04395in" />
+<img src="composants_PostgreSQL.png" width="400" />
 
 Choisir le répertoire de stockage des bases de données.
 
-<img src="media/image3.png" style="width:3.06341in;height:0.99335in" />
+<img src="dossier_data.png" width="400" />
 
 Laisser le port par défaut et en **localhost** pour une installation
 locale de test.
 
-<img src="media/image4.png" style="width:3.13663in;height:0.98792in" /><img src="media/image5.png" style="width:3.11693in;height:0.88072in" />
+<img src="port_postgresql.png" width="400" /><img src="postgreSQl_local.png" width="400" />
 
 Après la première phase d'installation, on installe **PostGIS**
 (stackbulider)
@@ -42,22 +42,22 @@ Regarder [la
 vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee),
 très bien expliquer!
 
-<img src="media/image6.png" style="width:4.98003in;height:2.2633in" />
+<img src="stackbuiler1.png" width="400" />
 
 Sélectionner l'extension PostGIS
 
-<img src="media/image7.png" style="width:5.1783in;height:3.11371in" />
+<img src="stackbuiler2.png" width="400" />
 
 Sélectionner un répertoire de téléchargement
 
-<img src="media/image8.png" style="width:4.15991in;height:2.58619in" />
+<img src="stackbuiler3.png" width="400" />
 
 Cliquer 2 fois suivant pour commencer l'installation
 
 Demander de créer une base spéciale pour PostGIS et d'installer tous les
 pilotes GDAL
 
-<img src="media/image9.png" style="width:3.08652in;height:3.25315in" />
+<img src="postgis1.png" width="400" />
 
 Le dossier d'installation est identique à PostgreSQL.
 
@@ -67,7 +67,7 @@ de PostgreSQL.
 Préciser un nom de base de données pour PostGIS et lancer
 l'installation.
 
-<img src="media/image10.png" style="width:4.10325in;height:1.60968in" />
+<img src="postgis2.png" width="400" />
 
 **PostgreSQL en local (configuration par défaut)**
 
