@@ -180,6 +180,8 @@ La phase de configuration génère un fichier codé nommé
 **\~\STEAN\api\configuration\configuration.json**.
 
 **Pour le modifier**
+>[!NOTE]
+>Normalement ce bug est corrigé.
 
 Dans une console CMD ou PowerShell, se placer dans le fichier de
 configuration et lancer la commande
