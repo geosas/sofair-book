@@ -4,7 +4,7 @@
 - [2 STEAN](#stean)  
   - [2.1 Configuration](#configuration)  
   - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)  
-  - [2.3 Décodage du fichier de configuration](#Decode)  
+  - [2.3 Décodage du fichier de configuration](#decode)  
 
 <a id="top"></a>
 <a id="prerequis"></a>
@@ -100,7 +100,7 @@ host replication all ::1/128 scram-sha-256
 ```
 [Revenir en haut](#top)  
 <a id="nodejs"></a>
-## NodeJS et nodemon
+## 1.2 NodeJS et nodemon
 
 [Télécharger Nodejs](https://nodejs.org/en/download)
 
@@ -119,9 +119,9 @@ Obtenir lea version du gestionnaore de paquet de  **nodejs**.
 ```
 npm --version
 ```
-
-[Revenir en haut](#top)  
-# STEAN
+[Revenir en haut](#top) 
+<a id="stean"></a>
+# 2 STEAN
 
 A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), télécharger les scripts
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) et [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1)
@@ -139,7 +139,8 @@ Ouvrir une console PowerShell ISE et lancer le script
 ```POSTGIS = "$latest\share\contrib" par $POSTGIS = "$POSTGRES\$latest\share\contrib"```
 
 [Revenir en haut](#top)  
-## Configuration 
+<a id="configuration"></a>
+## 2.1 Configuration 
 
 Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:
 [localhost:8029/importenayouak](http:/localhost:8029/importenayoik)
@@ -154,12 +155,14 @@ La fenêtre de configuration vierge apparait. A vous de la renseigner.
 
 <img src="create_service_STEAN2.png" width="400" />
 
-Après validation, le service est accessible selon le nom du service
-saisi sous l'URl <http://localhost:8029/agrhys/v1.1/>
+Après validation, le service est accessible selon le nom du service, sous 2 formes;  
+* En pur html <http://localhost:8029/agrhys/v1.1/>
+* Via le Query <http://localhost:8029/agrhys/v1.1/query>
+<img src="query.png" width="400" />
 
 [Revenir en haut](#top)  
 <a id="start"></a>
-## Arrêt, mise à jour, démarrage de STEAN
+## 2.3 Arrêt, mise à jour, démarrage de STEAN
 
 * **Arrêt**: dans la console PowerShell où STEAN a été mancé, **touche crtl+c**
 
@@ -171,7 +174,7 @@ saisi sous l'URl <http://localhost:8029/agrhys/v1.1/>
 
 [Revenir en haut](#top)  
 <a id="decode"></a>
-## Décodage du fichier de configuration
+## 2.3 Décodage du fichier de configuration
 
 La phase de configuration génère un fichier codé nommé
 **\~\STEAN\api\configuration\configuration.json**.
