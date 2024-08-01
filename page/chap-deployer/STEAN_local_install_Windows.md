@@ -142,7 +142,7 @@ Ouvrir une console PowerShell ISE et lancer le script
 ## Configuration 
 
 Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:
-[localhost:8029/importenayouak](localhost:8029/importenayoik)
+[localhost:8029/importenayouak](http:/localhost:8029/importenayoik)
 
 La fenêtre de configuration vierge apparait. A vous de la renseigner.
 
