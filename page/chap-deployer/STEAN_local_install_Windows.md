@@ -127,8 +127,11 @@ A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), téléchar
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) et [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1)
 dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
 
-Ouvrir une console PowerShell et lancer le script
+Ouvrir une console PowerShell ISE et lancer le script
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
+
+>[!TIP]
+>Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 
 >[!NOTE]
 >Si vous obtenez l'erreur **PostgreSQL is installed. (16)**.
