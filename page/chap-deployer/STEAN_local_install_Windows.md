@@ -4,7 +4,7 @@
 - [2 STEAN](#stean)  
   - [2.1 Configuration](#configuration)  
   - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)  
-  - [2.3Décodage du fichier de configuration](#configuration)  
+  - [2.3 Décodage du fichier de configuration](#Decode)  
 
 <a id="top"></a>
 <a id="prerequis"></a>
@@ -170,6 +170,7 @@ saisi sous l'URl <http://localhost:8029/agrhys/v1.1/>
 [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1), lance le service sans réinstaller
 
 [Revenir en haut](#top)  
+<a id="decode"></a>
 ## Décodage du fichier de configuration
 
 La phase de configuration génère un fichier codé nommé
