@@ -1,6 +1,11 @@
-# **SensorThings appliqué à l'ORE Agrhys**
-  
-## Introduction
+<div align="center"><H1>SensorThings appliqué à l'ORE Agrhys</H1></div>
+
+- [1 Introduction](#intro)
+- [2 Configurer une instance STEAN](#config)
+ 
+<a id="top"></a>
+<a id="intro"></a>  
+# 1 Introduction
 Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE Agrhys, n'est pas trivial au premier abord.  
 Comment restrancrire la réalité de terrain vers Sensorthings?   
 <p align="center">
@@ -17,7 +22,9 @@ Pour soulever ces verrous, ce travail nécessite 3 compétences:
 <img src="img/trois_competences.png" width="600">
 </p>
 
-## Configurer une instance STEAN  
+[Revenir en haut](#top)  
+<a id="config"></a>
+# 2 Configurer une instance STEAN  
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
 
 La première difficulté est de terminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Feature of Interet. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
