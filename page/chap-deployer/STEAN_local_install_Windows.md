@@ -185,7 +185,7 @@ node decode.js
 
 Copier/coller la sortie dans un éditeur de texte, sans les caractères bizards.
 
-Adapter ou corriger la configuration. Exemple: retirer le v devant 1.1 à la ligne 40.
+Adapter ou corriger la configuration. Exemple: retirer le v devant 1.1 ("apiVersion": "v1.1"), aux ligne 13 et 35.
 
 Sauvegarder le contenu dans le fichier **C:\Users\cgeneste\STEAN\api\configuration\configuration.json**.
 
