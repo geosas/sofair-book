@@ -1,3 +1,4 @@
+# Stean sous Windows
 - [1 Prérequis](#prerequis)  
   - [1.1 PostgreSQL et PostGIS](#postgresl)  
   - [1.2 NodeJS et nodemon](#nodejs)  
@@ -19,20 +20,32 @@ Effectuer l'installation suivant les copies d'écran. Stack Builmder est nécess
 
 Dossier d'installation
 
-<img src="dossier_install_PostgreSQL.png" width="400" />
+```{image} dossier_install_PostgreSQL.png
+:alt: dossier_install_PostgreSQL
+:width: 400px
+```
 
 Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
-<img src="composants_PostgreSQL.png" />
+```{image} composants_PostgreSQL.png
+```
 
 Choisir le répertoire de stockage des bases de données.
 
-<img src="dossier_data.png" width="400" />
+```{image} dossier_data.png
+:width: 400px
+```
 
 Laisser le port par défaut et en **localhost** pour une installation
 locale de test.
 
-<img src="port_postgresql.png" width="400" /><img src="postgreSQl_local.png" width="400" />
+
+```{image} port_postgresql.png
+:width: 400px
+```
+```{image} postgreSQl_local.png
+:width: 400px
+```
 
 Après la première phase d'installation, on installe **PostGIS** (stackbulider)  
 
@@ -45,21 +58,29 @@ Après la première phase d'installation, on installe **PostGIS** (stackbulider)
 
 Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee), très bien expliquer!
 
-<img src="stackbuiler1.png" width="400" />
+```{image} stackbuiler1.png
+:width: 400px
+```
 
 * Sélectionner l'extension **PostGIS**
 
-<img src="stackbuiler2.png" width="400" />
+```{image} stackbuiler2.png
+:width: 400px
+```
 
 * Sélectionner un répertoire de téléchargement.
 
-<img src="stackbuiler3.png" width="400" />
+```{image} stackbuiler3.png
+:width: 400px
+```
 
 * Cliquer **2 fois** suivant pour commencer l'installation.
 
 Demander de créer une **base spéciale** pour PostGIS et d'installer tous les pilotes **GDAL**.
 
-<img src="postgis1.png" width="400" />
+```{image} postgis1.png
+:width: 400px
+```
 
 Le dossier d'installation est identique à **PostgreSQL**.
 
@@ -67,7 +88,9 @@ Le dossier d'installation est identique à **PostgreSQL**.
 
 Préciser un nom de base de données pour PostGIS et lancer l'installation.
 
-<img src="postgis2.png" width="400" />  
+```{image} postgis2.png
+:width: 400px
+```
  
 **PostgreSQL en local (configuration par défaut)**
 
@@ -149,16 +172,23 @@ La fenêtre de configuration vierge apparait. A vous de la renseigner.
 
 **Onglet service**
 
-<img src="create_service_STEAN1.png" width="400" />
+```{image} create_service_STEAN1.png
+:width: 400px
+```
 
 **Onglet Admin (PostgreSQL)**
 
-<img src="create_service_STEAN2.png" width="400" />
+```{image} create_service_STEAN2.png
+:width: 400px
+```
 
 Après validation, le service est accessible selon le nom du service, sous 2 formes;  
 * En pur html <http://localhost:8029/agrhys/v1.1/>
 * Via le Query <http://localhost:8029/agrhys/v1.1/query>
-<img src="query.png" width="400" />
+
+```{image} query.png
+:width: 400px
+```
 
 [Revenir en haut](#top)  
 <a id="start"></a>
@@ -198,7 +228,3 @@ Sauvegarder le contenu dans le fichier **C:\Users\cgeneste\STEAN\api\configurati
 Relancer le service, puis aller à <http://localhost:8029/agrhys/v1.1/>, si le service se nomme **agrhys.**
 
 Du coup, Le **Query* est <http://localhost:8029/agrhys/v1.1/Query>
-
- 
-
- 
