@@ -51,6 +51,7 @@ parts:
   - caption: Déployer
     chapters:
     - file: page/chap-deployer/stean
+    - file: page/chap-deployer/STEAN_local_install_Windows
     - file: page/chap-deployer/sofair
   - caption: Référence
     chapters:
