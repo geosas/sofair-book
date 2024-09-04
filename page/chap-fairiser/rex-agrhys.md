@@ -8,6 +8,7 @@
 # 1 Introduction
 Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE Agrhys, n'est pas trivial au premier abord.  
 Comment restrancrire la réalité de terrain vers Sensorthings?   
+![creative common](img/terrain_vers_ST_v2.png)
 <p align="center">
 <img src="img/terrain_vers_ST_v2.png" width="600">
 </p>
