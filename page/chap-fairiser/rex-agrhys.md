@@ -8,7 +8,7 @@ Comment restrancrire la réalité de terrain vers Sensorthings?
 Sachant que:  
 *  Je ne suis pas spécialiste en base de données
 *  L'utilisation de l'API SensorThings m'est difficile
-*  La compréhension du modèle de données SensorThins n'est pas aisée  
+*  La compréhension du modèle de données SensorThings n'est pas aisée  
 
 Pour lever ces verrous, ce travail nécessite 3 compétences:
 ![3 competences](img/trois_competences.png)
@@ -16,7 +16,7 @@ Pour lever ces verrous, ce travail nécessite 3 compétences:
 ## Configurer une instance STEAN  
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
 
-La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Feature of Interest. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
+La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Features of Interest. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
 la seconde étape est la définition de Sensors et Observed Properties. La/le scientifique travaillent de concert.
 
 Dans le cas de l'ORE Agrhys:
