@@ -7,7 +7,7 @@
 
 ## Objectif
 
-- Création d'un service numérique "SensorThings" pour la diffusion des données météorologiques et hydrologiques de la station de mesure de l'Institut Agro Rennes-Angers.
+Création d'un service numérique "SensorThings" pour la diffusion des données météorologiques et hydrologiques de la station de mesure de l'Institut Agro Rennes-Angers.
 
 ## Différentes étapes
 
