@@ -1,4 +1,4 @@
-# Stean sous Windows
+# STEAN sous Windows
 - [1 Prérequis](#prerequis)  
   - [1.1 PostgreSQL et PostGIS](#postgresl)  
   - [1.2 NodeJS et nodemon](#nodejs)  
