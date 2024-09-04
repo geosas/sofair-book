@@ -16,7 +16,7 @@ Pour lever ces verrous, ce travail nécessite 3 compétences:
 ## Configurer une instance STEAN  
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
 
-La première difficulté est de terminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Feature of Interest. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
+La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Feature of Interest. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
 la seconde étape est la définition de Sensors et Observed Properties. La/le scientifique travaillent de concert.
 
 Dans le cas de l'ORE Agrhys:
