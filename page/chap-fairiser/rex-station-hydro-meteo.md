@@ -2,7 +2,7 @@
 
 ## Qui parle ?
                     
-![Paloma](/img/paloma.png)Paloma Cucchi, ingénieure d'étude contractuelle, géomaticienne.
+![Paloma](/img/paloma.png) Paloma Cucchi, ingénieure d'étude contractuelle, géomaticienne.
 
 
 ## Objectif
