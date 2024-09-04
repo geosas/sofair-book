@@ -1,5 +1,8 @@
 # REX de l'ORE Agrhys
 
+## Qui parle ?
+Christophe Geneste...
+
 ## Introduction
 Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE Agrhys, n'est pas trivial au premier abord.  
 Comment restrancrire la réalité de terrain vers Sensorthings?   
