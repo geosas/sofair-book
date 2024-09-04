@@ -1,9 +1,11 @@
 # REX Station Hydro-Météo
 
 ## Qui parle ?
-Paloma Cucchi, ingénieure d'étude contractuelle, géomaticienne chargée de la FAIRisation des données produites par la station hydro-météo de l'Institut Agro de Rennes.
+                    
+![Paloma](/img/paloma.png)Paloma Cucchi, ingénieure d'étude contractuelle, géomaticienne.
 
-## Objectif :
+
+## Objectif
 
 - Création d'un service numérique "SensorThings" pour la diffusion des données météorologiques et hydrologiques de la station de mesure de l'Institut Agro Rennes-Angers.
 
