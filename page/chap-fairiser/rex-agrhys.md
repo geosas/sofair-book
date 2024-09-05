@@ -1,7 +1,7 @@
 # REX de l'ORE Agrhys
 
 ## Qui parle ?
-Christophe Geneste...
+Christophe Geneste, inégnieur d'Etude INRAE, administrateur de plateformes, d'applications web et de bases de données à l'UMR SAS.
 
 ## Introduction
 Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE Agrhys, n'est pas trivial au premier abord.  
