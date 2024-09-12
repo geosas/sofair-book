@@ -22,7 +22,7 @@ Dossier d'installation
 
 ![dossier_installation_PostgreSql](dossier_install_PostgreSQL.png)
 
-<img src="dossier_install_PostgreSQL.png" width="400">
+<img src="dossier_install_PostgreSQL.png" width="400px" />
 
 Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
