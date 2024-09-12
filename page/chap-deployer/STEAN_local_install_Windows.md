@@ -20,14 +20,12 @@ Effectuer l'installation suivant les copies d'écran. Stack Builmder est nécess
 
 Dossier d'installation
 
-```{image} dossier_install_PostgreSQL.png
-:alt: dossier_install_PostgreSQL
-:width: 400px
-````
+![dossier_installation_PostgreSql](dossier_install_PostgreSQL.png)
+
+<img src="dossier_install_PostgreSQL.png" width="400">
+
 Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
-```{image} composants_PostgreSQL.png
-```
 ![composants_PostgreSQL](composants_PostgreSQL.png)
 
 Choisir le répertoire de stockage des bases de données.
