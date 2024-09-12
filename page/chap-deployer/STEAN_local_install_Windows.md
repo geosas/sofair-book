@@ -22,28 +22,20 @@ Dossier d'installation
 
 ![dossier_installation_PostgreSql](dossier_install_PostgreSQL.png)
 
-<img src="dossier_install_PostgreSQL.png" width=400 />
-
 Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
 ![composants_PostgreSQL](composants_PostgreSQL.png)
 
 Choisir le répertoire de stockage des bases de données.
 
-```{image} dossier_data.png
-:width: 400px
-```
+![dossier_data](dossier_data.png)
 
 Laisser le port par défaut et en **localhost** pour une installation
 locale de test.
 
+![port_postgresql](port_postgresql.png)
 
-```{image} port_postgresql.png
-:width: 400px
-```
-```{image} postgreSQl_local.png
-:width: 400px
-```
+![postgreSQl_local](postgreSQl_local.png)
 
 Après la première phase d'installation, on installe **PostGIS** (stackbulider)  
 
@@ -56,29 +48,21 @@ Après la première phase d'installation, on installe **PostGIS** (stackbulider)
 
 Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee), très bien expliquer!
 
-```{image} stackbuiler1.png
-:width: 400px
-```
+![stackbuiler1](stackbuiler1.png)
 
 * Sélectionner l'extension **PostGIS**
 
-```{image} stackbuiler2.png
-:width: 400px
-```
+![stackbuiler2](stackbuiler2.png)
 
 * Sélectionner un répertoire de téléchargement.
 
-```{image} stackbuiler3.png
-:width: 400px
-```
+![stackbuiler3](stackbuiler3.png)
 
 * Cliquer **2 fois** suivant pour commencer l'installation.
 
 Demander de créer une **base spéciale** pour PostGIS et d'installer tous les pilotes **GDAL**.
 
-```{image} postgis1.png
-:width: 400px
-```
+![postgis1](postgis1.png)
 
 Le dossier d'installation est identique à **PostgreSQL**.
 
@@ -86,9 +70,7 @@ Le dossier d'installation est identique à **PostgreSQL**.
 
 Préciser un nom de base de données pour PostGIS et lancer l'installation.
 
-```{image} postgis2.png
-:width: 400px
-```
+![postgis2](postgis2.png)
  
 **PostgreSQL en local (configuration par défaut)**
 
@@ -170,33 +152,23 @@ La fenêtre de configuration vierge apparait. A vous de la renseigner.
 
 **Fenêtre First Start / Onglet PostgreSql Admin**
 
-```{image} first_start.png
-:width: 400px
-```
+![first_start](first_start.png)
 
 **Fenêtre First service / Onglet New service**
 
-```{image} first_service1.png
-:width: 400px
-```
+![first_service1](first_service1.png)
 
-```{image} first_service2.png
-:width: 400px
-```
+![first_service2](first_service3.png)
 
 **Fenêtre First service / Onglet New User**
 
-```{image} first_service3.png
-:width: 400px
-```
+![first_service3](first_service3.png)
 
 Après validation sur le bouton **CREATE SERVICE**, le service est accessible selon le nom du service, sous 2 formes;  
 * En pur html <http://localhost:8029/agrhys/v1.1/>
 * Via le Query <http://localhost:8029/agrhys/v1.1/query>
 
-```{image} query.png
-:width: 400px
-```
+![queru](query.png)
 
 [Revenir en haut](#top)  
 <a id="start"></a>
