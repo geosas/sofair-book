@@ -46,11 +46,31 @@ Dans la cas d'un observatoires, nous avons produit un fichier tableur dit de con
 
 <a id="fonc_conf"></a>
 ### 3.2. Comment ce fichier de configuration fonctionne-t-il?  
-Il est composé de 6 onglets principaux:
-* Lisez-moi: quide l'urlisateur dans la saisie
+Il est composé d'un onglet d'information et de 5 onglets correspondant aux entités du modèle de données Sensorthings. 
+* Lisez-moi: guide l'utilisateur dans la saisie: Les données attendues 
 * 1_observedProperty
 * 2_sensor
 * 3_thing
 * 4_datastream
 * 5_featureOfInterest
+
+Les 5 onglets (en rouge) seront par la suite interprétés par un script Python pour configurer une instance STEAN.
+
+ILe fichier de configuration contient une macro VBA effectuant des controles de saisies et produit automatiquement la liste des datastreams.
+
+**Instruction génrales**  
+
+1- Renseigner les onglets 1_observedProperty, 2_sensor, 3 _thing, 5_featureOfInterest, puis actualiser les données dans l'onglet 4_datastream.  
+2- Adapter les noms des datastreams si nécessaire. Ils doivent être uniques. Attention: Une action sur le bouton Actualiser effacera vos modifications  
+
+* Le séparateur décimal le point.  
+* Ne modifier pas la structure des onglets en rouge. Si présence de doublons dans la colonne name , les cellules passent en rouge.  
+* Ne pas utliser les caractères _ et -. Ces caractères seront automatiquement supprimés des colonnes name.  
+* Vérifier les menus déroulants des onglets 2_sensor (colonnes observedPropertyn), 3_thing (colonnes sensorn ) et 4_datastream (colonne featureOfInterest ).  
+* Eviter de laisser des lignes vides.  
+* Le nom des colonnes en fond blanc sont standards et ne doivent pas être modifiés.  
+* Les colonnes grisées correspondent aux propriétés de chaque entité. Elles sont personnalisables.  
+* Données obligatoires repérées par une * et en rouge.
+
+  
 
