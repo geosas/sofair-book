@@ -169,19 +169,28 @@ Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, e
 
 La fenêtre de configuration vierge apparait. A vous de la renseigner.
 
-**Onglet service**
+**Fenêtre First Start / Onglet PostgreSql Admin**
 
-```{image} create_service_STEAN1.png
+```{image} first_start.png
 :width: 400px
 ```
 
-**Onglet Admin (PostgreSQL)**
+**Fenêtre First service / Onglet New service**
 
-```{image} create_service_STEAN2.png
+```{image} first_service1.png
+:width: 400px
+```
+```{image} first_service2.png
 :width: 400px
 ```
 
-Après validation, le service est accessible selon le nom du service, sous 2 formes;  
+**Fenêtre First service / Onglet New User**
+
+```{image} first_service3.png
+:width: 400px
+```
+
+Après validation sur le bouton **CREATE SERVICE**, le service est accessible selon le nom du service, sous 2 formes;  
 * En pur html <http://localhost:8029/agrhys/v1.1/>
 * Via le Query <http://localhost:8029/agrhys/v1.1/query>
 
