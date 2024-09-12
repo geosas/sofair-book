@@ -156,7 +156,7 @@ Ouvrir une console PowerShell ISE et lancer le script
 >Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 
 >[!NOTE]
->Si vous obtenez l'erreur **PostgreSQL is installed. (16)**.
+>Si vous obtenez l'erreur **Postgis is Not installed.**.
 >Editez le fichier install.ps1 à la ligne 112 et remplacer  
 ```POSTGIS = "$latest\share\contrib" par $POSTGIS = "$POSTGRES\$latest\share\contrib"```
 
