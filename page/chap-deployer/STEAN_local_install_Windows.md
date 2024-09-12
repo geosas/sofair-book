@@ -28,6 +28,7 @@ Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
 ```{image} composants_PostgreSQL.png
 ```
+![composants_PostgreSQL](composants_PostgreSQL.png)
 
 Choisir le répertoire de stockage des bases de données.
 
