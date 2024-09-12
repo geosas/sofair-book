@@ -149,7 +149,7 @@ A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), téléchar
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) et [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1)
 dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
 
-Ouvrir une console PowerShell ISE et lancer le script
+Ouvrir une console **PowerShell ISE** , charger le script et lancer le.
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
 
 >[!TIP]
@@ -180,6 +180,7 @@ La fenêtre de configuration vierge apparait. A vous de la renseigner.
 ```{image} first_service1.png
 :width: 400px
 ```
+
 ```{image} first_service2.png
 :width: 400px
 ```
@@ -202,9 +203,9 @@ Après validation sur le bouton **CREATE SERVICE**, le service est accessible se
 <a id="start"></a>
 ## 2.3 Arrêt, mise à jour, démarrage de STEAN
 
-* **Arrêt**: dans la console PowerShell où STEAN a été mancé, **touche crtl+c**
+* **Arrêt**: dans la console **PowerShell ISE** où STEAN a été mancé, **touche crtl+c**, puis fermer la console **PowerShell ISE**.
 
-* **Mise à jour**: relancer le script
+* **Mise à jour**: Arrêter STEAN au préalable, ouvrir console **PowerShell ISE**, charger et lancer le script.
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1), installe ou met à jour et lance le service
 
 * **Démarrage** lancer le script
