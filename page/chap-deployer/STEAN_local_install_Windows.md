@@ -143,7 +143,7 @@ Ouvrir une console **PowerShell ISE** , charger le script et lancer le.
 Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 ```
 
-```{tip}
+```{astuce}
 Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 ```
 
@@ -164,23 +164,36 @@ La fenêtre de configuration vierge apparait. A vous de la renseigner.
 
 **Fenêtre First Start / Onglet PostgreSql Admin**
 
-![first_start](first_start.png)
-
+```{image} first_start.png
+:alt: first_start
+:width: 400px
+```
 **Fenêtre First service / Onglet New service**
 
-![first_service1](first_service1.png)
-
-![first_service2](first_service3.png)
+```{image} first_service1.png
+:alt: first_servicet
+:width: 400px
+```
+```{image} first_service2.png
+:alt: first_service
+:width: 400px
+```
 
 **Fenêtre First service / Onglet New User**
 
-![first_service3](first_service3.png)
+```{image} first_service3.png
+:alt: first_service
+:width: 400px
+```
 
 Après validation sur le bouton **CREATE SERVICE**, le service est accessible selon le nom du service, sous 2 formes;  
 * En pur html <http://localhost:8029/agrhys/v1.1/>
 * Via le Query <http://localhost:8029/agrhys/v1.1/query>
 
-![queru](query.png)
+```{image} query.png
+:alt: query
+:width: 400px
+```
 
 [Revenir en haut](#top)  
 <a id="start"></a>
@@ -202,8 +215,9 @@ La phase de configuration génère un fichier codé nommé
 **\~\STEAN\api\configuration\configuration.json**.
 
 **Pour le modifier**
->[!NOTE]
->Normalement ce bug est corrigé.
+```{note}
+Normalement ce bug est corrigé.
+```
 
 Dans une console CMD ou PowerShell, se placer dans le fichier de
 configuration et lancer la commande
