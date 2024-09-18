@@ -36,7 +36,12 @@ Sachant que:
 ```{important}
 Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les posséder, alors vous êtes autonomes!
 ```
-![3 competences](img/trois_competences.png)
+
+```{image} img/trois_competences.png
+:alt: 3 competences
+:width: 600px
+:align: center
+```
 
 [Revenir en haut](#top)
 <a id="conf"></a>
@@ -44,23 +49,24 @@ Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les posséder
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
 
 La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Features of Interest. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
-la seconde étape est la définition de Sensors et Observed Properties. La/le scientifique travaillent de concert avec le personnl de terrain essentiellemnt.
+La seconde étape est la définition de Sensors et Observed Properties. La/le scientifique travaillent de concert avec le personnl de terrain essentiellemnt.
 
 Dans le cas de l'ORE Agrhys:
-* le point de mesure est attribué aux entités [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html)  
-Exemple: le point de mesure E30 correspond à l'éxutoire du bassin versant du Puits dont les coordonnées géographiques sont [-4.1208244,47.9441891]
+* Le point de mesure est attribué aux entités [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html)  
+Exemple: le point de mesure E30 correspond à l'éxutoire du bassin versant du Puits, dont les coordonnées géographiques sont [-4.1208244,47.9441891]
 * Sensors = capteur ou analyseur
 * Observed properties = grandeur physique mesurée ou analysée.
 
 <a id="fichier_conf"></a>
 ### 3.1. Fichier de configuration
-Maintenant que les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html), les Features of Interest, les Sensors et les Observed Properties sont définis, comment configurer une instances STEAN? C'est ici que le Data Scientist commence à intervenir. Il doit fournir les outils et les formalismes pour accompganger le scientifique et le personnel de terrain dans l'intégration de leurs données vers le modèle de données SensorThings.  
+Maintenant que les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html), les Features of Interest, les Sensors et les Observed Properties sont définis, comment configurer une instance **STEAN**? C'est ici que le Data Scientist intervient. Il doit fournir les outils et les formalismes pour accompganger le scientifique et le personnel de terrain dans l'intégration de leurs données vers le modèle de données SensorThings.  
 
-Dans la cas d'un observatoires, nous avons produit un fichier tableur dit de configuration. Les informations collectées au travers de ce fichier sont traitées par un script Python permettant de configuer une instance STEAN. L'alimentation en données sera effectuée ultérieurement.
+Dans la cas d'un observatoire, nous avons produit un fichier tableur dit de configuration. Les informations collectées au travers de ce fichier sont traitées par un script Python permettant de configuer une instance STEAN. L'alimentation en données sera effectuée ultérieurement.
 
 <a id="fonc_conf"></a>
 ### 3.2. Comment ce fichier de configuration fonctionne-t-il?  
-Il est composé d'un onglet d'information et de 5 onglets correspondant aux entités du modèle de données Sensorthings. 
+Il est composé d'un onglet d'information et de 5 onglets correspondant aux entités du modèle de données Sensorthings. Télécharger le [fichier de configuration](../../files/configuration_ST_agrhys_template.xlsm)  
+
 * Lisez-moi: guide l'utilisateur dans la saisie: Les données attendues 
 * 1_observedProperty
 * 2_sensor
