@@ -5,7 +5,12 @@
   - [3.1. Fichier de configuration](#fichier_conf)
   - [3.2. Comment ce fichier de configuration fonctionne-t-il?](#fonc_conf)
   - [3.4. Traitement du fichier de configuration](#create_conf)
-
+- [4. Les données](#data)  
+  - [4.1. Les historiques](#data_histo)
+  - [4.2. Les nouvelles données](#data_new)
+    - [4.1.1 importation d'un fichier CSV](#csv)
+ 
+    
 <a id="top"></a>
 <a id="qui_parle"></a>
 ## 1. Qui parle ?
@@ -79,5 +84,24 @@ ILe fichier de configuration contient une macro VBA effectuant des controles de 
 <a id="create_conf"></a>
 ### 3.4. Traitement du fichier de configuration  
 Dans un premier temps, le traitement consiste à analyser le fichier de configuration via un script Python.  
-Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.
+Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.  
+Ce script est sous la forme d'un Jupyter Notebook. lien vers fichier deconfiguration  
+
+[Revenir en haut](#top)  
+<a id="data"></a>  
+## 4. Les données  
+Bref rappel du contexte: l'observatoire ORE Agrhys dispose déjà d'un système de données que nous voulons faire évoluer vers le standard OGC Sensorthings.  
+Ce tranferst nécessite 2 étapes, l'import des données historiques et actualisation des nouvelles données.  
+
+<a id="data_histo"></a>
+### 4.1. Les historiques  
+<a id="csv"></a>
+#### 4.1.1 importation d'un fichier CSV  
+
+**Hydras**  
+de données produit par un export Hydras.
+
+<a id="data_new"></a>  
+### 4.2. Les nouvelles données  
+
 
