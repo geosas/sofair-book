@@ -21,7 +21,10 @@ Sachant que:
 *  L'utilisation de l'API SensorThings m'est difficile
 *  La compréhension du modèle de données SensorThings n'est pas aisée  
 
+```{important}
 Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les posséder, alors vous êtes autonomes!
+```
+
 ![3 competences](img/trois_competences.png)
 
 [Revenir en haut](#top) 
