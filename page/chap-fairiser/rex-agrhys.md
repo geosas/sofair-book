@@ -4,6 +4,7 @@
 - [3. Configurer une instance STEAN](#conf)  
   - [3.1. Fichier de configuration](#fichier_conf)
   - [3.2. Comment ce fichier de configuration fonctionne-t-il?](#fonc_conf)
+  - [3.4. Traitement du fichier de configuration](#create_conf)
 
 <a id="top"></a>
 <a id="qui_parle"></a>
@@ -75,5 +76,8 @@ ILe fichier de configuration contient une macro VBA effectuant des controles de 
 * Les colonnes grisées correspondent aux propriétés de chaque entité. Elles sont personnalisables.  
 * Données obligatoires repérées par une * et en rouge.
 
-  
+<a id="create_conf"></a>
+### 3.4. Traitement du fichier de configuration  
+Dans un premier temps, le traitement consiste à analyser le fichier de configuration via un script Python.  
+Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.
 
