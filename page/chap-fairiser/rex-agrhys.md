@@ -31,10 +31,9 @@ Sachant que:
 ```{important}
 Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les posséder, alors vous êtes autonomes!
 ```
-
 ![3 competences](img/trois_competences.png)
 
-[Revenir en haut](#top) 
+[Revenir en haut](#top)
 <a id="conf"></a>
 ## 3. Configurer une instance STEAN  
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
@@ -88,7 +87,7 @@ Dans un premier temps, le traitement consiste à analyser le fichier de configur
 Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.  
 Ce script est sous la forme d'un Jupyter Notebook. lien vers fichier deconfiguration  
 
-[Revenir en haut](#top)  
+[Revenir en haut](#top)
 <a id="data"></a>  
 ## 4. Les données  
 Bref rappel du contexte: l'observatoire ORE Agrhys dispose déjà d'un système de données que nous voulons faire évoluer vers le standard OGC Sensorthings.  
@@ -100,11 +99,16 @@ Ce tranferst nécessite 2 étapes, l'import des données historiques et actualis
 #### 4.1.1 importation d'un fichier CSV  
 
 **Hydras**  
-de données produit par un export Hydras.
+Via le logiciel hydras, il est possible d'exporter la totalité chronologique des données issues de capteurs.  
+Chaque ligne est au format jj/mm/aaa;hh:mm:seconde;x.xxx  
+
+```{important}
+Le séparateur décimale doit être le point.
+```
 
 <a id="data_new"></a>  
 ### 4.2. Les nouvelles données  
 
 <a id="csv_new"></a>
 #### 4.2.1 importation d'un fichier CSV
-
+Le logiciel Hydras est configuré pour produit à écheance régulière des fichiers CSV contenant les valeus numériques issues de capteurs.
