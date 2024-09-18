@@ -4,6 +4,7 @@
 - [3. Configurer une instance STEAN](#conf)  
   - [3.1. Fichier de configuration](#fichier_conf)
   - [3.2. Comment ce fichier de configuration fonctionne-t-il?](#fonc_conf)
+      -[3.2.1 Instruction générales](#instruction)
   - [3.4. Traitement du fichier de configuration](#create_conf)
 - [4. Les données](#data)  
   - [4.1. Les historiques](#data_histo)
@@ -65,7 +66,7 @@ Dans la cas d'un observatoire, nous avons produit un fichier tableur dit de conf
 
 <a id="fonc_conf"></a>
 ### 3.2. Comment ce fichier de configuration fonctionne-t-il?  
-Il est composé d'un onglet d'information et de 5 onglets correspondant aux entités du modèle de données Sensorthings. Télécharger le [fichier de configuration](../../files/configuration_ST_agrhys_template.xlsm)  
+Il est composé d'un onglet d'information et de **5 onglets** correspondant aux entités du modèle de données Sensorthings. Télécharger le [fichier de configuration](../../files/configuration_ST_agrhys_template.xlsm)  
 
 * Lisez-moi: guide l'utilisateur dans la saisie: Les données attendues 
 * 1_observedProperty
@@ -74,12 +75,13 @@ Il est composé d'un onglet d'information et de 5 onglets correspondant aux enti
 * 4_datastream
 * 5_featureOfInterest
 
-Les 5 onglets (en rouge) seront par la suite interprétés par un script Python pour configurer une instance STEAN.
+Les **5 onglets (en rouge)** seront par la suite interprétés par un script Python pour configurer une instance STEAN.
 
-ILe fichier de configuration contient une macro VBA effectuant des controles de saisies et produit automatiquement la liste des datastreams.
+Le fichier de configuration contient une macro VBA effectuant des controles de saisies et produit automatiquement la liste des datastreams.
 
-**Instruction génrales**  
-
+<a id="instruction"></a>
+#### 3.2.1 Instruction générales
+ 
 1- Renseigner les onglets 1_observedProperty, 2_sensor, 3 _thing, 5_featureOfInterest, puis actualiser les données dans l'onglet 4_datastream.  
 2- Adapter les noms des datastreams si nécessaire. Ils doivent être uniques. Attention: Une action sur le bouton Actualiser effacera vos modifications  
 
