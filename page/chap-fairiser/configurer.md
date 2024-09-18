@@ -7,6 +7,8 @@ Elle résulte d'un travail, le plus souvent itératif, mélant différentes comp
 
 ```{figure} img/configure-loop.png
 :name: sta_entities
+:width: 600px
+:align: center
 Illustration du travail d'équipe itératif nécessaire lors de la phase de configuration de l'API.
 ```
 Le resultat de ces échanges peut être compilé dans un tableur ou chaque entité de l'observatoire sera décrite et regroupée par onglets correspondants aux différentes familles d'objets SensorThings.
