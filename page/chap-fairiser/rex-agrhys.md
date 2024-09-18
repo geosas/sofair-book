@@ -24,7 +24,7 @@ Comment restrancrire la réalité de terrain vers Sensorthings?
 
 ```{image} img/terrain_vers_ST_v2.png
 :alt: du terrain au service SensorThings
-:width: 600px
+:width: 400px
 :align: center
 ```
 
