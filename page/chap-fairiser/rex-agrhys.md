@@ -3,7 +3,7 @@
 - [2. Introduction](#intro)
 - [3. Configurer une instance STEAN](#conf)  
   - [3.1. Fichier de configuration](#fichier_conf)
-  - [3.2. Comment ce fichier de configuration fonctionne-t-il?](#fonc_conf)
+  - [3.2. Comment ce fichier de configuration fonctionne-t-il?](#fonc_conf)  
       -[3.2.1 Instruction générales](#instruction)
   - [3.4. Traitement du fichier de configuration](#create_conf)
 - [4. Les données](#data)  
