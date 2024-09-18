@@ -39,8 +39,9 @@ locale de test.
 
 Après la première phase d'installation, on installe **PostGIS** (stackbulider)  
 
-> [!NOTE]
-> Vous pouvez également installer PostGIS séparément, mais c'est plus compliqué.
+```{admonition} NOTE
+Vous pouvez également installer PostGIS séparément, mais c'est plus compliqué.
+```
 
 [Documentation d'installation PostGIS](https://postgis.net/documentation/getting_started/install_windows)
 
