@@ -21,7 +21,12 @@ Christophe Geneste, ingénieur d'étude INRAE, administrateur de plateformes, d'
 ## 2. Introduction
 Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE Agrhys, n'est pas trivial au premier abord.  
 Comment restrancrire la réalité de terrain vers Sensorthings?   
-![du terrain au service SensorThings](img/terrain_vers_ST_v2.png)
+
+```{image} img/terrain_vers_ST_v2.png
+:alt: du terrain au service SensorThings
+:width: 600px
+:align: center
+```
 
 Sachant que:  
 *  Je ne suis pas spécialiste en base de données
