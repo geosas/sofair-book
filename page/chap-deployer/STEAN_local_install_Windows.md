@@ -42,7 +42,6 @@ Après la première phase d'installation, on installe **PostGIS** (stackbulider)
 ```{note}
 Vous pouvez également installer PostGIS séparément, mais c'est plus compliqué.
 ```
-
 [Documentation d'installation PostGIS](https://postgis.net/documentation/getting_started/install_windows)
 
 [Dépôt des paquets PostGIS](https://download.osgeo.org/postgis/windows/pg16/?C=M&O=D>)
@@ -51,18 +50,20 @@ Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda
 
 ```{image} stackbuiler1.png
 :alt: stackbuiler
-:width: 200px
+:width: 400px
 ```
 
+* Sélectionner l'extension **PostGIS**  
+```{image} stackbuiler2.png
+:alt: stackbuiler
+:width: 400px
+```
 
-* Sélectionner l'extension **PostGIS**
-
-![stackbuiler2](stackbuiler2.png)
-
-* Sélectionner un répertoire de téléchargement.
-
-![stackbuiler3](stackbuiler3.png)
-
+* Sélectionner un répertoire de téléchargement.  
+```{image} stackbuiler3.png
+:alt: stackbuiler
+:width: 400px
+```
 * Cliquer **2 fois** suivant pour commencer l'installation.
 
 Demander de créer une **base spéciale** pour PostGIS et d'installer tous les pilotes **GDAL**.
@@ -138,17 +139,19 @@ dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
 Ouvrir une console **PowerShell ISE** , charger le script et lancer le.
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
 
->[!TIP]
->Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
-
-```{important} Astuce
+```{important}
 Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 ```
 
->[!NOTE]
->Si vous obtenez l'erreur **Postgis is Not installed.**.
->Editez le fichier install.ps1 à la ligne 112 et remplacer  
+```{tip}
+Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
+```
+
+````{note}
+Si vous obtenez l'erreur **Postgis is Not installed.**. 
+Editez le fichier install.ps1 à la ligne 112 et remplacer  
 ```POSTGIS = "$latest\share\contrib" par $POSTGIS = "$POSTGRES\$latest\share\contrib"```
+````
 
 [Revenir en haut](#top)  
 <a id="configuration"></a>
