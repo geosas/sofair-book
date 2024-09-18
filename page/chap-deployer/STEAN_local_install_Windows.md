@@ -143,7 +143,7 @@ Ouvrir une console **PowerShell ISE** , charger le script et lancer le.
 Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 ```
 
-```{astuce}
+```{tip}
 Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
 ```
 
