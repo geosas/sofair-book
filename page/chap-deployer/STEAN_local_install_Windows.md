@@ -22,11 +22,6 @@ Dossier d'installation
 
 ![dossier_installation_PostgreSql](dossier_install_PostgreSQL.png)
 
-```{image} dossier_install_PostgreSQL.png
-:alt: dossier_installation_PostgreSql
-:align: center
-```
-
 Les composants à installer. Conseil: installer **pgAdmin** séparément.
 
 ![composants_PostgreSQL](composants_PostgreSQL.png)
@@ -44,7 +39,7 @@ locale de test.
 
 Après la première phase d'installation, on installe **PostGIS** (stackbulider)  
 
-```{admonition} NOTE
+```{note}
 Vous pouvez également installer PostGIS séparément, mais c'est plus compliqué.
 ```
 
@@ -54,7 +49,11 @@ Vous pouvez également installer PostGIS séparément, mais c'est plus compliqu�
 
 Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee), très bien expliquer!
 
-![stackbuiler1](stackbuiler1.png)
+```{image} stackbuiler1.png
+:alt: stackbuiler
+:width: 200px
+```
+
 
 * Sélectionner l'extension **PostGIS**
 
