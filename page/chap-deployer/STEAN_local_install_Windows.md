@@ -77,6 +77,10 @@ Le dossier d'installation est identique à **PostgreSQL**.
 Préciser un nom de base de données pour PostGIS et lancer l'installation.
 
 ![postgis2](postgis2.png)
+```{image} postgis2.png
+:alt: postgis
+:width: 300px
+```
  
 **PostgreSQL en local (configuration par défaut)**
 
