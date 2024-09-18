@@ -7,8 +7,9 @@
   - [3.4. Traitement du fichier de configuration](#create_conf)
 - [4. Les données](#data)  
   - [4.1. Les historiques](#data_histo)
+    - [4.1.1 importation d'un fichier CSV](#csv_histo)
   - [4.2. Les nouvelles données](#data_new)
-    - [4.1.1 importation d'un fichier CSV](#csv)
+    - [4.2.1 importation d'un fichier CSV](#csv_new)
  
     
 <a id="top"></a>
@@ -95,7 +96,7 @@ Ce tranferst nécessite 2 étapes, l'import des données historiques et actualis
 
 <a id="data_histo"></a>
 ### 4.1. Les historiques  
-<a id="csv"></a>
+<a id="csv_histo"></a>
 #### 4.1.1 importation d'un fichier CSV  
 
 **Hydras**  
@@ -104,4 +105,6 @@ de données produit par un export Hydras.
 <a id="data_new"></a>  
 ### 4.2. Les nouvelles données  
 
+<a id="csv_new"></a>
+#### 4.2.1 importation d'un fichier CSV
 
