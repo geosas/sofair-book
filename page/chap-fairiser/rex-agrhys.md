@@ -103,7 +103,7 @@ Via le logiciel hydras, il est possible d'exporter la totalité chronologique de
 Chaque ligne est au format jj/mm/aaa;hh:mm:seconde;x.xxx  
 
 ```{important}
-Le séparateur décimale doit être le point.
+Le séparateur décimal doit être le point.
 ```
 
 <a id="data_new"></a>  
