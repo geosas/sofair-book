@@ -1,4 +1,4 @@
-# Retrour d'expérience de l'ORE Agrhys
+# Retour d'expérience de l'ORE Agrhys
 - [1. Qui parle](#qui_parle)    
 - [2. Introduction](#intro)
 - [3. Configurer une instance STEAN](#conf)  
