@@ -25,8 +25,8 @@ Pour chaque option, on pourrait détailler :
 - Exemple de réutilisation : requête, viewer, ...
 - Cout/gain en terme de stockage, de temps d'accès, ...
 
-1. 2 services distincts. Cas de CityOrchestra. Tom
-2. All in One. Mario
+1. 2 services distincts. Cas de CityOrchestra. **Tom**
+2. All in One. **Mario**
 3. Autres...
 
 #### Comment alimenter un STA avec la qualification
