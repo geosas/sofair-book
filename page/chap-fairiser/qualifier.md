@@ -8,10 +8,10 @@
 
 --> Ce que dit le standard SensorThings
 
---> Panorama des différentes options d'implémentation de la qualification dans une STA
+--> Panorama des différentes options d'implémentation de la qualification dans un service SensorThings
 
-### Comment alimenter un STA avec la qualification
+### Comment alimenter un service SensorThings avec la qualification
 
---> automatisation
+--> automatisation (chemin de la qualification)
 
 ### La réutilisation de la qualification
