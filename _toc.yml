@@ -24,6 +24,7 @@ parts:
     - file: page/chap-fairiser/creer
     - file: page/chap-fairiser/configurer
     - file: page/chap-fairiser/peupler
+    - file: page/chap-fairiser/qualifier
     - file: page/chap-fairiser/rex
       sections:
       - file: page/chap-fairiser/rex-efele
