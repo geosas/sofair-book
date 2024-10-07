@@ -13,9 +13,12 @@ Quelle que soit la définition retenue, **la qualité des données consiste à d
 
 #### Comment qualifier les observations ?
 
-#### La qualification et le SensorThings 
-
+--> Ce que dit Observations & Measurements
 --> Ce que dit le standard SensorThings
+--> l'expérience du BRGM
+--> l'expérience d'AgrHyS
+
+#### La qualification et le SensorThings 
 
 --> Panorama des différentes options d'implémentation de la qualification dans un STA.
 
