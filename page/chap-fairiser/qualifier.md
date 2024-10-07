@@ -19,6 +19,9 @@ Quelle que soit la définition retenue, **la qualité des données consiste à d
 
 --> Panorama des différentes options d'implémentation de la qualification dans un STA
 
+1. 2 services distincts. Cas de CityOrchestra. Tom
+2. All in One. Mario
+
 #### Comment alimenter un STA avec la qualification
 
 --> automatisation (chemin de la qualification)
