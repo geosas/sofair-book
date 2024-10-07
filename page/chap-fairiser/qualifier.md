@@ -1,8 +1,8 @@
 ## Qualifier les observations
 
 ```{admonition} Définitions
-De nombreuses personnes utilisent les mots « qualité des données » comme s'il s'agissait d'un objet, comme dans « Nous avons besoin de données de qualité ».
-Ils devraient plutôt formuler leur demande ainsi : « Nous avons besoin de données de haute qualité ! ». **Toutes les données ont un certain niveau de qualité, même si ce niveau n'est pas acceptable.** Quelle que soit la façon dont ils le formulent, les gens veulent vraiment dire : « Nous avons besoin de données qui ressemblent à ce que nous attendons d'elles et qui agissent comme nous l'attendons, des données qui soient aussi complètes et précises que nous l'attendons et elles doivent être accessibles au moment où nous voulons les utiliser ».
+De nombreuses personnes utilisent les mots « qualité des données » comme s'il s'agissait d'un objet : « Nous avons besoin de données de qualité ».
+Ils devraient plutôt formuler leur demande ainsi : « Nous avons besoin de données de haute qualité ! ». **Toutes les données ont un certain niveau de qualité, même si ce niveau n'est pas acceptable.** Quelle que soit la façon dont ils le formulent, les gens veulent vraiment dire : « Nous avons besoin de données qui ressemblent à ce que nous attendons d'elles, des données qui soient aussi complètes et précises que possible et accessibles au moment où nous voulons les utiliser ».
 
 L'utilisation confuse du mot « qualité » en relation avec les données provient probablement d'une confusion entre ses deux significations. La première définition de la qualité donnée par le New Oxford American Dictionary est la suivante : « **La norme d'une chose mesurée par rapport à d'autres choses d'un type similaire** OU **le degré d'excellence d'une chose** ».
 
