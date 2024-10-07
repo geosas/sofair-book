@@ -17,7 +17,8 @@ Quelle que soit la définition retenue, **la qualité des données consiste à d
 
 --> Ce que dit le standard SensorThings
 
---> Panorama des différentes options d'implémentation de la qualification dans un STA
+--> Panorama des différentes options d'implémentation de la qualification dans un STA.
+
 Pour chaque option, on pourrait détailler :
 - Principe/explication
 - Illustration par un schéma, une capture d'écran, ...
