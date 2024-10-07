@@ -6,6 +6,11 @@
 
 ### La qualification et le SensorThings 
 
-#### Panorama des différentes options d'implémentation de la qualification dans une API SensorThings
+--> Ce que dit le standard SensorThings
+--> Panorama des différentes options d'implémentation de la qualification dans une STA
+
+### Comment alimenter un STA avec la qualification
+
+--> automatisation
 
 ### La réutilisation de la qualification
