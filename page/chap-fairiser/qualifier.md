@@ -11,8 +11,6 @@ La deuxième définition fait référence à la qualité comme étant « un attr
 Quelle que soit la définition retenue, **la qualité des données consiste à déterminer si les données répondent aux attentes implicites ou explicites des personnes qui les utiliseront**. {cite}`sebastian-coleman-2013`
 ```
 
-Définition 
-
 #### Comment qualifier les observations ?
 
 #### La qualification et le SensorThings 
