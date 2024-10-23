@@ -19,7 +19,7 @@ parts:
     - file: page/chap-sofair/portail
     - file: page/chap-sofair/api
     - file: page/chap-sofair/gallerie
-  - caption: FAIRiser un observatoire
+  - caption: SOFAIRiser un observatoire
     chapters:
     - file: page/chap-fairiser/creer
     - file: page/chap-fairiser/configurer
