@@ -15,17 +15,17 @@ parts:
       - file: page/chap-sensorthings/observedproperties
   - caption: SOFAIR
     chapters:
-    - file: page/chap-sofair/intro
     - file: page/chap-sofair/portail
     - file: page/chap-sofair/api
     - file: page/chap-sofair/gallerie
   - caption: SOFAIRiser un observatoire
     chapters:
-    - file: page/chap-fairiser/creer
-    - file: page/chap-fairiser/configurer
-    - file: page/chap-fairiser/peupler
-    - file: page/chap-fairiser/qualifier
-    - file: page/chap-fairiser/rex
+    - file: page/chap-sofairiser/intro
+    - file: page/chap-sofairiser/creer
+    - file: page/chap-sofairiser/configurer
+    - file: page/chap-sofairiser/peupler
+    - file: page/chap-sofairiser/qualifier
+    - file: page/chap-sofairiser/rex
       sections:
       - file: page/chap-fairiser/rex-efele
       - file: page/chap-fairiser/rex-agrhys
