@@ -2,7 +2,7 @@
 - [1 Prérequis](#prerequis)  
   - [1.1 PostgreSQL et PostGIS](#postgresl)  
   - [1.2 NodeJS et nodemon](#nodejs)  
-- [2 STEAN](#stean)  
+- [2 STEAN](#steanwindows)  
   - [2.1 Configuration](#configuration)  
   - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)  
   - [2.3 Décodage du fichier de configuration](#decode)  
@@ -132,7 +132,7 @@ Obtenir lea version du gestionnaore de paquet de  **nodejs**.
 npm --version
 ```
 [Revenir en haut](#top) 
-<a id="stean"></a>
+<a id="steanwindows"></a>
 # 2 STEAN
 
 A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), télécharger les scripts
