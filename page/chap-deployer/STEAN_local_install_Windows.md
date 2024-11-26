@@ -161,9 +161,10 @@ Editez le fichier install.ps1 à la ligne 112 et remplacer
 Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:
 [localhost:8029/importenayouak](http:/localhost:8029/importenayoik)
 
-La fenêtre de configuration vierge apparait. A vous de la renseigner.
+Une suite de fenêtres de configuration vierge apparaissent.
 
-**Fenêtre First Start / Onglet PostgreSql Admin**
+**Fenêtre First Start / Onglet PostgreSql Admin**  
+Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.
 
 ```{image} first_start.png
 :alt: first_start
