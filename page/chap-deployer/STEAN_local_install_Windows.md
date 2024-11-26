@@ -139,17 +139,15 @@ A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), téléchar
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) et [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1)
 dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
 
-Ouvrir une console **PowerShell ISE** , charger le script et lancer le.
-[install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
+* [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) permet d'installer, de mettre à jour (si installation présente), et de lancer le service.
+* [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1) lance le service uniqement.
+
+**Pour installer ou mettre à jour**  
+Ouvrir une console **PowerShell ISE** , lancer le script [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
 
 ```{important}
-Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
+Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple, le script ne fonctionne pas.
 ```
-
-```{tip}
-Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple le script ne fonctionne pas.
-```
-
 ````{note}
 Si vous obtenez l'erreur **Postgis is Not installed.**. 
 Editez le fichier install.ps1 à la ligne 112 et remplacer  
