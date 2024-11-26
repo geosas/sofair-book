@@ -176,14 +176,10 @@ Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.
 :alt: first_servicet
 :width: 400px
 ```
-```{image} first_service2.png
-:alt: first_service
-:width: 400px
-```
 
 **Fenêtre First service / Onglet New User**
 
-```{image} first_service3.png
+```{image} first_service2.png
 :alt: first_service
 :width: 400px
 ```
