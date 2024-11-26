@@ -198,7 +198,7 @@ Après validation sur le bouton **CREATE SERVICE**, le service est accessible se
 <a id="start"></a>
 ## 2.3 Arrêt, mise à jour, démarrage de STEAN
 
-* **Arrêt**: dans la console **PowerShell ISE** où STEAN a été mancé, **touche crtl+c**, puis fermer la console **PowerShell ISE**.
+* **Arrêt**: dans la console **PowerShell ISE** où STEAN a été lancé, **touche crtl+c**, puis fermer la console **PowerShell ISE**.
 
 * **Mise à jour**: Arrêter STEAN au préalable, ouvrir console **PowerShell ISE**, charger et lancer le script.
 [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1), installe ou met à jour et lance le service
