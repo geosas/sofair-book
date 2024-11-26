@@ -177,7 +177,8 @@ Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.
 :width: 400px
 ```
 
-**Fenêtre First service / Onglet New User**
+**Fenêtre First service / Onglet New User**  
+Le nom de l'utilisateur est identique au nom du service. Le champ est non modifiable.
 
 ```{image} first_service2.png
 :alt: first_service
