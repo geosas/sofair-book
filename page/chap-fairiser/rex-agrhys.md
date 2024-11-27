@@ -66,7 +66,7 @@ Dans la cas d'un observatoire, nous avons produit un fichier tableur dit de conf
 
 <a id="fonc_conf"></a>
 ### 3.2. Comment ce fichier de configuration fonctionne-t-il?  
-Il est composé d'un onglet d'information et de **5 onglets** correspondant aux entités du modèle de données Sensorthings. Télécharger le [fichier de configuration](../../files/configuration_ST_agrhys_template.xlsm)  
+Il est composé d'un onglet d'information et de **5 onglets** correspondant aux entités du modèle de données Sensorthings. Télécharger le [fichier de configuration](../../files/configuration_ST_agrhys_template.xlsm)
 
 * Lisez-moi: guide l'utilisateur dans la saisie sur les données attendues 
 * 1_observedProperty
@@ -101,7 +101,11 @@ Attention: Une action sur le bouton Actualiser effacera vos modifications
 ### 3.4. Traitement du fichier de configuration  
 Dans un premier temps, le traitement consiste à analyser le fichier de configuration via un script Python.  
 Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.  
-Ce script est sous la forme d'un Jupyter Notebook. lien vers fichier deconfiguration  
+Ce script est sous la forme d'un Jupyter Notebook. Télécharger le [Notebook Python](../../files/configure_ST_Agrhys.ipynb) 
+
+```{tip}
+Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.conf](../../files/param_template.conf)
+```|
 
 [Revenir en haut](#top)
 <a id="data"></a>  
@@ -112,15 +116,17 @@ Ce tranferst nécessite 2 étapes, l'import des données historiques et actualis
 <a id="data_histo"></a>
 ### 4.1. Les historiques  
 <a id="csv_histo"></a>
-#### 4.1.1 importation d'un fichier CSV  
+#### 4.1.1 Exportation Hydras 
 
-**Hydras**  
-Via le logiciel hydras, il est possible d'exporter la totalité chronologique des données issues de capteurs.  
-Chaque ligne est au format jj/mm/aaa;hh:mm:seconde;x.xxx  
+Via le logiciel **Hydras**, il est possible d'exporter la totalité chronologique des données issues de capteurs.  
+Chaque ligne du fichier CVS est au format jj/mm/aaa;hh:mm:seconde;x.xxx  
 
 ```{important}
 Le séparateur décimal doit être le point.
 ```
+#### 4.1.2 importation d'un fichier CSV
+L'importation des historiques s'effectuent par datastream (un à la fois), ) l'aide du Notebook [import_histo_data.ipynb](../../files/import_histo_data.ipynb)  
+Au préalable, renseigner dans [param_template.conf](../../files/param_template.conf) le nom du datastreamcible et le fichier CSV des données historiques.
 
 <a id="data_new"></a>  
 ### 4.2. Les nouvelles données  
