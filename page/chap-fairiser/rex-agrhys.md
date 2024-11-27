@@ -8,7 +8,8 @@
   - [3.4. Traitement du fichier de configuration](#create_conf)
 - [4. Les données](#data)  
   - [4.1. Les historiques](#data_histo)
-    - [4.1.1 importation d'un fichier CSV](#csv_histo)
+    - [4.1.1 Exportation Hydras](#exp_histo)
+    - [4.1.2 importation d'un fichier CSV](#imp_histo)
   - [4.2. Les nouvelles données](#data_new)
     - [4.2.1 importation d'un fichier CSV](#csv_new)
  
@@ -105,7 +106,7 @@ Ce script est sous la forme d'un Jupyter Notebook. Télécharger le [Notebook Py
 
 ```{tip}
 Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.conf](../../files/param_template.conf)
-```|
+```
 
 [Revenir en haut](#top)
 <a id="data"></a>  
@@ -115,7 +116,7 @@ Ce tranferst nécessite 2 étapes, l'import des données historiques et actualis
 
 <a id="data_histo"></a>
 ### 4.1. Les historiques  
-<a id="csv_histo"></a>
+<a id="exp_histo"></a>
 #### 4.1.1 Exportation Hydras 
 
 Via le logiciel **Hydras**, il est possible d'exporter la totalité chronologique des données issues de capteurs.  
@@ -124,6 +125,7 @@ Chaque ligne du fichier CVS est au format jj/mm/aaa;hh:mm:seconde;x.xxx
 ```{important}
 Le séparateur décimal doit être le point.
 ```
+<a id="imp_histo"></a>
 #### 4.1.2 importation d'un fichier CSV
 L'importation des historiques s'effectuent par datastream (un à la fois), ) l'aide du Notebook [import_histo_data.ipynb](../../files/import_histo_data.ipynb)  
 Au préalable, renseigner dans [param_template.conf](../../files/param_template.conf) le nom du datastreamcible et le fichier CSV des données historiques.
