@@ -8,8 +8,9 @@
   - [3.4. Traitement du fichier de configuration](#create_conf)
 - [4. Les données](#data)  
   - [4.1. Les historiques](#data_histo)
-    - [4.1.1 Exportation Hydras](#exp_histo)
-    - [4.1.2 importation d'un fichier CSV](#imp_histo)
+    - [4.1.1 Exportation Hydras](#exp_histo)  
+    - [4.1.2 importation d'un fichier CSV](#exp_histo)
+    - [4.1.3 Données d'analyse](#imp_histo) 
   - [4.2. Les nouvelles données](#data_new)
     - [4.2.1 importation d'un fichier CSV](#csv_new)
  
@@ -125,14 +126,21 @@ Chaque ligne du fichier CVS est au format jj/mm/aaa;hh:mm:seconde;x.xxx
 ```{important}
 Le séparateur décimal doit être le point.
 ```
+#### 4.1.2 Données d'analyse  
+Chapitre en cours de construction  
+
+Pour être importées, les données issues d'analyse sont sous la forme de fichier Excel au formalisme suivant .... 
+
+
 <a id="imp_histo"></a>
-#### 4.1.2 importation d'un fichier CSV
+#### 4.1.3 importation d'un fichier CSV
 L'importation des historiques s'effectuent par datastream (un à la fois), ) l'aide du Notebook [import_histo_data.ipynb](../../files/import_histo_data.ipynb)  
-Au préalable, renseigner dans [param_template.conf](../../files/param_template.conf) le nom du datastreamcible et le fichier CSV des données historiques.
+Au préalable, renseigner dans [param_template.conf](../../files/param_template.conf) le nom du datastream cible et le fichier CSV des données historiques.
 
 <a id="data_new"></a>  
 ### 4.2. Les nouvelles données  
+Les données issues de capteurs (Hydras) ou d'analyses, l'importation s'effectue par importation de fichier CSV.  
 
 <a id="csv_new"></a>
 #### 4.2.1 importation d'un fichier CSV
-Le logiciel Hydras est configuré pour produit à écheance régulière des fichiers CSV contenant les valeus numériques issues de capteurs.
+Le logiciel Hydras est configuré pour produit à écheance régulière des fichiers CSV contenant les valeurs numériques issues de capteurs.
