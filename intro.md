@@ -29,5 +29,5 @@ SOFAIR est le fruit d'un groupe de travail né dans l'unité de recherche UMR SA
 ```{admonition} Enjeux
 L'ouverture des données produites par la recheche est une des composantes de la science ouverte. Les services web sont des outils appropriés pour diffuser ces données en les rendant trouvables (F de Fair) et librement accessibles (A de fAir). 
 L'interopérabilité (I de faIr) repose sur des standards ouverts basés sur des spécifications reconnues à l'échelle internationale initiées dans le domaine géospatial par l'Open Geospataial Consortium (OGC). Ces normes incluent la nécessité d'associer à la publication des données, la publication de métadonnées associées garantes de leur reutilisabilité (R de faiR).
-, nommé **SensorThings**, adapaté Ã  la FAIRisation des données d'observation.
+Dans le cadre du projet SOFAIR, on investigue l'usage du standard OGC nommé **SensorThings** pour la FAIRisation des données d'observation de l'environnement.
 ```
