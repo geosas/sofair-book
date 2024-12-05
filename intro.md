@@ -21,7 +21,6 @@ Il repose sur les principes du **FAIR** data qui incitent les scientifiques à p
 ### Enjeux
 L'ouverture des données produites par la recheche est une des composantes de la science ouverte. Les services web sont des outils appropriés pour diffuser ces données en les rendant trouvables (F de Fair) et librement accessibles (A de fAir). 
 L'interopérabilité (I de faIr) repose sur des standards ouverts basés sur des spécifications reconnues à l'échelle internationale initiées dans le domaine géospatial par l'Open Geospataial Consortium (OGC). Ces normes incluent la nécessité d'associer à la publication des données, la publication de métadonnées associées garantes de leur reutilisabilité (R de faiR).
-Dans le cadre du projet SOFAIR, on investigue l'usage du standard OGC nommé **SensorThings** pour la FAIRisation des données d'observation de l'environnement. un premier exemple d'ulisation du SensorThings est décrit dans le chapitre 
 Dans le cadre du projet SOFAIR, on investigue l'usage du standard OGC nommé **SensorThings** pour la FAIRisation des données d'observation de l'environnement. Un premier exemple d'utilisation du SensorThings appliqué à un observatoire hydrologique est décrit dans le chapitre [Le SensorThings, ça sert à quoi ?](https://geosas.fr/sofair-book/page/chap-sensorthings/whatsthat.html). Un historique de l'ouverture des données géographiques et temporelles explique le choix du SensorThings, dans le chapitre [Pourquoi le SensorThings ?](https://geosas.fr/sofair-book/page/chap-sensorthings/why.html).
  
 
