@@ -1,7 +1,7 @@
 Le SOFAIR book
 ==============
 
-par Mario Adam<sup>1</sup>, Stéphane Bujacic<sup>1</sup>, Adam<sup>1</sup>, Manuel Cheve<sup>2</sup>, Paloma Cucchi<sup>1</sup>, Mikaêl Faucheux<sup>1</sup>, Ophélie Fovet<sup>1</sup>, Christophe Geneste<sup>1</sup>, Tom Loree<sup>1</sup>, Thierry Morvan<sup>1</sup>, Paul Robin<sup>1</sup>, François Rouault<sup>1</sup>, Laurent Ruiz<sup>3</sup>, Hervé Squividant<sup>1</sup>, Zahra Thomas<sup>1</sup>
+par Mario Adam<sup>1</sup>, Stéphane Bujacic<sup>1</sup>, Adam<sup>1</sup>, Manuel Cheve<sup>2</sup>, Paloma Cucchi<sup>1</sup>, Mikaêl Faucheux<sup>1</sup>, Ophélie Fovet<sup>1</sup>, Christophe Geneste<sup>1</sup>, Tom Loree<sup>1</sup>, Thierry Morvan<sup>1</sup>, Pascal Pichelin<sup>1</sup>, Paul Robin<sup>1</sup>, François Rouault<sup>1</sup>, Laurent Ruiz<sup>3</sup>, Hervé Squividant<sup>1</sup>, Zahra Thomas<sup>1</sup>
 1. [UMR SAS - INRAE, Institut Agro - Rennes, Quimper](https://umrsas.rennes.hub.inrae.fr/)
 2. [UMR DECOD - IFREMER, INRAE, Institut Agro - Brest, Lorient, Nantes, Rennes](https://www.umr-decod.fr/)
 3. [UMR G-EAU - INRAE, CIRAD, IRD, AgroParisTech, Institut Agro, BRGM, Montpellier](https://www.g-eau.fr/)
