@@ -23,11 +23,11 @@ Pour les données géographiques, l'attelage contitué par le standard WMS pour 
 
 ### L'avènement du standard OGC SensorThings API
 
-Outre ces problèmes de performance, le standard SOS ne proposait pas des fonctionnalités attendues pour ce type de service comme le filtrage des observations sur la base de leurs valeurs, la pagination du résultat des requêtes ou une interface basée sur l'architecture RESTful {cite}`kotsev-2018`.
+Outre ces problèmes de performance, le standard SOS ne proposait pas de fonctionnalités attendues pour ce type de service comme le filtrage des observations sur la base de leurs valeurs, la pagination du résultat des requêtes ou une interface basée sur l'architecture RESTful {cite}`kotsev-2018`.
 Afin de pallier aux différentes insuffisances des standards existants fut créé en 2016 l'**API SensorThings** de l'OGC, comme une norme ouverte et géospatiale conçue pour aider à relever le défi de l'interopérabilité dans le domaine de l'Internet des Objets (IoT).
 Cette nouvelle API peut être décrite comme une évolution du Sensor Web Enablement (SWE) pour l'internet des Objets conçue pour interconnecter des dispositifs, des données et des applications hétérogènes via le web. 
 Les spécificités de l'API SensorThings sont :
-- Une API **RESTfull** pour les interactions entre les services et le clients,
+- Une API **RESTful** pour les interactions entre les services et le clients,
 - le formalisme des requête conforme au standard Open Data Protocol (**OData**),
 - l'encodage des données au format JavaScript Object Notation (**JSON**),
 - une extension du protocole de messagerie pour la publication et l'abonnement disponible pour les opérations en temps réel, basée sur la norme ISO Message Queuing Telemetry Transport (**MQTT**),
