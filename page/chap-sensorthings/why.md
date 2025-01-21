@@ -28,8 +28,8 @@ Afin de pallier aux différentes insuffisances des standards existants fut cré�
 Cette nouvelle API peut être décrite comme une évolution du Sensor Web Enablement (SWE) pour l'internet des Objets conçue pour interconnecter des dispositifs, des données et des applications hétérogènes via le web. 
 Les spécificités de l'API SensorThings sont :
 - Une API **RESTful** pour les interactions entre les services et le clients,
-```{API RESTful}
-Interface de Programmation d’Applications (API) utilisant le protocole HTTP pour communiquer et permettant de créer des services web interopérables pour consulter, modifier, créer ou supprimer des ressources. 
+```{Note}
+Une API RESTful Interface de Programmation d’Applications (API) utilisant le protocole HTTP pour communiquer et permettant de créer des services web interopérables pour consulter, modifier, créer ou supprimer des ressources. 
 ```
 - le formalisme des requête conforme au standard Open Data Protocol (**OData**),
 - l'encodage des données au format JavaScript Object Notation (**JSON**),
