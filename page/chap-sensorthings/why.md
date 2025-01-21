@@ -27,9 +27,9 @@ Outre ces problèmes de performance, le standard SOS ne proposait pas de fonctio
 Afin de pallier aux différentes insuffisances des standards existants fut créé en 2016 l'**API SensorThings** de l'OGC, comme une norme ouverte et géospatiale conçue pour aider à relever le défi de l'interopérabilité dans le domaine de l'Internet des Objets (IoT).
 Cette nouvelle API peut être décrite comme une évolution du Sensor Web Enablement (SWE) pour l'internet des Objets conçue pour interconnecter des dispositifs, des données et des applications hétérogènes via le web. 
 Les spécificités de l'API SensorThings sont :
-- Une API **RESTful** pour les interactions entre les services et le clients,
+- Une **API RESTful** pour les interactions entre les services et le clients,
 ```{Note}
-Une API RESTful Interface de Programmation d’Applications (API) utilisant le protocole HTTP pour communiquer et permettant de créer des services web interopérables pour consulter, modifier, créer ou supprimer des ressources. 
+Une **API RESTful** Interface de Programmation d’Applications (API) utilisant le protocole HTTP pour communiquer et permettant de créer des services web interopérables pour consulter, modifier, créer ou supprimer des ressources. 
 ```
 - le formalisme des requête conforme au standard Open Data Protocol (**OData**),
 - l'encodage des données au format JavaScript Object Notation (**JSON**),
