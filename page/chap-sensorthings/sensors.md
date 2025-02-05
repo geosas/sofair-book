@@ -111,21 +111,21 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 ### **3. Exemples de Thing**   
 
 ```json
-
 {
- @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)",
- @iot.id: 10,
- name: "Groundwater level probe",
- description: "releve de niveau de nappe à la sonde lumineuse",
- encodingType: "application/pdf",
- metadata: "none.pdf",
- properties: {
-   Vmax: "",
-   Vmin: "",
-  Accuracy: ""
+    @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(9)",
+    @iot.id: 9,
+    name: "Water level gauge",
+    description: "releve de niveau d'eau sur echelle limnimetrique",
+    encodingType: "application/pdf",
+    metadata: "none.pdf",
+    properties: {
+        Vmax: "",
+        Vmin: "Niveau 0 m",
+        Accuracy: "+/-0,005 m"
     },
- Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/Datastreams",
- MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/MultiDatastreams"
+    Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(9)/Datastreams",
+    MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(9)/MultiDatastreams"
+
 }
 
 ```
