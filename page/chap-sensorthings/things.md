@@ -29,6 +29,10 @@ Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du si
 
    * Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site
 
+::: tip Recommandations
+Texte
+:::
+
 ***Exemples à suivre***
 
     * Station météo Campbell EFELE
