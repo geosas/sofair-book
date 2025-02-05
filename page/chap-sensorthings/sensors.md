@@ -111,6 +111,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 ### **3. Exemples de Thing**   
 
 ```json
+
 {
  @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)",
  @iot.id: 10,
@@ -126,4 +127,5 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
  Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/Datastreams",
  MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/MultiDatastreams"
 }
+
 ```
