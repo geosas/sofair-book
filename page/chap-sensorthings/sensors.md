@@ -84,27 +84,17 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ***Exemples***  
 
-* SOERE PRO EFELE
-
-```json
-{ 
-  "projet": "https://geosas.fr/web/?page_id=2476",  
-  "manuel d'utilisation": "https://s.campbellsci.com/documents/fr/product-brochures/b_cr1000.pdf",
-  "date de mise en place": "Septembre 2013" 
-}
-```
-
 * ORE AgrHyS
 
 ```json
 {
-  Vmax: "Niveau  10m ou 50m ou 100m
+  "Vmax": "Niveau  10m ou 50m ou 100m
   Température -80°C
   Conductivité 120 mS/cm",
-  Vmin: "Niveau 0 m
+  "Vmin": "Niveau 0 m
   Température -20°C
   Conductivité 0 µS/cm",
-  Accuracy: "Niveau  précision +/- 0,2% de la pleine échelle Température précision +/- 0,2°C
+  "Accuracy": "Niveau  précision +/- 0,2% de la pleine échelle Température précision +/- 0,2°C
   Conductivité +/- 0,1% de la valeur mesurée"
 }
 ```
@@ -130,7 +120,6 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
     },
     "Datastreams@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8)/Datastreams",
     "MultiDatastreams@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8)/MultiDatastreams"
-
 }
 
 ```
