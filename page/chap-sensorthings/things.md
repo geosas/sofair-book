@@ -16,7 +16,7 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 |---|---|---|---|
 | **name** | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
 | **description** | Courte description de la **Thing**. | Chaine de caractères  | Obligatoire |
-| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnelle |
+| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
 Tableau 1. Les différentes propriétés de l’entité **Thing**.
 
@@ -74,7 +74,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
   "station": "KERVIDY_B_EXU" 
 }
 ```
-### **3. Exemples Thing**   
+### **3. Exemples de Thing**   
 
 ```json
 {
