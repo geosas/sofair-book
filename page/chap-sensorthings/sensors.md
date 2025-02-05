@@ -18,7 +18,7 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 | **name** | Étiquette correspondant à un **Sensor**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
 | **description** | Courte description du **Sensor**. | Chaine de caractères  | Obligatoire |
 | **encoding type** | Défini le type de métadonnée. | html ou pdf ou SensorML | Obligatoire |
-| **#### **2.3. encoding type** (obligatoire)** | Description détaillée du capteur, lien vers la documentation | dépend de encoding type. | Obligatoire |
+| **metadata** (obligatoire)** | Description détaillée du capteur, lien vers la documentation | dépend de encoding type. | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
 ### **2.1. name** (obligatoire) 
@@ -54,15 +54,25 @@ Le champ **encoding type** se référe à des valeurs prédéfinies (html ou pd
 
 ***Recommandations***  
 
-* Dans le cas d'un **sensor**, l'encodage se référe au type de documentation, lien vers le site constructeur ou un fichier PDF. 
+* Dans le cas d'un **sensor**, l'encodage se référe au type de documentation, le plus souent une URL ou un PDF. 
+
+***Exemples***  
+
+* html
+* PDF
+
+#### **2.4. metadata** (obligatoire)  
+
+Le champ **metadata** indique la source de la description détaillée du **sensor**.
+
+***Recommandations***  
+
+* Lien vers le site constructeur ou un fichier PDF. 
 
 ***Exemples***  
 
 * https://www.pme.com/wp-content/uploads/PME-miniDOT-Manual-2021.pdf
-* https://vanessen.com/images/PDFs/Diver-ProductManual-en.pdf
-
-#### **2.4. #### **2.3. encoding type** (obligatoire)
-
+* https://vanessen.com/images/PDFs/Diver-ProductManual-en.pdf  
 
 #### **2.5. properties** (optionel)  
 
