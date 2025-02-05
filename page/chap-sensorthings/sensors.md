@@ -18,7 +18,7 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 | **name** | Étiquette correspondant à un **Sensor**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
 | **description** | Courte description du **Sensor**. | Chaine de caractères  | Obligatoire |
 | **encoding type** | Défini le type de métadonnée. | html ou pdf ou SensorML | Obligatoire |
-| **metadata** (obligatoire)** | Description détaillée du capteur, lien vers la documentation | dépend de encoding type. | Obligatoire |
+| **metadata** | Description détaillée du capteur, lien vers la documentation | dépend de encoding type. | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
 ### **2.1. name** (obligatoire) 
@@ -123,6 +123,5 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
     },
     Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/Datastreams",
     MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/MultiDatastreams"
-
 }
 ```
