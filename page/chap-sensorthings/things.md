@@ -2,7 +2,13 @@
 
 ## Définition  
 
-L’API SensorThings de l’OGC suit la définition de l’UIT-T, qui définit une « Things » comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
+Une **Thing** comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
+```{tip}
+Dans le cas d'u obersatpire, tout dépend du grain de précision souhaité, une **Thing** peut faire référence à:
+* un point ou une zone de mesure.
+* une centrale de mesure.
+* un capteur.
+```
 
 ## Propriètés
 
