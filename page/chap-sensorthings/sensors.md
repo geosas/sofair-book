@@ -85,6 +85,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 ***Exemples***  
 
 * SOERE PRO EFELE
+
 ```json
 { 
   "projet": "https://geosas.fr/web/?page_id=2476",  
@@ -94,6 +95,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 ```
 
 * ORE AgrHyS
+
 ```json
 {
   Vmax: "Niveau  10m ou 50m ou 100m
