@@ -76,11 +76,11 @@ Le champ **metadata** indique la source de la description détaillée du **senso
 
 #### **2.5. properties** (optionel)  
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
 
 ***Recommandations***
 
-* Pas de réelles recommandations. Les propriètés étant non standardisées, ne pas les considérer comme un élément descriminant pouvant être utilisé dans une requête. Nécessite également de bien documenter pour informer les utlisateurs de leurs existances.
+* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
 
 ***Exemples***  
 
@@ -95,28 +95,34 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 * ORE AgrHyS
 ```json
-{ 
-  "region": "B_Naizin", 
-  "domaine": "NAIZIN", 
-  "station": "KERVIDY_B_EXU" 
+{
+  Vmax: "Niveau  10m ou 50m ou 100m
+  Température -80°C
+  Conductivité 120 mS/cm",
+  Vmin: "Niveau 0 m
+  Température -20°C
+  Conductivité 0 µS/cm",
+  Accuracy: "Niveau  précision +/- 0,2% de la pleine échelle Température précision +/- 0,2°C
+  Conductivité +/- 0,1% de la valeur mesurée"
 }
 ```
 ### **3. Exemples de Thing**   
 
 ```json
 {
-  "@iot.id": 1
-  "@iot.selfLink": "https://sensorthings.geosas.fr/efele/v1.0/Things(1)",
-  "name": "Station météo Campbell EFELE",
-  "description": "Station météo Campbell personnalisée, équipée du data logger Campbell CR1000 ",
-  "properties": { 
-       "projet": "https://geosas.fr/web/?page_id=2476", 
-       "manuel d'utilisation": "https://s.campbellsci.com/documents/fr/product-brochures/b_cr1000.pdf", 
-       "date de mise en place": "Septembre 2013" 
-  }
-  "Locations@iot.navigationLink": "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/Locations",
-  "HistoricalLocations@iot.navigationLink": "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/HistoricalLocations",
-  "Datastreams@iot.navigationLink": "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/Datastreams",
-  "MultiDatastreams@iot.navigationLink": "https://sensorthings.geosas.fr/efele/v1.0/Things(1)/MultiDatastreams"
+    @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)",
+    @iot.id: 10,
+    name: "Groundwater level probe",
+    description: "releve de niveau de nappe à la sonde lumineuse",
+    encodingType: "application/pdf",
+    metadata: "none.pdf",
+    properties: {
+        Vmax: "",
+        Vmin: "",
+        Accuracy: ""
+    },
+    Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/Datastreams",
+    MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(10)/MultiDatastreams"
+
 }
 ```
