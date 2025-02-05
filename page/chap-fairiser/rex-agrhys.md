@@ -40,10 +40,11 @@ Sachant que:
 Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les posséder, alors vous êtes autonomes!
 ```
 
-```{image} img/trois_competences.png
+```{figure} img/trois_competences.png
 :alt: 3 competences
 :width: 600px
 :align: center
+Collaboration de 3 compétences
 ```
 
 [Revenir en haut](#top)
