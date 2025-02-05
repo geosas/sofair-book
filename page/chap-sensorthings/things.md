@@ -12,11 +12,11 @@ Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, un
 ## Propriètés  
 Une **Thing** posséde des paramètres obligatoires et des propriétés optionnelles.
 
-|  Nom         |  Définition                                                                                      |  Format               |  Exigences      |
-|--------------|--------------------------------------------------------------------------------------------------|-----------------------|-----------------|
-| **name**         | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.               | Chaine de caractères  | Obligatoire     |
-| **description**  | Courte description de la **Thing**.                                                         | Chaine de caractères  | Obligatoire     |
-| **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON        | Optionnelle     |
+|  Nom |  Définition | Format | Exigences |
+|---|---|---|---|
+| **name** | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
+| **description** | Courte description de la **Thing**. | Chaine de caractères  | Obligatoire |
+| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnelle |
 
 Tableau 1. Les différentes propriétés de l’entit **Thing**.
 
