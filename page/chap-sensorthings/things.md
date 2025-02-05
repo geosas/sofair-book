@@ -53,12 +53,11 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ***Recommandations***
 
-    * Pas de réelles recommandations. Les propriètés étant non standardisées, ne pas les considérer comme un élément descriminant pouvant être utilisé dans une requête. Nécessite également de bien documenter pour informer les utlisateurs de leurs existances.
+* Pas de réelles recommandations. Les propriètés étant non standardisées, ne pas les considérer comme un élément descriminant pouvant être utilisé dans une requête. Nécessite également de bien documenter pour informer les utlisateurs de leurs existances.
 
-***Exemples à suivre***
+***Exemples à suivre***  
 
-
-  * SOERE PRO EFELE
+* SOERE PRO EFELE
 ```json
 { 
   "projet": "https://geosas.fr/web/?page_id=2476",  
@@ -66,7 +65,8 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
   "date de mise en place": "Septembre 2013" 
 }
 ```
-  * ORE AgrHyS
+
+* ORE AgrHyS
 ```json
 { 
   "region": "B_Naizin", 
@@ -74,17 +74,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
   "station": "KERVIDY_B_EXU" 
 }
 ```
-### Relations
-
-Une « Things » DOIT avoir des relations directes avec les autres d’entités énumérés dans le tableau 2. :
-
-|Type d’entité	| Relation	| Description |
-|--------------|-----------|-------------|
-|Location	|1,1	|Une « Location » localise une « Things ». Plusieurs « Things » peuvent être situées sur une même « Location ». Une « Things » PEUT ne pas avoir de « Location ». Une « Things » DEVRAIT avoir un seule « Location ».|
-|HistoricalLocation	|0,N	|Une « Things » a de 0 à N « HistoricalLocations ». Une « HistoricalLocation » a une et une seule « Things ».|
-|Datastream	|0,N	|Une « Things » PEUT avoir de 0 à N « Datastreams ».|
-
-### Exemples de « Things » 
+### Exemples de **Thing**   
 
 ```json
 {
