@@ -98,7 +98,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
   Conductivité +/- 0,1% de la valeur mesurée"
 }
 ```
-### **3. Exemples de Thing**   
+### **3. Exemples de Sensor**   
 
 ```json
 {
