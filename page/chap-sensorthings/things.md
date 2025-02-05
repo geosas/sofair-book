@@ -15,25 +15,19 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 |  Nom         |  Définition                                                                                      |  Format               |  Exigences      |
 |--------------|--------------------------------------------------------------------------------------------------|-----------------------|-----------------|
 | **name**         | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.               | Chaine de caractères  | Obligatoire     |
-| **description**  | Courte description de la « Things ».                                                         | Chaine de caractères  | Obligatoire     |
+| **description**  | Courte description de la **Thing**.                                                         | Chaine de caractères  | Obligatoire     |
 | **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON        | Optionnelle     |
 
 Tableau 1. Les différentes propriétés de l’entit **Thing**.
 
 ### 1. name  
-Le champ **name** correspond à une étiquette/un identifiant de la « Things », généralement sous la forme d’un nom descriptif court.
+Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
 
 ***Recommandations***  
 
 Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
-   * Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site
-
-::: tip Recommandations  
-Texte  
-:::
-
-***Exemples à suivre***
+***Exemples***  
 
     * Station météo Campbell EFELE
     * Kerbenez Puits E30
@@ -41,11 +35,11 @@ Texte
 
 ### 2. description 
 
-Le champ « description » contient une courte description de la « Things ».
+Le champ **description** contient une courte description de la **Thing**.
 
 ***Recommandations***
 
-    * Il est recommandé de faire apparaitre …
+    * Il est recommandé d'expliciter la **Thing**, surtout dans le cas d'utlisattion d'acronymes. 
 
 ***Exemples à suivre***
 
@@ -55,12 +49,11 @@ Le champ « description » contient une courte description de la « Things ».
 
 #### 3. properties
 
-
-Le champ « properties » est un objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.
+Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
 
 ***Recommandations***
 
-    * Il est recommandé de faire apparaitre …
+    * Pas de réelles recommandations, mais de 
 
 ***Exemples à suivre***
 
