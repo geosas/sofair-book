@@ -18,7 +18,7 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 | **description** | Courte description de la **Thing**. | Chaine de caractères  | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnelle |
 
-Tableau 1. Les différentes propriétés de l’entit **Thing**.
+Tableau 1. Les différentes propriétés de l’entité **Thing**.
 
 ### 1. name  
 Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
@@ -28,10 +28,9 @@ Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, g
 Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
 ***Exemples***  
-
-    * Station météo Campbell EFELE
-    * Kerbenez Puits E30
-    * Naizin Kervidy Exutoire
+* Station météo Campbell EFELE  
+* Kerbenez Puits E30  
+* Naizin Kervidy Exutoire  
 
 ### 2. description 
 
