@@ -112,19 +112,24 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ```json
 {
-    @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(9)",
-    @iot.id: 9,
-    name: "Water level gauge",
-    description: "releve de niveau d'eau sur echelle limnimetrique",
-    encodingType: "application/pdf",
-    metadata: "none.pdf",
-    properties: {
-        Vmax: "",
-        Vmin: "Niveau 0 m",
-        Accuracy: "+/-0,005 m"
+    "@iot.selfLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8)",
+    "@iot.id": 8,
+    "name": "Diver CTD",
+    "description": "Capteur de niveau, de conductivité électrique et de témpérature de l'eau",
+    "encodingType": "application/pdf",
+    "metadata": "https://vanessen.com/images/PDFs/Diver-ProductManual-en.pdf",
+    "properties": {
+        "Vmax": "Niveau  10m ou 50m ou 100m
+        Température -80°C
+        Conductivité 120 mS/cm",
+        "Vmin": "Niveau 0 m
+        Température -20°C
+        Conductivité 0 µS/cm",
+        "Accuracy": "Niveau  précision +/- 0,2% de la pleine échelle Température précision +/- 0,2°C
+        Conductivité +/- 0,1% de la valeur mesurée"
     },
-    Datastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(9)/Datastreams",
-    MultiDatastreams@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(9)/MultiDatastreams"
+    "Datastreams@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8)/Datastreams",
+    "MultiDatastreams@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Sensors(8)/MultiDatastreams"
 
 }
 
