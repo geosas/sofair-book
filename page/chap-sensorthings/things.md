@@ -24,10 +24,8 @@ Tableau 1. Les différentes propriétés de l’entit **Thing**.
 Le champ **name** correspond à une étiquette/un identifiant de la « Things », généralement sous la forme d’un nom descriptif court.
 
 ***Recommandations***  
-> [!TIP]
-> Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
-* Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
+Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
    * Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site
 
