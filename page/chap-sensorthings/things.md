@@ -1,7 +1,6 @@
-# Things
+# Things  
 
 ## Définition  
-
 Une **Thing** comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
 ```{tip}
 Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, une **Thing** peut faire référence à:
@@ -10,8 +9,7 @@ Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, un
 * un capteur.
 ```
 
-## Propriètés
-
+## Propriètés  
 Une **Thing** posséde des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom         |  Définition                                                                                      |  Format               |  Exigences      |
@@ -22,14 +20,16 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 
 Tableau 1. Les différentes propriétés de l’entit **Thing**.
 
-### 1. name
+### 1. name  
+Le champ **name** correspond à une étiquette/un identifiant de la « Things », généralement sous la forme d’un nom descriptif court.
 
+***Recommandations***  
+> [!TIP]
+> Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
-Le champ « name » correspond à une étiquette/un identifiant de la « Things », généralement sous la forme d’un nom descriptif.
+* Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
-***Recommandations***
-
-    * Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
+   * Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site
 
 ***Exemples à suivre***
 
