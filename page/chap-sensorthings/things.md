@@ -4,7 +4,7 @@
 
 Une **Thing** comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
 ```{tip}
-Dans le cas d'u obersatpire, tout dépend du grain de précision souhaité, une **Thing** peut faire référence à:
+Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, une **Thing** peut faire référence à:
 * un point ou une zone de mesure.
 * une centrale de mesure.
 * un capteur.
@@ -12,16 +12,15 @@ Dans le cas d'u obersatpire, tout dépend du grain de précision souhaité, une 
 
 ## Propriètés
 
+Une **Thing** posséde des paramètres obligatoires et des propriétés optionnelles.
 
-Chaque « Things » DOIT avoir les propriétés obligatoires et PEUT avoir les propriétés optionnelles dans le tableau 1.
+|  Nom         |  Définition                                                                                      |  Format               |  Exigences      |
+|--------------|--------------------------------------------------------------------------------------------------|-----------------------|-----------------|
+| **name**         | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.               | Chaine de caractères  | Obligatoire     |
+| **description**  | Courte description de la « Things ».                                                         | Chaine de caractères  | Obligatoire     |
+| **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON        | Optionnelle     |
 
-|  Nom         |  Définition                                                                                      |  Format               |  Cardinalité          |
-|--------------|--------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
-| **name**         | Étiquette correspondant à une « Things », généralement un nom descriptif.                        | Chaine de caractères  | Obligatoire           |
-| **description**  | Courte description de la « Things ».                                                             | Chaine de caractères  | Obligatoire           |
-| **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON            | Optionnelle (0 ou 1)  |
-
-Tableau 1. Les différentes propriétés de l’entité « Things ».
+Tableau 1. Les différentes propriétés de l’entit **Thing**.
 
 ### 1. name
 
