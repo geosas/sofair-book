@@ -20,7 +20,7 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 
 Tableau 1. Les différentes propriétés de l’entité **Thing**.
 
-### 1. name  
+### 1. name (obligatoire)  
 Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
 
 ***Recommandations***  
@@ -32,7 +32,7 @@ Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du si
 * Kerbenez Puits E30  
 * Naizin Kervidy Exutoire  
 
-### 2. description 
+### 2. description (obligatoire)  
 
 Le champ **description** contient une courte description de la **Thing**.
 
@@ -46,7 +46,7 @@ Le champ **description** contient une courte description de la **Thing**.
     * Exutoire du bassin versant du Puits
     * Exutoir à Naizin Kervidy
 
-#### 3. properties
+#### 3. properties (optionel)  
 
 Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
 
