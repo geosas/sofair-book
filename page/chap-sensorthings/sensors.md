@@ -1,13 +1,13 @@
 # **Sensors**  
 
 ## **1. Définition** 
-Une **Sensor** comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.  
+Une **Sensor** est un instrument qui observe, ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.  
 
 ```{tip}
-Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, une **Thing** peut faire référence à:
-* un point ou une zone de mesure.
-* une centrale de mesure.
-* un capteur.
+Dans le cas d'un observatoire, un **Sensor** est le plus souvent:
+* un capteur
+* une analyse physico-chimique
+* une valeur calculée à partir de mesures.
 ```
 
 ## **2. Propriètés**  
@@ -15,40 +15,56 @@ Une **Thing** posséde des paramètres obligatoires et des propriétés optionne
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
-| **name** | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
-| **description** | Courte description de la **Thing**. | Chaine de caractères  | Obligatoire |
+| **name** | Étiquette correspondant à un **Sensor**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
+| **description** | Courte description du **Sensor**. | Chaine de caractères  | Obligatoire |
+| **encoding type** | Défini le type de métadonnée. | html ou pdf ou SensorML | Obligatoire |
+| **#### **2.3. encoding type** (obligatoire)** | Description détaillée du capteur, lien vers la documentation | dépend de encoding type. | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
-Tableau 1. Les différentes propriétés de l’entité **Thing**.
-
 ### **2.1. name** (obligatoire) 
-Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
+Le champ **name** correspond à une étiquette/un identifiant le **Sensor**, généralement sous la forme d’un nom descriptif court.
 
 ***Recommandations***  
 
-Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
+Il est recommandé de faire apparaitre le type du capteur et le modèle (informations techniques).
 
 ***Exemples***  
 
-* Station météo Campbell EFELE  
-* Kerbenez Puits E30  
-* Naizin Kervidy Exutoire  
+* OTT Thalimede  
+* Wimesure Pt100  
+* Turbidimeter Ponsel
 
 ### **2.2. description** (obligatoire)  
 
-Le champ **description** contient une courte description de la **Thing**.
+Le champ **description** contient une courte description le **Sensor**.
 
 ***Recommandations***  
 
-* Il est recommandé d'expliciter la **Thing**, surtout dans le cas d'utilisattion d'acronymes. 
+* Il est recommandé d'expliciter le **Sensor**, surtout dans le cas d'utilisattion d'un codage. 
 
 ***Exemples***  
 
-* Station météo Campbell personnalisée, équipée du data logger Campbell CR1000
-* Exutoire du bassin versant du Puits
-* Exutoir à Naizin Kervidy
+* Analyseur en ligne de phosphore
+* releve de niveau d'eau sur echelle limnimetrique
+* Capteur d'oxygène dissous dans l'eau et de température de l'eau  
 
-#### **2.3. properties** (optionel)  
+#### **2.3. encoding type** (obligatoire)  
+
+Le champ **encoding type** se référe à des valeurs prédéfinies (html ou pdf ou SensorML) et défini le codage des métadonnées.
+
+***Recommandations***  
+
+* Dans le cas d'un **sensor**, l'encodage se référe au type de documentation, lien vers le site constructeur ou un fichier PDF. 
+
+***Exemples***  
+
+* https://www.pme.com/wp-content/uploads/PME-miniDOT-Manual-2021.pdf
+* https://vanessen.com/images/PDFs/Diver-ProductManual-en.pdf
+
+#### **2.4. #### **2.3. encoding type** (obligatoire)
+
+
+#### **2.5. properties** (optionel)  
 
 Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
 
