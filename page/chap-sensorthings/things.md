@@ -28,6 +28,7 @@ Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, g
 Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
 ***Exemples***  
+
 * Station météo Campbell EFELE  
 * Kerbenez Puits E30  
 * Naizin Kervidy Exutoire  
@@ -36,23 +37,23 @@ Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du si
 
 Le champ **description** contient une courte description de la **Thing**.
 
-***Recommandations***
+***Recommandations***  
 
-    * Il est recommandé d'expliciter la **Thing**, surtout dans le cas d'utlisattion d'acronymes. 
+* Il est recommandé d'expliciter la **Thing**, surtout dans le cas d'utilisattion d'acronymes. 
 
-***Exemples à suivre***
+***Exemples à suivre***  
 
-    * Station météo Campbell personnalisée, équipée du data logger Campbell CR1000
-    * Exutoire du bassin versant du Puits
-    * Exutoir à Naizin Kervidy
+* Station météo Campbell personnalisée, équipée du data logger Campbell CR1000
+* Exutoire du bassin versant du Puits
+* Exutoir à Naizin Kervidy
 
 #### 3. properties (optionel)  
 
-Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
 
 ***Recommandations***
 
-    * Pas de réelles recommandations, mais de 
+    * Pas de réelles recommandations. Les propriètés étant non standardisées, ne pas les considérer comme un élément descriminant pouvant être utilisé dans une requête. Nécessite également de bien documenter pour informer les utlisateurs de leurs existances.
 
 ***Exemples à suivre***
 
