@@ -58,6 +58,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 "cles": " valeur"
 }
 ```
+
 ### **3. Exemples de Sensor**   
 
 ```json
