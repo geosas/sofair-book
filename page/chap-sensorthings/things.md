@@ -1,4 +1,4 @@
-# **Things**  
+# **Thing**  
 
 ## **1. Définition** 
 Une **Thing** comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
