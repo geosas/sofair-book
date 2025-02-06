@@ -27,24 +27,24 @@ Une **observation** posséde des paramètres obligatoires et des propriétés op
 Le champ **phenomenonTime** correspond au l'instant où la mesure  a été effectuée.
 
 ***Exemple***  
-
 ```json
 "phenomenonTime": "2001-09-07T09:06:00+02:00"
 ```
+### **2.2. result** (obligatoire)  
 
-### **2.2. description** (obligatoire)  
-
-Le champ **description** contient une courte description le **truc**.
+Le champ **result** a la valeur de l'**observation**. Elle peut prendre n'importe quelle forme.
 
 ***Recommandations***  
 
-* Il est recommandé d'expliciter le **truc**, ...
+* Dans le cas d'un observatoire c'est souvent une valeur numérique.
 
 ***Exemples***  
 
-* ...
+```json
+"result": "0.231"
+```
 
-#### **2.3. properties** (optionel)  
+#### **2.3. resultTime** (oblogatoire)  
 
 Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
 
@@ -61,12 +61,76 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 "cles": " valeur"
 }
 ```
+#### **2.4. resultQuality** (optionel)  
 
-### **3. Exemples de Sensor**   
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+
+***Recommandations***
+
+* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
+
+***Exemples***  
+
+* ORE AgrHyS
 
 ```json
 {
 "cles": " valeur"
+}
+``
+
+#### **2.5. validTime** (optionel)  
+
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+
+***Recommandations***
+
+* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
+
+***Exemples***  
+
+* ORE AgrHyS
+
+```json
+{
+"cles": " valeur"
+}
+``
+
+#### **2.6. parameters** (optionel)  
+
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+
+***Recommandations***
+
+* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
+
+***Exemples***  
+
+* ORE AgrHyS
+
+```json
+{
+"cles": " valeur"
+}
+``
+
+
+### **3. Exemples d'observation**   
+
+```json
+{
+  "@iot.selfLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)",
+  "@iot.id": 1,
+  "phenomenonTime": "2023-03-01T01:30:01+01:00",
+  "result": 200,
+  "resultTime": "2023-03-01T01:30:01+01:00",
+  "resultQuality": null,
+  "validTime": "2024-12-14T11:58:27.330797+01:00",
+  "parameters": null,
+  "Datastream@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/Datastream",
+  "MultiDatastream@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/MultiDatastream",
+  "FeatureOfInterest@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/FeatureOfInterest"
 }
 ```
 
