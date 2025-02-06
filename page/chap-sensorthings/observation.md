@@ -95,7 +95,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 {
 "cles": " valeur"
 }
-``
+```
 
 #### **2.6. parameters** (optionel)  
 
@@ -113,7 +113,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 {
 "cles": " valeur"
 }
-``
+```
 
 
 ### **3. Exemples d'observation**   
