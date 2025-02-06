@@ -1,4 +1,4 @@
-## ObservedProperties  
+## ObservedProperty  
 
 ## **1. Définition** 
 Une **truc ** est ...  
