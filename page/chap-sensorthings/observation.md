@@ -28,7 +28,7 @@ Le champ **phenomenonTime** correspond au l'instant où la mesure  a été effec
 
 ***Exemple***  
 
-```{json}
+```json
 "phenomenonTime": "2001-09-07T09:06:00+02:00"
 ```
 
