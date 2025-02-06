@@ -1,7 +1,8 @@
 ## Observation  
 
 ## **1. Définition** 
-Une **truc ** est ...  
+Une **observation** est l'action de mesurer ou de déterminer la valeur d'une propriété. Elle représente une lecture unique par un capteur d'une propriété observée.
+Un dispositif physique, un capteur, envoie des observations à un flux de données spécifique (datastream).  
 
 ```{tip}
 Dans le cas d'un observatoire, un **truc** est ...:
