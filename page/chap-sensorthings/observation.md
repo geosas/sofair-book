@@ -1,11 +1,11 @@
-## Observation  
+## **Observation**  
 
 ## **1. Définition** 
 Une **observation** est l'action de mesurer ou de déterminer la valeur d'une propriété. Elle représente une lecture unique par un capteur d'une propriété observée.
 Un dispositif physique, un capteur, envoie des observations à un flux de données spécifique (datastream).  
 
 ```{tip}
-Dans le cas d'un observatoire, une **observationt** est souvent:
+Dans le cas d'un observatoire, une **observation** est souvent:
 * une valeur mesurée par un capteur.
 * une analyse  physicochimqique
 * une mesure manuuelle
@@ -23,17 +23,14 @@ Une **observation** posséde des paramètres obligatoires et des propriétés op
 | **validTime**  | La période pendant laquelle le résultat peut être utilisé. | Chaîne de temps ISO 8601  | Optionel |
 | **parameters**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionel |
 
-### **2.1. name** (obligatoire) 
-Le champ **name** correspond à ...
+### **2.1. phenomenonTime** (obligatoire) 
+Le champ **phenomenonTime** correspond au l'instant où la mesure  a été effectuée.
 
-***Recommandations***  
+***Exemple***  
 
-Il est recommandé de ...
-
-***Exemples***  
-
-* exemple
-* 
+```{json}
+"phenomenonTime": "2001-09-07T09:06:00+02:00"
+```
 
 ### **2.2. description** (obligatoire)  
 
