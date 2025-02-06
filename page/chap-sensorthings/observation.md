@@ -19,7 +19,7 @@ Une **observation** posséde des paramètres obligatoires et des propriétés op
 | **phenomenonTime** | L'instant ou la période où l'**observation** se produit.| Temps ou  interval de temps | Obligatoire |
 | **result** | La valeur de l'**observation**. | N'importe lequel (dépend du type d'observation défini dans le flux de données associé)  | Obligatoire |
 | **resultTime**  | L'heure à laquelle le résultat de l'observation a été généré. | Chaîne de temps ISO 8601  | Obligatoire |
-| **resultQuality**  | Décrit la qualité du résultat. | Chaîne de temps ISO 8601  | Optionel |
+| **resultQuality**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionel |
 | **validTime**  | La période pendant laquelle le résultat peut être utilisé. | Chaîne de temps ISO 8601  | Optionel |
 | **parameters**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionel |
 
@@ -38,99 +38,62 @@ Le champ **result** a la valeur de l'**observation**. Elle peut prendre n'import
 
 * Dans le cas d'un observatoire c'est souvent une valeur numérique.
 
-***Exemples***  
+***Exemple***  
 
 ```json
 "result": "0.231"
 ```
 
-#### **2.3. resultTime** (oblogatoire)  
+#### **2.3. resultTime** (obligatoire)  
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **resultTime** est l'instant exact de la capture d'observation.  
 
-***Recommandations***
-
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
-
-***Exemples***  
-
-* ORE AgrHyS
+***Exemple***  
 
 ```json
 {
-"cles": " valeur"
+"resultTime": "2023-03-01T01:45:01+01:00"
 }
 ```
 #### **2.4. resultQuality** (optionel)  
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **resultQuality** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **observation**.  
 
 ***Recommandations***
 
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
-
-***Exemples***  
-
-* ORE AgrHyS
-
-```json
-{
-"cles": " valeur"
-}
-```
+* C'est l'endroit possible pour qualifier la mesure ou l'observation.
 
 #### **2.5. validTime** (optionel)  
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **validTime** définit une préiode de validité de l'**observation**.  
 
-***Recommandations***
-
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
-
-***Exemples***  
-
-* ORE AgrHyS
+***Exemple***  
 
 ```json
 {
-"cles": " valeur"
+ "validTime": "2024-12-14T11:58:27.330797+01:00"
 }
 ```
 
 #### **2.6. parameters** (optionel)  
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **parameters** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **observation**.  
 
-***Recommandations***
-
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
-
-***Exemples***  
-
-* ORE AgrHyS
+### **3. Exemple d'observation**   
 
 ```json
-{
-"cles": " valeur"
-}
-```
-
-
-### **3. Exemples d'observation**   
-
-```json
-{
-  "@iot.selfLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)",
-  "@iot.id": 1,
-  "phenomenonTime": "2023-03-01T01:30:01+01:00",
-  "result": 200,
-  "resultTime": "2023-03-01T01:30:01+01:00",
-  "resultQuality": null,
-  "validTime": "2024-12-14T11:58:27.330797+01:00",
-  "parameters": null,
-  "Datastream@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/Datastream",
-  "MultiDatastream@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/MultiDatastream",
-  "FeatureOfInterest@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/FeatureOfInterest"
+ {
+"@iot.selfLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)",
+"@iot.id": 1,
+"phenomenonTime": "2023-03-01T01:30:01+01:00",
+"result": 200,
+"resultTime": "2023-03-01T01:30:01+01:00",
+"resultQuality": null,
+"validTime": "2024-12-14T11:58:27.330797+01:00",
+"parameters": null,
+"Datastream@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/Datastream",
+"MultiDatastream@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/MultiDatastream",
+"FeatureOfInterest@iot.navigationLink": "https://sensorthings.geosas.fr/test//v1.1/Observations(1)/FeatureOfInterest"
 }
 ```
 
