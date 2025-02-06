@@ -1,4 +1,4 @@
-# **Sensors**  
+# **Sensor**  
 
 ## **1. Définition** 
 Une **Sensor** est un instrument qui observe, ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.  
