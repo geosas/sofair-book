@@ -5,18 +5,23 @@ Une **observation** est l'action de mesurer ou de déterminer la valeur d'une pr
 Un dispositif physique, un capteur, envoie des observations à un flux de données spécifique (datastream).  
 
 ```{tip}
-Dans le cas d'un observatoire, un **truc** est ...:
-* truc
+Dans le cas d'un observatoire, une **observationt** est souvent:
+* une valeur mesurée par un capteur.
+* une analyse  physicochimqique
+* une mesure manuuelle
 ```
 
 ## **2. Propriètés**  
-Une **truc** posséde des paramètres obligatoires et des propriétés optionnelles.
+Une **observation** posséde des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
-| **name** | Étiquette correspondant à un **truc**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
-| **description** | Courte description du **truc**. | Chaine de caractères  | Obligatoire |
-| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
+| **phenomenonTime** | L'instant ou la période où l'**observation** se produit.| Temps ou  interval de temps | Obligatoire |
+| **result** | La valeur de l'**observation**. | N'importe lequel (dépend du type d'observation défini dans le flux de données associé)  | Obligatoire |
+| **resultTime**  | L'heure à laquelle le résultat de l'observation a été généré. | Chaîne de temps ISO 8601  | Obligatoire |
+| **resultQuality**  | Décrit la qualité du résultat. | Chaîne de temps ISO 8601  | Optionel |
+| **validTime**  | La période pendant laquelle le résultat peut être utilisé. | Chaîne de temps ISO 8601  | Optionel |
+| **parameters**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionel |
 
 ### **2.1. name** (obligatoire) 
 Le champ **name** correspond à ...
