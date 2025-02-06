@@ -77,7 +77,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 {
 "cles": " valeur"
 }
-``
+```
 
 #### **2.5. validTime** (optionel)  
 
