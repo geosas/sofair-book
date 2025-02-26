@@ -13,9 +13,9 @@ parts:
       - file: page/chap-sensorthings/things
       - file: page/chap-sensorthings/sensors
       - file: page/chap-sensorthings/observedproperties
-      - file: page/chap-sensorthings/locations
+      - file: page/chap-sensorthings/location
       - file: page/chap-sensorthings/datastream
-      - file: page/chap-sensorthings/observations
+      - file: page/chap-sensorthings/observation
       - file: page/chap-sensorthings/featureofinterest
   - caption: SOFAIRiser un observatoire
     chapters:
