@@ -13,11 +13,10 @@ parts:
       - file: page/chap-sensorthings/things
       - file: page/chap-sensorthings/sensors
       - file: page/chap-sensorthings/observedproperties
-  - caption: SOFAIR
-    chapters:
-    - file: page/chap-sofair/portail
-    - file: page/chap-sofair/api
-    - file: page/chap-sofair/gallerie
+      - file: page/chap-sensorthings/locations
+      - file: page/chap-sensorthings/datastream
+      - file: page/chap-sensorthings/observations
+      - file: page/chap-sensorthings/featureofinterest
   - caption: SOFAIRiser un observatoire
     chapters:
     - file: page/chap-sofairiser/intro
@@ -45,6 +44,9 @@ parts:
       sections:
       - file: page/chap-reutiliser/requetes-simples
       - file: page/chap-reutiliser/requetes-avancees
+  - caption: Galerie
+    chapters:
+    - file: page/chap-sofair/portail
   - caption: Développer
     chapters:
     - file: page/chap-dev/stean
