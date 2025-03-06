@@ -7,6 +7,7 @@ Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, un
 * un point ou une zone de mesure.
 * une centrale de mesure.
 * un capteur.
+* ...
 ```
 
 ## **2. Propriètés**  
@@ -37,7 +38,7 @@ Le champ **description** contient une courte description de la **Thing**.
 
 ***Recommandations***  
 
-* Il est recommandé d'expliciter la **Thing**, surtout dans le cas d'utilisattion d'acronymes. 
+* Il est recommandé d'expliciter la **Thing**, pour éviter l'utilisattion d'acronymes. 
 
 ***Exemples***  
 
