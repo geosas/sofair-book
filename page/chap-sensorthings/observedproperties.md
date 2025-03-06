@@ -1,22 +1,25 @@
 ## ObservedProperty  
 
 ## **1. Définition** 
-Une propriété observée spécifie ou définie le phénomène d'une observation.
+Une **propriété observée** spécifie ou définie le phénomène d'une observation.
 
 ```{tip}
 Dans le cas d'un observatoire, cette propriété peut-être:
-* truc
+* Une grandeur physique
+* Une observation humaine
+* ...
 ```
 
 ## **2. Propriètés**  
-Une **truc** posséde des paramètres obligatoires et des propriétés optionnelles.
+Une **propriété observée** posséde des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
-| **name** | Étiquette correspondant à un **truc**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
-| **description** | Courte description du **truc**. | Chaine de caractères  | Obligatoire |
-| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
-
+| *name* | Étiquette correspondant à un *propriété observée*, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
+| *definition* | Courte définition du *propriété observée* ou lien vers thésaurus | Chaine de caractères  | Obligatoire |
+| *description*  | Courte descriptin de la *propriété observée*.| Chaine de caractères  | Obligatoire |
+| *unit-name* | nom l'unité | Chaine de caractères  | Obligatoire |
+| *unit-symbol* | nom l'unité | Chaine de caractères  | Obligatoire |
 ### **2.1. name** (obligatoire) 
 Le champ **name** correspond à ...
 
