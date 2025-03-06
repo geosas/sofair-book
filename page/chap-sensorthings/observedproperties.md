@@ -1,10 +1,10 @@
 ## ObservedProperty  
 
 ## **1. Définition** 
-Une **truc ** est ...  
+Une propriété observée spécifie ou définie le phénomène d'une observation.
 
 ```{tip}
-Dans le cas d'un observatoire, un **truc** est ...:
+Dans le cas d'un observatoire, cette propriété peut-être:
 * truc
 ```
 
