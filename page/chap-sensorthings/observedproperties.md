@@ -18,8 +18,8 @@ Une **propriété observée** posséde des paramètres obligatoires et des propr
 | *name* | Étiquette correspondant à un *propriété observée*, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
 | *definition* | Courte définition du *propriété observée* ou lien vers thésaurus | Chaine de caractères  | Obligatoire |
 | *description*  | Courte descriptin de la *propriété observée*.| Chaine de caractères  | Obligatoire |
-| *unit-name* | nom l'unité | Chaine de caractères  | Obligatoire |
-| *unit-symbol* | nom l'unité | Chaine de caractères  | Obligatoire |
+| *properties* | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Optionnel |
+
 ### **2.1. name** (obligatoire) 
 Le champ **name** correspond à ...
 
