@@ -1,10 +1,10 @@
 ## Datastream  
 
 ## **1. Définition** 
-Une **truc ** est ...  
+Un **datastream ** représente un flux de données regroupant une collection d'observations mesurant la même propriété observée et produites par le même capteur.
 
 ```{tip}
-Dans le cas d'un observatoire, un **truc** est ...:
+Dans le cas d'un observatoire, il convient 
 * truc
 ```
 
