@@ -1,11 +1,10 @@
 ## Location  
 
 ## **1. Définition** 
-Une **truc ** est ...  
+Une **Laction ** indique la positin d'une **Thing**. 
 
 ```{tip}
-Dans le cas d'un observatoire, un **truc** est ...:
-* truc
+Dans le cas d'un observatoire, un **Location** fait référence généralment à des coordonnées GPS.
 ```
 
 ## **2. Propriètés**  
@@ -13,8 +12,10 @@ Une **truc** posséde des paramètres obligatoires et des propriétés optionnel
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
-| **name** | Étiquette correspondant à un **truc**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
-| **description** | Courte description du **truc**. | Chaine de caractères  | Obligatoire |
+| **name** | Étiquette correspondant à une **Location**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
+| **description** | Courte description de **Location**. | Chaine de caractères  | Obligatoire |
+| **encodingType** | Le type d'encodage de la propriété **Location**. | application/geo+json  | Obligatoire |
+| **location** | Le type d'emplacement est défini par **encodingType**.| Objet JSON  | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
 ### **2.1. name** (obligatoire) 
