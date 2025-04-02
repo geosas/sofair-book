@@ -25,23 +25,18 @@ Le champ **name** correspond au nom du phénomène observé au sens générique.
 
 ***Recommandations***  
 
-Il est recommandé de ...
+Le nom étant un nom court et générique, il est recommandé d'ajouter des propiétés optionnelles. 
 
-***Exemples***  
-
-* exemple
-* 
 
 ### **2.2. description** (obligatoire)  
 
-Le champ **description** contient une courte description le **truc**.
+Le champ **description** contient une courte description la **propriété observée**.
 
-***Recommandations***  
-
-* Il est recommandé d'expliciter le **truc**, ...
 
 ***Exemples***  
 
+* Mesure du niveau du cours d'eau
+* Concentration en carbone organique dissous de l'eau
 * ...
 
 #### **2.3. properties** (optionel)  
@@ -50,22 +45,24 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ***Recommandations***
 
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
+* Il peut être intéressant de préciser l'unité de mesure utilisée.
 
 ***Exemples***  
 
-* ORE AgrHyS
+* Le nom de l'unité
+* Le symbole au format SI
+* La définition de l'unité
+* etc..
+
+### **3. Exemples de ObservedProperty**   
 
 ```json
 {
-"cles": " valeur"
-}
-```
-
-### **3. Exemples de Sensor**   
-
-```json
-{
-"cles": " valeur"
+    name: "electric conductiviy",
+    description: "Mesure de la conductivité électrique du cours d'eau",
+    definition: "http://opendata.inrae.fr/thesaurusINRAE/c_14004",
+    properties: {
+        family: "physico-chimie"
+    }
 }
 ```
