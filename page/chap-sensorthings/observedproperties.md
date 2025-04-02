@@ -58,11 +58,14 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ```json
 {
-    name: "electric conductiviy",
-    description: "Mesure de la conductivité électrique du cours d'eau",
-    definition: "http://opendata.inrae.fr/thesaurusINRAE/c_14004",
-    properties: {
-        family: "physico-chimie"
+    "name": "electric conductiviy",
+    "description": "Mesure de la conductivité électrique du cours d'eau",
+    "definition": "http://opendata.inrae.fr/thesaurusINRAE/c_14004",
+    "properties": {
+        "family": "physico-chimie",
+        "unit-name": "Mesure de la conductivité électrique du cours d'eau",
+        "unit-symbol": "µS/cm",
+        "unit-definition": "https://fr.wikipedia.org/wiki/Conductivit%C3%A9_%C3%A9lectrique"
     }
 }
 ```
