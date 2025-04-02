@@ -48,12 +48,12 @@ Le champ **location** est un objet JSON (paires/clé-valeur). Elles sont défini
 
 ```json
 }
-name: "Piezometer PK2",
-description: "Piezometre du bassin versant de Kerrolland",
-encodingType: "application/geo+json",
-location: {
-    type: "Point",
-    coordinates: [
+"name": "Piezometer PK2",
+"description": "Piezometre du bassin versant de Kerrolland",
+"encodingType": "application/geo+json",
+"location": {
+    "type": "Point",
+    "coordinates": [
         -2.8396371,
         48.0121575
     ]
