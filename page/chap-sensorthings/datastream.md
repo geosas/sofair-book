@@ -43,7 +43,7 @@ Le champ **description** contient une courte description le **datastream**.
 * Un peu à l'image de **name** mais plus détaillé.
 
 
-#### **2.3. unitOfMeasurement** (obligatoire)  
+### **2.3. unitOfMeasurement** (obligatoire)  
 
 Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **datastream**.  
 
@@ -64,7 +64,7 @@ Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles son
 }
 ```
 
-### **3. Exemples de Datastream**   
+## **3. Exemples de Datastream**   
 
 ```json
 {
