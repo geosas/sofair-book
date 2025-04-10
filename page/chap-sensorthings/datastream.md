@@ -1,7 +1,7 @@
 ## Datastream  
 
 ## **1. Définition** 
-Un **datastream ** représente un flux de données regroupant une collection d'observations mesurant la même propriété observée et produites par le même capteur.
+Un **datastream** représente un flux de données regroupant une collection d'observations mesurant la même propriété observée et produites par le même capteur.
 
 ```{tip}
 Dans le cas d'un observatoire, ce flux de données fait souvent référence à une valeur physique mesurée émise par un capteur ou une centrale de mesure.
@@ -23,36 +23,33 @@ Une **datastream** posséde des paramètres obligatoires et des propriétés opt
 
 
 ### **2.1. name** (obligatoire) 
-Le champ **name** correspond à
+Le champ **name** décrit de façon unique et simple un flux de données.
 
 ***Recommandations***  
 
-Il est recommandé de ...
+Dans le cas d'un observatoire, il fait référence à la variation d'une variable d'observation (ex: grandeur physique)
 
 ***Exemples***  
 
-* exemple
-* 
+* Outlet Exutoire_OTT Thalimede_stream level, ici est fait référence au niveau d'eau mesuré par un capteur OTT Thalimed position sur un exutoire.
+ 
 
 ### **2.2. description** (obligatoire)  
 
-Le champ **description** contient une courte description le **truc**.
+Le champ **description** contient une courte description le **datastream**.
 
 ***Recommandations***  
 
-* Il est recommandé d'expliciter le **truc**, ...
+* Un peu à l'image de **name" mais plus détaillé.
 
-***Exemples***  
 
-* ...
+#### **2.3. unitOfMeasurement** (obligatoire)  
 
-#### **2.3. properties** (optionel)  
-
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **datastream**.  
 
 ***Recommandations***
 
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
+* L'ojet JSon peut comporter le nom de l'unité meusrée, le symbole en SI, et un lien vers un thésaurus.
 
 ***Exemples***  
 
@@ -60,15 +57,36 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ```json
 {
-"cles": " valeur"
+"unitOfMeasurement": {
+    "name": "mètre",
+    "symbol": "m",
+    "definition": "https://www.bipm.org/en/si-base-units/metre"
 }
 ```
 
-### **3. Exemples de Sensor**   
+### **3. Exemples de Datastream**   
 
 ```json
 {
-"cles": " valeur"
+    @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)",
+    @iot.id: 1,
+    "name": "Outlet E30_OTT Thalimede_stream level",
+    "description": "Outlet E30 stream level",
+    "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+    "unitOfMeasurement": {
+        "name": "mètre",
+        "symbol": "m",
+        "definition": "https://www.bipm.org/en/si-base-units/metre"
+    },
+    o"bservedArea": null,
+    "phenomenonTime": "2001-09-07T09:00:00Z/2024-06-26T12:00:00Z",
+    "resultTime": "2001-09-07T09:00:00Z/2024-06-26T12:00:00Z",
+    "properties": null,
+    Thing@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Thing",
+    Sensor@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Sensor",
+    ObservedProperty@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/ObservedProperty",
+    Observations@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Observations",
+    FeatureOfInterest@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/FeatureOfInterest"
 }
 ```
 
