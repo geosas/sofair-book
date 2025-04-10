@@ -5,7 +5,6 @@ Un **datastream ** représente un flux de données regroupant une collection d'o
 
 ```{tip}
 Dans le cas d'un observatoire, ce flux de données fait souvent référence à une valeur physique mesurée émise par un capteur ou une centrale de mesure.
-* truc
 ```
 
 ## **2. Propriètés**  
@@ -16,12 +15,15 @@ Une **datastream** posséde des paramètres obligatoires et des propriétés opt
 | **name** | Étiquette correspondant à un **datastream**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
 | **description** | Courte description du **datastream**. | Chaine de caractères  | Obligatoire |
 | **unitOfMeasurement** | Un objet JSON contenant trois paires clé-valeur. La propriété name présente le nom complet de l'unité de mesure ; la propriété symbol indique la forme textuelle du symbole de l'unité ; et la propriété definition contient l'URI définissant l'unité de mesure. | JSON Object  | Obligatoire |
-| **observationType**  | Le type d'observation (avec un type de résultat unique) utilisé par le service pour coder les observations. | ValueCode  | Optionnel |
+| **observationType**  | Le type d'observation (avec un type de résultat unique) utilisé par le service pour coder les observations. | ValueCode  | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
+| **observedArea**  | Etendue spatiale de toutes les FeaturesOfInterest appartenant aux observations associées à ce flux de données. Zone géopgraphique | GM_Envelope (GeoJSON Polygon)  | Optionnel |
+| **phenomenonTime**  | Intervalle temporel des temps de **phénomène** de toutes les observations appartenant à ce flux de données. | TM_Period (ISO 8601 Time Interval)  | Optionnel |
+| **resultTime**  | L'intervalle temporel des temps de **résultat** de toutes les observations appartenant à ce flux de données. | TM_Period (ISO 8601 Time Interval)  | Optionnel |
 
 
 ### **2.1. name** (obligatoire) 
-Le champ **name** correspond à ...
+Le champ **name** correspond à
 
 ***Recommandations***  
 
