@@ -47,17 +47,17 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ```json
  {
-            "@iot.selfLink": "https://sensorthings.geosas.fr/test//v1.1/FeaturesOfInterest(2)",
-            "@iot.id": 2,
-            "name": "classic Features Of Interest",
-            "description": "Description of classic Features Of Interest",
-            "encodingType": "application/geo+json",
-            "feature": {
-                "type": "Point",
-                "coordinates": [
-                    -0.5528847276950444,
-                    47.46996912080425
-                ]
-            }
+   "@iot.selfLink": "https://sensorthings.geosas.fr/test//v1.1/FeaturesOfInterest(2)",
+   "@iot.id": 2,
+   "name": "classic Features Of Interest",
+   "description": "Description of classic Features Of Interest",
+   "encodingType": "application/geo+json",
+   "feature": {
+      "type": "Point",
+      "coordinates": [
+         -0.5528847276950444,
+         47.46996912080425
+         ]
+ }
 ```
 
