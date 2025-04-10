@@ -64,6 +64,26 @@ Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles son
 }
 ```
 
+### **2.4. observationType** (obligatoire)  
+
+Le champ **observationType** est un code prédéfini du type d'observation (avec un type de résultat unique), qui est utilisé par le service pour coder les observations.  
+
+***Recommandations***
+
+* Dans le cas d'un observation, OM_Measurement et OM_Observation sint généralment utlisés. Voir [tableau des codes](https://docs.ogc.org/is/18-088/18-088.html#tab-value-codes-obstypes)
+
+### **2.5. properties** (optionnel)
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **datastream**.
+
+### **2.6. observedArea** (optionnel)
+Le champ **observedArea** permet de définir une zone géographique selon un polygon au format GeoJSON.
+
+### **2.7. phenomenonTime** (optionnel)
+Le champ **phenomenonTime** est un interval de temps.
+
+### **2.8. resultTime** (optionnel)
+Le champ **phenomenonTime** est un interval de temps.
+
 ## **3. Exemples de Datastream**   
 
 ```json
