@@ -36,39 +36,28 @@ Dans le cas d'un observatoire, **FeatureOfInterest** peut-être:
 
 ### **2.2. description** (obligatoire)  
 
-Le champ **description** contient une courte description le **truc**.
-
-***Recommandations***  
-
-* Il est recommandé d'expliciter le **truc**, ...
-
-***Exemples***  
-
-* ...
+Le champ **description** contient une courte description de **FeatureOfInterest**.
 
 #### **2.3. properties** (optionel)  
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **FeatureOfInterest**.  
 
-***Recommandations***
 
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
-
-***Exemples***  
-
-* ORE AgrHyS
+### **3. Exemples de FeatureOfInterest**   
 
 ```json
-{
-"cles": " valeur"
-}
-```
-
-### **3. Exemples de Sensor**   
-
-```json
-{
-"cles": " valeur"
-}
+ {
+            "@iot.selfLink": "https://sensorthings.geosas.fr/test//v1.1/FeaturesOfInterest(2)",
+            "@iot.id": 2,
+            "name": "classic Features Of Interest",
+            "description": "Description of classic Features Of Interest",
+            "encodingType": "application/geo+json",
+            "feature": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5528847276950444,
+                    47.46996912080425
+                ]
+            }
 ```
 
