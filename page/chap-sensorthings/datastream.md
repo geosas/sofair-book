@@ -82,7 +82,7 @@ Le champ **observedArea** permet de définir une zone géographique selon un pol
 Le champ **phenomenonTime** est un interval de temps.
 
 ### **2.8. resultTime** (optionnel)
-Le champ **phenomenonTime** est un interval de temps.
+Le champ **resultTime** est un interval de temps.
 
 ## **3. Exemples de Datastream**   
 
