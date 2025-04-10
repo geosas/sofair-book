@@ -40,7 +40,7 @@ Le champ **description** contient une courte description le **datastream**.
 
 ***Recommandations***  
 
-* Un peu à l'image de **name" mais plus détaillé.
+* Un peu à l'image de **name** mais plus détaillé.
 
 
 #### **2.3. unitOfMeasurement** (obligatoire)  
@@ -49,7 +49,7 @@ Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles son
 
 ***Recommandations***
 
-* L'ojet JSon peut comporter le nom de l'unité meusrée, le symbole en SI, et un lien vers un thésaurus.
+* L'ojet JSON peut comporter le nom de l'unité meusrée, le symbole en SI, et un lien vers un thésaurus.
 
 ***Exemples***  
 
@@ -68,8 +68,8 @@ Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles son
 
 ```json
 {
-    @iot.selfLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)",
-    @iot.id: 1,
+    "@iot.selfLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)",
+    "@iot.id": 1,
     "name": "Outlet E30_OTT Thalimede_stream level",
     "description": "Outlet E30 stream level",
     "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
@@ -78,15 +78,15 @@ Le champ **unitOfMeasurement** est un objet JSON (paires/clé-valeur). Elles son
         "symbol": "m",
         "definition": "https://www.bipm.org/en/si-base-units/metre"
     },
-    o"bservedArea": null,
+    "observedArea": null,
     "phenomenonTime": "2001-09-07T09:00:00Z/2024-06-26T12:00:00Z",
     "resultTime": "2001-09-07T09:00:00Z/2024-06-26T12:00:00Z",
     "properties": null,
-    Thing@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Thing",
-    Sensor@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Sensor",
-    ObservedProperty@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/ObservedProperty",
-    Observations@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Observations",
-    FeatureOfInterest@iot.navigationLink: "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/FeatureOfInterest"
+    "Thing@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Thing",
+    "Sensor@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Sensor",
+    "ObservedProperty@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/ObservedProperty",
+    "Observations@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/Observations",
+    "FeatureOfInterest@iot.navigationLink": "https://sensorthings.geosas.fr/agrhys/v1.1/Datastreams(1)/FeatureOfInterest"
 }
 ```
 
