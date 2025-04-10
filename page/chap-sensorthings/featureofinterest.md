@@ -12,27 +12,27 @@ Dans le cas d'un observatoire, un **FeatureOfInterest** peut-être:
 ```
 
 ## **2. Propriètés**  
-Une **FeatureOfInterest** posséde des paramètres obligatoires et des propriétés optionnelles.
+Un **FeatureOfInterest** posséde des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
-| **name** | Étiquette correspondant à un **truc**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
-| **description** | Courte description du **truc**. | Chaine de caractères  | Obligatoire |
+| **name** | Étiquette correspondant à un **FeatureOfInterest**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
+| **description** | Courte description de **FeatureOfInterest**. | Chaine de caractères  | Obligatoire |
 | **encodingType**  | Type d'encodage de la propriété de l'élémen (voir le [tableau](https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes).| ValueCode  | Obligatoire |
-| **feature**  | Type d'encodage de la propriété de l'élémen (voir le [tableau](https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes).| ValueCode  | Obligatoire |
+| **feature**  | La description détaillée de l'élément. Le type de données est défini par encodingType.| Objet JSON   | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
 ### **2.1. name** (obligatoire) 
-Le champ **name** correspond à ...
+Le champ **name** correspond à nom du point commun d'intérêt.
 
 ***Recommandations***  
 
-Il est recommandé de ...
-
-***Exemples***  
-
-* exemple
-* 
+Dans le cas d'un observatoire, **FeatureOfInterest** peut-être:
+* Un bassin versant
+* Une zone géographique
+* Un point de mesure
+* Une grandeur physique
+* etc...
 
 ### **2.2. description** (obligatoire)  
 
