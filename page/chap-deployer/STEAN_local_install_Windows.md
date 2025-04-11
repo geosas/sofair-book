@@ -7,7 +7,7 @@
   - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)   
 
 ```{important}
-Le déploient de STEAN sous Windows est dédié uniquement pour test en local.
+Le déploiment de **STEAN** sous **Windows** est dédié uniquement pour réaliser des tests en local.
 ```
 
 <a id="top"></a>
