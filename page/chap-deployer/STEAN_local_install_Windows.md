@@ -161,36 +161,39 @@ Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, e
 
 Une de fenêtres de paramètres de connexion à PostgreSQL apparait.  
 
-**Fenêtre Admin Acces**  
+**Fenêtre Admin Access**  
 Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.  
 
 ```{image} AdminAccess.PNG
 :alt: first_start
 :width: 400px
 ```
-**Fenêtre First service / Onglet New service**
+Une fois effectué, vous basculez sur la fenêtre de configuration [http://localhost:8029/admin](http://localhost:8029/admin)
+**Création du premeir service** 
+* Saisir le nom du service et le mot de passe  
+* Spécifier les options  
 
-```{image} first_service1.png
-:alt: first_servicet
+Détails des options  
+* ForceHTTPS
+* stripNull
+* canDrop, permet de supprimer les contenus de la bases de données, mais pas la base.
+* unique, les noms des datatstream doivent être uniques.
+
+Détails des extensions  
+* users
+* lora
+* tasking
+* mqtt
+* multidatastream
+* hightPrecison
+* resultNumeric
+
+
+```{image} createService.png
+:alt: first_start
 :width: 400px
 ```
 
-**Fenêtre First service / Onglet New User**  
-Le nom de l'utilisateur est identique au nom du service. Le champ est non modifiable.
-
-```{image} first_service2.png
-:alt: first_service
-:width: 400px
-```
-
-Après validation sur le bouton **CREATE SERVICE**, le service est accessible selon le nom du service, sous 2 formes;  
-* En pur html <http://localhost:8029/agrhys/v1.1/>
-* Via le Query <http://localhost:8029/agrhys/v1.1/query>
-
-```{image} query.png
-:alt: query
-:width: 400px
-```
 
 [Revenir en haut](#top)  
 <a id="start"></a>
