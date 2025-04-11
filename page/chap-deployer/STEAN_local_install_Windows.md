@@ -169,7 +169,7 @@ Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.
 :width: 400px
 ```
 Une fois effectué, vous basculez sur la fenêtre de configuration [http://localhost:8029/admin](http://localhost:8029/admin)
-**Création du premeir service** 
+**Création du premier service** 
 * Saisir le nom du service et le mot de passe  
 * Spécifier les options  
 
@@ -188,12 +188,7 @@ Détails des extensions
 * hightPrecison
 * resultNumeric
 
-
-```{image} createService.png
-:alt: first_start
-:width: 400px
-```
-
+Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous sera demandé.  
 
 [Revenir en haut](#top)  
 <a id="start"></a>
