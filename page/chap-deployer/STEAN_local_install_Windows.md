@@ -173,19 +173,19 @@ Une fois effectué, vous basculez sur la fenêtre de configuration [http://local
 * Spécifier les options  
 
 Détails des options  
-* ForceHTTPS
-* stripNull
-* canDrop, permet de supprimer les contenus de la bases de données, mais pas la base.
-* unique, les noms des datatstream doivent être uniques.
+* ForceHTTPS : ajoute d'un s aux lienshttp, soit https.
+* stripNull : supprime les clés avec des valeurs null (allège le JSON)
+* canDrop : permet de supprimer les contenus de la bases de données, mais pas la base.
+* unique : ajout d'une contrainte,  les noms des datatstream doivent être uniques.
 
 Détails des extensions  
-* users
-* lora
-* tasking
-* mqtt
-* multidatastream
-* hightPrecison
-* resultNumeric
+* users : gestion des utilisateurs
+* lora : gestion des capteurs loras
+* tasking : gestion du tasking (pas encore implanté) mais dans la norme STA
+* mqtt : capable de recevoir les messages mqtt
+* multidatastream : gestion du multidatastream
+* hightPrecison :  nombre après la virgule plus important
+* resultNumeric : Le result est uniquement numeric (comme FROST)
 
 Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous sera demandé.  
 
