@@ -32,7 +32,7 @@ Choisir le répertoire de stockage des bases de données.
 
 ![dossier_data](dossier_data.png)  
 
-Définir un mot de passe pour le superutilisateur postgrsql.  
+Définir un mot de passe pour le superutilisateur postgresql.  
 
 Laisser le port par défaut 5432 et en **localhost** pour une installation
 locale de test.
