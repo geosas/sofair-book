@@ -156,15 +156,15 @@ Ouvrir une console **PowerShell ISE** , lancer le script run.sh.
 <a id="configuration"></a>
 ## 2.1 Configuration 
 
-Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:
+Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:  
 [localhost:8029/importenayouak](http:/localhost:8029/importenayoik)
 
-Une de fenêtres de paramètres de connexion à PostgreSQL apparait.
+Une de fenêtres de paramètres de connexion à PostgreSQL apparait.  
 
 **Fenêtre Admin Acces**  
-Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.
+Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.  
 
-```{image} AdminAccess.png
+```{image} AdminAccess.PNG
 :alt: first_start
 :width: 400px
 ```
