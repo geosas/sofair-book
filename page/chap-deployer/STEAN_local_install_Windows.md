@@ -193,6 +193,8 @@ Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous
 :alt: first_start
 :width: 400px
 ```  
+A droite, vous avez l'URL du service http://localhost:8029/agrhys/v1.1 
+la Console Query est http://localhost:8029/agrhys/v1.1/query  
 
 [Revenir en haut](#top)  
 <a id="start"></a>
