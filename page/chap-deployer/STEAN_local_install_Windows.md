@@ -129,8 +129,8 @@ Obtenir la version de **nodejs**.
 ```
 node --version
 ```
-* Gestionnaire de paquets NodeJs, npm  
-Obtenir lea version du gestionnaore de paquet de  **nodejs**.
+* npm est le gestionnaire de paquets de NodeJs.  
+Obtenir la version du gestionnaore de paquet de  **nodejs**.
 
 ```
 npm --version
