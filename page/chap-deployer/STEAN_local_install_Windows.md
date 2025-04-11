@@ -4,8 +4,7 @@
   - [1.2 NodeJS et nodemon](#nodejs)  
 - [2 STEAN](#steanwindows)  
   - [2.1 Configuration](#configuration)  
-  - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)  
-  - [2.3 Décodage du fichier de configuration](#decode)  
+  - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)   
 
 <a id="top"></a>
 <a id="prerequis"></a>
@@ -193,7 +192,7 @@ Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous
 ```{image} service_Agrhys.png
 :alt: first_start
 :width: 400px
-```
+```  
 
 [Revenir en haut](#top)  
 <a id="start"></a>
@@ -208,29 +207,3 @@ Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous
 [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1), lance le service sans réinstaller
 
 [Revenir en haut](#top)  
-<a id="decode"></a>
-## 2.3 Décodage du fichier de configuration
-
-La phase de configuration génère un fichier codé nommé
-**\~\STEAN\api\configuration\configuration.json**.
-
-**Pour le modifier**
-```{note}
-Normalement ce bug est corrigé.
-```
-
-Dans une console CMD ou PowerShell, se placer dans le fichier de
-configuration et lancer la commande
-```
-node decode.js
-```
-
-Copier/coller la sortie dans un éditeur de texte, sans les caractères bizards.
-
-Adapter ou corriger la configuration. Exemple: retirer le v devant 1.1 ("apiVersion": "v1.1"), aux ligne 13 et 35.
-
-Sauvegarder le contenu dans le fichier **C:\Users\cgeneste\STEAN\api\configuration\configuration.json**.
-
-Relancer le service, puis aller à <http://localhost:8029/agrhys/v1.1/>, si le service se nomme **agrhys.**
-
-Du coup, Le **Query* est <http://localhost:8029/agrhys/v1.1/Query>
