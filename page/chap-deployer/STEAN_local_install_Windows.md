@@ -6,6 +6,10 @@
   - [2.1 Configuration](#configuration)  
   - [2.2 Arrêt, mise à jour, démarrage de STEAN](#start)   
 
+```{important}
+Le déploient de STEAN sous Windows est dédié uniquement pour test en local.
+```
+
 <a id="top"></a>
 <a id="prerequis"></a>
 # 1 Prérequis
