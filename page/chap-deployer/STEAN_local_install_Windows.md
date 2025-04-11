@@ -190,6 +190,11 @@ Détails des extensions
 
 Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous sera demandé.  
 
+```{image} service_Agrhys.png
+:alt: first_start
+:width: 400px
+```
+
 [Revenir en haut](#top)  
 <a id="start"></a>
 ## 2.3 Arrêt, mise à jour, démarrage de STEAN
