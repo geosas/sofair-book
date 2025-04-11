@@ -16,21 +16,25 @@
 
 [www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-Effectuer l'installation suivant les copies d'écran. Stack Builmder est nécessaire pour installer de PostGIS.
+Effectuer l'installation suivant les copies d'écran. Stack Builder est nécessaire pour installer de PostGIS.
 
-Dossier d'installation
+**Dossier d'installation**
 
 ![dossier_installation_PostgreSql](dossier_install_PostgreSQL.png)
 
-Les composants à installer. Conseil: installer **pgAdmin** séparément.
+**Les composants à installer**  
+
+Conseil: installer **pgAdmin** séparément.
 
 ![composants_PostgreSQL](composants_PostgreSQL.png)
 
 Choisir le répertoire de stockage des bases de données.
 
-![dossier_data](dossier_data.png)
+![dossier_data](dossier_data.png)  
 
-Laisser le port par défaut et en **localhost** pour une installation
+Définir un mot de passe pour le superutilisateur postgrsql.  
+
+Laisser le port par défaut 5432 et en **localhost** pour une installation
 locale de test.
 
 ![port_postgresql](port_postgresql.png)
