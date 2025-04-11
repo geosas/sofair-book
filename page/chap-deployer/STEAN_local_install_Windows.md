@@ -151,7 +151,7 @@ Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans l
 **Pour démarrer STEAN** 
 Ouvrir une console **PowerShell ISE** , lancer le script run.sh.
 
-[Revenir en haut](#top)  
+[Revenir en haut](#top) 
 <a id="configuration"></a>
 ## 2.1 Configuration 
 
@@ -193,10 +193,10 @@ Valider la création, bouton **Create Service**. Le mot de passe PostgreSql vous
 :alt: first_start
 :width: 400px
 ```  
-A droite, vous avez l'URL du service http://localhost:8029/agrhys/v1.1 
+A droite, vous avez l'URL du service http://localhost:8029/agrhys/v1.1  
 la Console Query est http://localhost:8029/agrhys/v1.1/query  
 
-[Revenir en haut](#top)  
+[Revenir en haut](#top) 
 <a id="start"></a>
 ## 2.3 Arrêt, mise à jour, démarrage de STEAN
 
@@ -208,4 +208,4 @@ la Console Query est http://localhost:8029/agrhys/v1.1/query
 * **Démarrage** lancer le script
 [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1), lance le service sans réinstaller
 
-[Revenir en haut](#top)  
+[Revenir en haut](#top) 
