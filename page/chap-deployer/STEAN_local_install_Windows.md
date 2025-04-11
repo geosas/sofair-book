@@ -139,24 +139,18 @@ npm --version
 <a id="steanwindows"></a>
 # 2 STEAN
 
-A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), télécharger les scripts
-[install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) et [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1)
-dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
+A partir de l'entrepôt [STEAN](<https://github.com/Mario-35/STEAN>), télécharger le script
+[install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) dans un dossier spécifique, exemple: C:\Users\votre_espace_utilisateur\STEAN
 
-* [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) permet d'installer, de mettre à jour (si installation présente), et de lancer le service.
-* [run.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/run.ps1) lance le service uniqement.
-
+* [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1) permet d'installer, de mettre à jour (si installation présente).
 **Pour installer ou mettre à jour**  
 Ouvrir une console **PowerShell ISE** , lancer le script [install.ps1](https://github.com/Mario-35/STEAN/blob/main/scripts/install.ps1).  
 
 ```{important}
 Pour lancer le script, clic droit sur le fichier puis modifier. Lancer le dans la console intégrée. Via la console simple, le script ne fonctionne pas.
 ```
-````{note}
-Si vous obtenez l'erreur **Postgis is Not installed.**. 
-Editez le fichier install.ps1 à la ligne 112 et remplacer  
-```POSTGIS = "$latest\share\contrib" par $POSTGIS = "$POSTGRES\$latest\share\contrib"```
-````
+**Pour démarrer STEAN** 
+Ouvrir une console **PowerShell ISE** , lancer le script run.sh.
 
 [Revenir en haut](#top)  
 <a id="configuration"></a>
@@ -165,12 +159,12 @@ Editez le fichier install.ps1 à la ligne 112 et remplacer
 Dans un navigateur saisir l'URL de base amendée de n'importe quel caractère, exemple:
 [localhost:8029/importenayouak](http:/localhost:8029/importenayoik)
 
-Une suite de fenêtres de configuration vierge apparaissent.
+Une de fenêtres de paramètres de connexion à PostgreSQL apparait.
 
-**Fenêtre First Start / Onglet PostgreSql Admin**  
+**Fenêtre Admin Acces**  
 Renseigner les identifiants de l'administrateur du serveur PostgreSQl local.
 
-```{image} first_start.png
+```{image} AdminAccess.png
 :alt: first_start
 :width: 400px
 ```
