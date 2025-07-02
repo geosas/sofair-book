@@ -2,11 +2,11 @@
 
 ### Qui parle ?
                     
-![Ophelie Fovet](/img/ophelie.jpg) Ophélie Fovet, chargée de recherche INRAE, responsable de l'observatoire AgrHyS, hydrologue.
+![Ophelie Fovet](/img/ophelie.jpg) Ophélie Fovet, chargée de recherche INRAE, responsable de l'ORE AgrHyS, hydrologue.
 
 ### Objectif
 
-Créer un service numérique "SensorThings" pour la diffusion des données chimiques, physico-chimiques, hydrologiques et météorologiques produites depuis 1992 (?) dans le cadre de l'Observatoire de Recherche en Environnement AgrHyS sur les sites de Naizin dans le Morbiban et Kerbernez à Plomelin dans le Finistère.
+Créer un service numérique "SensorThings" pour la diffusion des données chimiques, physico-chimiques, hydrologiques et météorologiques produites depuis 1992 (?) dans le cadre de l'Observatoire de Recherche en Environnement (ORE) AgrHyS sur les sites de Naizin dans le Morbiban et Kerbernez à Plomelin dans le Finistère.
 
 ### REX
 
