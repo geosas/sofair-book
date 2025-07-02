@@ -26,10 +26,11 @@ parts:
     - file: page/chap-sofairiser/qualifier
     - file: page/chap-sofairiser/rex
       sections:
-      - file: page/chap-fairiser/rex-efele
+      - file: page/chap-sofairiser/rex-hydrologue
       - file: page/chap-fairiser/rex-agrhys
       - file: page/chap-fairiser/rex-station-hydro-meteo
       - file: page/chap-fairiser/rex-meteo-france
+      - file: page/chap-fairiser/rex-efele
   - caption: Voir et télécharger les données
     chapters:
     - file: page/chap-reutiliser/web
