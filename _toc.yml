@@ -24,7 +24,7 @@ parts:
     - file: page/chap-sofairiser/configurer
     - file: page/chap-sofairiser/peupler
     - file: page/chap-sofairiser/qualifier
-    - file: page/chap-sofairiser/rex
+    - file: page/chap-fairiser/rex
       sections:
       - file: page/chap-fairiser/rex-hydrologue
       - file: page/chap-fairiser/rex-agrhys
