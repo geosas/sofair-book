@@ -30,6 +30,7 @@ parts:
       - file: page/chap-fairiser/rex-agrhys
       - file: page/chap-fairiser/rex-station-hydro-meteo
       - file: page/chap-fairiser/rex-meteo-france
+      - file: page/chap-fairiser/rex-colishymeaux
       - file: page/chap-fairiser/rex-efele
   - caption: Voir et télécharger les données
     chapters:
