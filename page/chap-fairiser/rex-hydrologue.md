@@ -6,7 +6,7 @@
 
 ### Le besoin
 
-Créer un service numérique "SensorThings" pour la diffusion des données chimiques, physico-chimiques, hydrologiques et météorologiques produites depuis 1992 (?) dans le cadre de l'Observatoire de Recherche en Environnement (ORE) AgrHyS sur les sites de Naizin dans le Morbiban et Kerbernez à Plomelin dans le Finistère.
+Répondre aux injonctions du FAIR data en créant un service numérique conforme au standard SensorThings pour la diffusion des données chimiques, physico-chimiques, hydrologiques et météorologiques produites depuis 1992 (?) dans le cadre de l'Observatoire de Recherche en Environnement (ORE) AgrHyS sur les sites de Naizin dans le Morbiban et de Kerbernez à Plomelin dans le Finistère.
 
 ### Retour d'expérience
 
