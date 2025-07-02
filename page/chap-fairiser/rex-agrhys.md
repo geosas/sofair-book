@@ -1,6 +1,6 @@
-# Retour d'expérience de l'ORE Agrhys
+# REX de l'ORE Agrhys
 - [1. Qui parle](#qui_parle)    
-- [2. Introduction](#intro)
+- [2. Contexte](#intro)
 - [3. Configurer une instance STEAN](#conf)  
   - [3.1. Fichier de configuration](#fichier_conf)
   - [3.2. Comment ce fichier de configuration fonctionne-t-il?](#fonc_conf)  
@@ -21,9 +21,9 @@
 Christophe Geneste, ingénieur d'étude INRAE, administrateur de plateformes, d'applications web et de bases de données à l'UMR SAS.
 
 <a id="intro"></a>
-## 2. Introduction
-Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE Agrhys, n'est pas trivial au premier abord.  
-Comment restrancrire la réalité de terrain vers Sensorthings?   
+## 2. Contexte
+Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE AgrHyS, n'est pas trivial au premier abord.  
+Comment restranscrire la réalité de terrain vers le modèle Sensorthings ?   
 
 ```{image} img/terrain_vers_ST_v2.png
 :alt: du terrain au service SensorThings
