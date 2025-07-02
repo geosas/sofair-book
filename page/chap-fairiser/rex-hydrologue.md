@@ -1,14 +1,14 @@
-## Retour d'expérience d'une hydrologue
+## REX d'une hydrologue
 
 ### Qui parle ?
                     
 ![Ophelie Fovet](/img/ophelie.jpg) Ophélie Fovet, chargée de recherche INRAE, responsable de l'ORE AgrHyS, hydrologue.
 
-### Contexte
+### Le besoin
 
 Créer un service numérique "SensorThings" pour la diffusion des données chimiques, physico-chimiques, hydrologiques et météorologiques produites depuis 1992 (?) dans le cadre de l'Observatoire de Recherche en Environnement (ORE) AgrHyS sur les sites de Naizin dans le Morbiban et Kerbernez à Plomelin dans le Finistère.
 
-### REX
+### Retour d'expérience
 
 Une premiere difficulté que nous avons rencontré dans le déploiement d'un service SensorThings API (STA) de diffusion de nos données d'observatoire de recherche en environnement a été de passer du modèle théorique (les things, sensors, observedproperties, featuresofinterest) a son implémentation dans les realités que nous manipulons (les séries temporelles de variables, les points de mesures, les replicats de mesures). La première étape a été de s'accorder sur ce que pouvait représenter concrètement une thing (un point de mesure ?), une "observed property" (une variable sur une station ?), une feature of interest (un bassin versant ?), etc. Le modèle SensorThings réinterroge la nomenclature du "jeu de données", quand on fait de l'observation long-terme on en a une définition donnée par le couple variable et point de mesure (location X,Y,Z), si on doit changer un capteur, ou de laboratoire d'analyse ça reste le même jeu de données. Dans le modèle SensorThings, un jeu de données ou datastream est associé à un sensor unique. La définition de "Things" qu'on s'est donnée pour le déploiement d'un STA de l'observatoire AgrHyS, nous avons propose une définition un peu différente pour le service de données brutes et le service de données validées. Aussi, notre observatoire présente un historique de données considérable, avec beaucoup de fichiers de données historiques, des évolutions de pas de temps, des modifications de capteurs pour suivre les mêmes "caracteristiques d'interet", une partie des fichiers au format Excel, ou gérés via des outils commerciaux non ouverts. 
 
