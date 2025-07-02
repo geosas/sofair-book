@@ -19,11 +19,11 @@ parts:
       - file: page/chap-sensorthings/featureofinterest
   - caption: FAIRiser un observatoire
     chapters:
-    - file: page/chap-sofairiser/intro
-    - file: page/chap-sofairiser/creer
-    - file: page/chap-sofairiser/configurer
-    - file: page/chap-sofairiser/peupler
-    - file: page/chap-sofairiser/qualifier
+    - file: page/chap-fairiser/intro
+    - file: page/chap-fairiser/creer
+    - file: page/chap-fairiser/configurer
+    - file: page/chap-fairiser/peupler
+    - file: page/chap-fairiser/qualifier
     - file: page/chap-fairiser/rex
       sections:
       - file: page/chap-fairiser/rex-hydrologue
