@@ -2,7 +2,7 @@
 
 ### Qui parle ?
                     
-![Ophelie Fovet](/img/ophelie.jpg) Ophélie Fovet, chargée de recherche INRAE, responsable de l'ORE AgrHyS, hydrologue.
+![Ophelie Fovet](/img/ophelie.png) Ophélie Fovet, chargée de recherche INRAE, responsable de l'ORE AgrHyS, hydrologue.
 
 ### Le besoin
 
