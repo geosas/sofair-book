@@ -78,7 +78,7 @@ Il est composé d'un onglet d'information et de **5 onglets** correspondant aux 
 * 4_datastream
 * 5_featureOfInterest
 
-Les **5 onglets (en rouge)** seront par la suite interprétés par un script Python pour configurer une instance STEAN.
+Les **5 onglets (en rouge)** seront interprétés par un script Python pour configurer une instance **STEAN**.
 
 Le fichier de configuration contient une macro VBA effectuant des contrôles de saisies et produit automatiquement la liste des datastreams à l'aide du bouton **Actualiser** de l'onglet **4_datastream**.
 
@@ -88,17 +88,17 @@ Le fichier de configuration contient une macro VBA effectuant des contrôles de 
 1- Renseigner les onglets 1_observedProperty, 2_sensor, 3 _thing, 5_featureOfInterest, puis actualiser les données dans l'onglet 4_datastream.  
 2- Adapter les noms des datastreams si nécessaire. Ils doivent être uniques. 
 ```{important}
-Attention: Une action sur le bouton Actualiser effacera vos modifications
+Attention: Une action sur le bouton **Actualiser** effacera vos modifications
 ``` 
 
 * Le **séparateur décimal le point**.  
-* Ne modifier pas la structure des onglets en rouge. Si présence de doublons dans la colonne **name** , les cellules passent en rouge.  
+* Ne modifier pas la structure des onglets en **rouge**. Si présence de doublons dans la colonne **name** , les cellules passent en rouge.  
 * Ne pas utliser les caractères _ et -. Ces caractères seront automatiquement supprimés des colonnes name.  
 * Vérifier les menus déroulants des onglets **2_sensor** (colonnes observedPropertyn), **3_thing** (colonnes sensorn ) et **4_datastream** (colonne featureOfInterest ).  
-* Eviter de laisser des lignes vides.  
+* Pas de lignes vides.  
 * Le nom des colonnes en fond blanc sont standards et ne doivent pas être modifiés.  
 * Les colonnes grisées correspondent aux propriétés de chaque entité. Elles sont personnalisables.  
-* Données obligatoires repérées par une * et en rouge.
+* Données **obligatoires** repérées par une *** et en rouge**.
 
 <a id="create_conf"></a>
 ### 3.4. Traitement du fichier de configuration  
