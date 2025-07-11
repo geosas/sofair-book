@@ -18,12 +18,12 @@
 <a id="top"></a>
 <a id="qui_parle"></a>
 ## 1. Qui parle ?
-Christophe Geneste, ingénieur d'étude INRAE, administrateur de plateformes, d'applications web et de bases de données à l'UMR SAS.
+Christophe Geneste, ingénieur d'étude INRAE, administrateur d'infrastructures informatiques, d'applications web et de bases de données à l'UMR SAS.
 
 <a id="intro"></a>
 ## 2. Contexte
-Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE AgrHyS, n'est pas trivial au premier abord.  
-Comment restranscrire la réalité de terrain vers le modèle Sensorthings ?   
+Appliquer le modèle de données Sensorthings à un observatoire, tel que l'ORE AgrHyS n'est pas trivial au premier abord.  
+**Comment restranscrire la réalité de terrain vers le modèle Sensorthings ?**   
 
 ```{image} img/terrain_vers_ST_v2.png
 :alt: du terrain au service SensorThings
@@ -50,10 +50,10 @@ Collaboration de 3 compétences
 [Revenir en haut](#top)
 <a id="conf"></a>
 ## 3. Configurer une instance STEAN  
-[STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://sensorthings.geosas.fr/)  
+[STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus]([https://sensorthings.geosas.fr/](https://geosas.fr/sofair-book/page/biblio.html#id10)  
 
-La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et Features of Interest. Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
-La seconde étape est la définition de Sensors et Observed Properties. La/le scientifique travaillent de concert avec le personnl de terrain essentiellemnt.
+La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et [Features of Interest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html). Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
+La seconde étape est la définition de [Sensors](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html) et [Observed Properties](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html). La/le scientifique travaillent de concert avec le personnl de terrain essentiellemnt.
 
 Dans le cas de l'ORE Agrhys:
 * Le point de mesure est attribué aux entités [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html)  
