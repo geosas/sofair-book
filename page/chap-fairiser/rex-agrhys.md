@@ -119,13 +119,14 @@ Ce tranferst nécessite 2 étapes, l'import des données historiques et actualis
 <a id="data_histo"></a>
 ### 4.1. Les historiques  
 <a id="exp_histo"></a>
-#### 4.1.1 Exportation Hydras 
+#### 4.1.1 Exportation CSV 
 
-Via le logiciel **Hydras**, il est possible d'exporter la totalité chronologique des données issues de capteurs.  
-Chaque ligne du fichier CVS est au format jj/mm/aaa;hh:mm:seconde;x.xxx  
+Quelle que soit la source des fichiers CSV (logiciel **Hydras**, tout à flux, production d'un scientifique, etc ...), il doivent se conformer au format suivant :  
+* Un fichier par capteur
+* Chaque ligne du fichier CVS au format jj/mm/aaa;hh:mm:seconde;x.xxx  
 
 ```{important}
-Le séparateur décimal doit être le point.
+Le séparateur décimal doit être le point et le codage en UTF8.
 ```
 #### 4.1.2 Données d'analyse  
 Chapitre en cours de construction  
