@@ -129,5 +129,5 @@ Le séparateur décimal doit être le point et le codage en UTF8.
 ```
 <a id="imp_histo"></a>
 #### 4.1.2 importation d'un fichier CSV
-L'importation des historiques pu nouvelles s'effectuent l'aide des Notebook [import_new_data.ipynb][(https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads) et [import_big_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads).  
+L'importation des historiques pu nouvelles s'effectuent l'aide des Notebook [import_new_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads) et [import_big_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads).  
 Au préalable, renseigner le fichier de paraamétrage [template_param.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads)
