@@ -98,16 +98,16 @@ Attention: Une action sur le bouton **Actualiser** effacera vos modifications
 * Pas de lignes vides.  
 * Le nom des colonnes en fond blanc sont standards et ne doivent pas être modifiés.  
 * Les colonnes grisées correspondent aux propriétés de chaque entité. Elles sont personnalisables.  
-* Données **obligatoires** repérées par une *** et en rouge**.
+* Données **obligatoires** repérées par une * et en rouge.
 
 <a id="create_conf"></a>
 ### 3.4. Traitement du fichier de configuration  
 Dans un premier temps, le traitement consiste à analyser le fichier de configuration via un script Python.  
 Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.  
-Ce script est sous la forme d'un Jupyter Notebook. Télécharger le [Notebook Python](../../files/configure_ST_Agrhys.ipynb) 
+Ce script est sous la forme d'un Jupyter Notebook. Télécharger les [Notebook Python]([../../files/configure_ST_Agrhys.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/tree/main?ref_type=heads)) dédiés à l'observatoire ORE Agrhys.
 
 ```{tip}
-Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.conf](../../files/param_template.conf)
+Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.conf]([../../files/param_template.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads)
 ```
 
 [Revenir en haut](#top)
