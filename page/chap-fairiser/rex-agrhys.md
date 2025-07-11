@@ -104,10 +104,10 @@ Attention: Une action sur le bouton **Actualiser** effacera vos modifications
 ### 3.4. Traitement du fichier de configuration  
 Dans un premier temps, le traitement consiste à analyser le fichier de configuration via un script Python.  
 Ensuite, ce même script génrére les requêtes nécessaires pour configuraton une instance STEAN vierge.  
-Ce script est sous la forme d'un Jupyter Notebook. Télécharger les [Notebook Python]([../../files/configure_ST_Agrhys.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/tree/main?ref_type=heads)) dédiés à l'observatoire ORE Agrhys.
+Ce script est sous la forme d'un Jupyter Notebook. Télécharger les [Notebook Python](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/tree/main?ref_type=heads) dédiés à l'observatoire ORE Agrhys.
 
 ```{tip}
-Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.conf]([../../files/param_template.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads)
+Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads)
 ```
 
 [Revenir en haut](#top)
