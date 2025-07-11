@@ -7,13 +7,9 @@
       - [3.2.1 Instruction générales](#instruction)
   - [3.4. Traitement du fichier de configuration](#create_conf)
 - [4. Les données](#data)  
-  - [4.1. Les historiques](#data_histo)
-    - [4.1.1 Exportation Hydras](#exp_histo)  
-    - [4.1.2 importation d'un fichier CSV](#exp_histo)
-  - [4.2. Les nouvelles données](#data_new)
-    - [4.2.1 importation d'un fichier CSV](#csv_new)
- 
-    
+  - [4.1. Exportation CSV](#data_histo)
+  - [4.2. Importation des CSV](#data_new)
+  
 <a id="top"></a>
 <a id="qui_parle"></a>
 ## 1. Qui parle ?
@@ -115,10 +111,8 @@ Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.con
 Bref rappel du contexte: l'observatoire ORE Agrhys dispose déjà d'un système de données que nous voulons faire évoluer vers le standard OGC Sensorthings.  
 Ce tranferst nécessite 2 étapes, l'import des données historiques et actualisation des nouvelles données.  
 
-<a id="data_histo"></a>
-### 4.1. Les historiques  
 <a id="exp_histo"></a>
-#### 4.1.1 Exportation CSV 
+### 4.1 Exportation CSV 
 
 Quelle que soit la source des fichiers CSV (logiciel **Hydras**, tout à flux, production d'un scientifique, données d'analyses, etc ...), il doivent se conformer au format suivant :  
 * Un fichier par capteur
@@ -127,7 +121,7 @@ Quelle que soit la source des fichiers CSV (logiciel **Hydras**, tout à flux, p
 ```{important}
 Le séparateur décimal doit être le point et le codage en UTF8.
 ```
-<a id="imp_histo"></a>
-#### 4.1.2 importation d'un fichier CSV
+<a id="data_new"></a>
+### 4.2 Importation des CSV
 L'importation, de données historiques ou nouvelles, s'effectuent l'aide des Notebooks [import_new_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads) et [import_big_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads).  
 Au préalable, renseigner le fichier de paramétrage [template_param.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads)
