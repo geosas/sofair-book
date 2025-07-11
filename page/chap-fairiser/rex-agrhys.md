@@ -10,7 +10,6 @@
   - [4.1. Les historiques](#data_histo)
     - [4.1.1 Exportation Hydras](#exp_histo)  
     - [4.1.2 importation d'un fichier CSV](#exp_histo)
-    - [4.1.3 Données d'analyse](#imp_histo) 
   - [4.2. Les nouvelles données](#data_new)
     - [4.2.1 importation d'un fichier CSV](#csv_new)
  
@@ -69,7 +68,7 @@ Dans la cas d'un observatoire, nous avons produit un fichier tableur dit de conf
 
 <a id="fonc_conf"></a>
 ### 3.2. Comment ce fichier de configuration fonctionne-t-il?  
-Il est composé d'un onglet d'information et de **5 onglets** correspondant aux entités du modèle de données Sensorthings. Télécharger un modèle du [fichier de configuration]([../../files/configuration_ST_agrhys_template.xlsm](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_configuration_STEAN.xlsm?ref_type=heads)
+Il est composé d'un onglet d'information et de **5 onglets** correspondant aux entités du modèle de données Sensorthings. Télécharger un modèle du [fichier de configuration](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_configuration_STEAN.xlsm?ref_type=heads)
 
 * Lisez-moi: guide l'utilisateur dans la saisie sur les données attendues 
 * 1_observedProperty
@@ -121,28 +120,14 @@ Ce tranferst nécessite 2 étapes, l'import des données historiques et actualis
 <a id="exp_histo"></a>
 #### 4.1.1 Exportation CSV 
 
-Quelle que soit la source des fichiers CSV (logiciel **Hydras**, tout à flux, production d'un scientifique, etc ...), il doivent se conformer au format suivant :  
+Quelle que soit la source des fichiers CSV (logiciel **Hydras**, tout à flux, production d'un scientifique, données d'analyses, etc ...), il doivent se conformer au format suivant :  
 * Un fichier par capteur
 * Chaque ligne du fichier CVS au format jj/mm/aaa;hh:mm:seconde;x.xxx  
 
 ```{important}
 Le séparateur décimal doit être le point et le codage en UTF8.
 ```
-#### 4.1.2 Données d'analyse  
-Chapitre en cours de construction  
-
-Pour être importées, les données issues d'analyse sont sous la forme de fichier Excel au formalisme suivant .... 
-
-
 <a id="imp_histo"></a>
-#### 4.1.3 importation d'un fichier CSV
-L'importation des historiques s'effectuent par datastream (un à la fois), ) l'aide du Notebook [import_histo_data.ipynb](../../files/import_histo_data.ipynb)  
-Au préalable, renseigner dans [param_template.conf](../../files/param_template.conf) le nom du datastream cible et le fichier CSV des données historiques.
-
-<a id="data_new"></a>  
-### 4.2. Les nouvelles données  
-Les données issues de capteurs (Hydras) ou d'analyses, l'importation s'effectue par importation de fichier CSV.  
-
-<a id="csv_new"></a>
-#### 4.2.1 importation d'un fichier CSV
-Le logiciel Hydras est configuré pour produit à écheance régulière des fichiers CSV contenant les valeurs numériques issues de capteurs.
+#### 4.1.2 importation d'un fichier CSV
+L'importation des historiques pu nouvelles s'effectuent l'aide des Notebook [import_new_data.ipynb][(https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads) et [import_big_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads).  
+Au préalable, renseigner le fichier de paraamétrage [template_param.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads)
