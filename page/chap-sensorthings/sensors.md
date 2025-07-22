@@ -1,7 +1,7 @@
 # **Sensor**  
 
 ## **1. Définition** 
-Une **Sensor** est un instrument qui observe, ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.  
+Un **Sensor** est un instrument qui observe, ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.  
 
 ```{tip}
 Dans le cas d'un observatoire, un **Sensor** est le plus souvent:
@@ -11,7 +11,7 @@ Dans le cas d'un observatoire, un **Sensor** est le plus souvent:
 ```
 
 ## **2. Propriètés**  
-Une **Thing** posséde des paramètres obligatoires et des propriétés optionnelles.
+Un **Sensor** posséde des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
