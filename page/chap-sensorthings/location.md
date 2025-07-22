@@ -1,10 +1,10 @@
 ## Location  
 
 ## **1. Définition** 
-Une **location** indique la positin d'une **Thing**. 
+Une **location** indique la position d'une **Thing**. 
 
 ```{tip}
-Dans le cas d'un observatoire, une **location** fait référence généralment à des coordonnées GPS.
+Dans le cas d'un observatoire, une **location** fait référence généralement à des coordonnées GPS.
 ```
 
 ## **2. Propriètés**  
@@ -34,7 +34,7 @@ Le champ **description** contient une courte description de la **location**.
 Dans d'un observatoire, la **thing** et la **location** étant étroitement liées, les description peuvent être identiques.
 
 
-#### **2.3. location** (optionel)  
+#### **2.3. location** (obligatoire)  
 
 Le champ **location** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
 
