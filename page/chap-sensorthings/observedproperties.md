@@ -58,7 +58,7 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 
 ```json
 {
-    "name": "electric conductiviy",
+    "name": "electric conductivity",
     "description": "Mesure de la conductivité électrique du cours d'eau",
     "definition": "http://opendata.inrae.fr/thesaurusINRAE/c_14004",
     "properties": {
