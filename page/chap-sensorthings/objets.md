@@ -10,7 +10,7 @@ Voici un résumé des principales entités et de leurs relations :
 6. **[Datastream](https://geosas.fr/sofair-book/page/chap-sensorthings/datastream.html)** : Représente une série de mesures représentée par une chronique provenant d’un capteur spécifique, associée à un type d'observation, comme par exemple, la chronique de l'évolution de la témpérature quotidienne de la station météo Brest-Guipavas du 1er janvier 2020 au 31 décembre 2024. Un ***Datastream*** est nécessairement associé à un ***Thing***, un ***Sensor*** et une ***ObservedProperty***. 
 7. **[Observation](https://geosas.fr/sofair-book/page/chap-sensorthings/observation.html)** : Représente une mesure spécifique à un instant donné. Une ***Observation*** est nécessairement reliée à un ***Datastream***.
 
-Le plus souvent, les services de diffusion de données d'observation reposant sur le standard OGC SensorThings API n'utilisent pas les entités **HistoricalLocation**, **Multidatastreams** et **FeatureOFInterest**.
+Le plus souvent, les services de diffusion de données d'observation reposant sur le standard [OGC SensorThings API](https://www.ogc.org/fr/standards/sensorthings/) n'utilisent pas les entités **HistoricalLocation**, **Multidatastreams** et **FeatureOFInterest**.
 
 
 ```{figure} img/STA_entities.png
