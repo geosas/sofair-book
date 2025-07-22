@@ -65,7 +65,7 @@ Le champ **resultQuality** est un objet JSON (paires/clé-valeur). Elles sont d�
 
 #### **2.5. validTime** (optionel)  
 
-Le champ **validTime** définit une préiode de validité de l'**observation**.  
+Le champ **validTime** définit une prériode de validité de l'**observation**.  
 
 ***Exemple***  
 
