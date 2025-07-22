@@ -8,7 +8,7 @@ Dans le cas d'un observatoire, ce flux de données fait souvent référence à u
 ```
 
 ## **2. Propriètés**  
-Une **datastream** posséde des paramètres obligatoires et des propriétés optionnelles.
+Un **datastream** posséde des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
@@ -70,7 +70,7 @@ Le champ **observationType** est un code prédéfini du type d'observation (avec
 
 ***Recommandations***
 
-* Dans le cas d'un observation, OM_Measurement et OM_Observation sint généralment utlisés. Voir [tableau des codes](https://docs.ogc.org/is/18-088/18-088.html#tab-value-codes-obstypes)
+* Dans le cas d'un observation, OM_Measurement et OM_Observation sont généralment utlisés. Voir [tableau des codes](https://docs.ogc.org/is/18-088/18-088.html#tab-value-codes-obstypes)
 
 ### **2.5. properties** (optionnel)
 Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **datastream**.
@@ -79,10 +79,10 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
 Le champ **observedArea** permet de définir une zone géographique selon un polygon au format GeoJSON.
 
 ### **2.7. phenomenonTime** (optionnel)
-Le champ **phenomenonTime** est un interval de temps.
+Le champ **phenomenonTime** est un intervalle de temps.
 
 ### **2.8. resultTime** (optionnel)
-Le champ **resultTime** est un interval de temps.
+Le champ **resultTime** est un intervalle de temps.
 
 ## **3. Exemples de Datastream**   
 
