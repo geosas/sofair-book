@@ -1,7 +1,7 @@
 ## FeatureOfInterest  
 
 ## **1. Définition** 
-Un **FeatureOfInterest ** défini ou décrit un intérêt commun d'observation. C'est une sorte de filtre.
+Un **FeatureOfInterest** défini ou décrit un intérêt commun d'observation. C'est une sorte de filtre.
 
 ```{tip}
 Dans le cas d'un observatoire, un **FeatureOfInterest** peut-être:  
@@ -18,7 +18,7 @@ Un **FeatureOfInterest** posséde des paramètres obligatoires et des propriét�
 |---|---|---|---|
 | **name** | Étiquette correspondant à un **FeatureOfInterest**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
 | **description** | Courte description de **FeatureOfInterest**. | Chaine de caractères  | Obligatoire |
-| **encodingType**  | Type d'encodage de la propriété de l'élémen (voir le [tableau](https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes).| ValueCode  | Obligatoire |
+| **encodingType**  | Type d'encodage de la propriété de l'élément (voir le [tableau](https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes).| ValueCode  | Obligatoire |
 | **feature**  | La description détaillée de l'élément. Le type de données est défini par encodingType.| Objet JSON   | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
