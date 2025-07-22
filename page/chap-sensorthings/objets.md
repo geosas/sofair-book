@@ -26,7 +26,7 @@ Le paragraphe [Sensing entities](https://docs.ogc.org/is/18-088/18-088.html#sens
   
 
 | Sensorthing        | concrètement                                                                                  |
-----------------------------------------------------------------------------------------------------------------------
+| :------------------|:----------------------------------------------------------------------------------------------|
 | Thing              | Qu'est-ce qui nous interesse ? un objet physique ou virtuel qu'on l'on souhaite étudier       |
 | ObservedProperty   | Qu'est-ce qu'on souhaite observer ?  Le phénomène observé                                     |
 | Sensor             | Comment, avec quel instrument ?                                                               |
