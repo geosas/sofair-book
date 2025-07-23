@@ -54,7 +54,7 @@ Vous pouvez également installer PostGIS séparément, mais c'est plus compliqu�
 
 [Dépôt des paquets PostGIS](https://download.osgeo.org/postgis/windows/pg16/?C=M&O=D>)
 
-Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee), très bien expliquer!
+Regarder [la vidéo](https://video.osgeo.org/w/57e27085-6352-43e6-b64a-c29c1dcda8ee), très bien expliqué!
 
 ```{image} stackbuiler1.png
 :alt: stackbuiler
