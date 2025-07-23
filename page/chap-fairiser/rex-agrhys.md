@@ -32,7 +32,7 @@ Sachant que:
 *  La compréhension du modèle de données SensorThings n'est pas aisée  
 
 ```{important}
-Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les posséder, alors vous êtes autonomes!
+Pour lever ces verrous, ce travail nécessite 3 compétences. Vous les possédez, alors vous êtes autonomes!
 ```
 
 ```{figure} img/trois_competences.png
@@ -48,7 +48,7 @@ Collaboration de 3 compétences
 [STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus]([https://sensorthings.geosas.fr/](https://geosas.fr/sofair-book/page/biblio.html#id10)  
 
 La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et [Features of Interest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html). Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
-La seconde étape est la définition de [Sensors](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html) et [Observed Properties](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html). La/le scientifique travaillent de concert avec le personnl de terrain essentiellemnt.
+La seconde étape est la définition de [Sensors](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html) et [Observed Properties](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html). La/le scientifique travaillent de concert avec le personnel de terrain essentiellement.
 
 Dans le cas de l'ORE Agrhys:
 * Le point de mesure est attribué aux entités [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html)  
@@ -58,9 +58,9 @@ Exemple: le point de mesure E30 correspond à l'éxutoire du bassin versant du P
 
 <a id="fichier_conf"></a>
 ### 3.1. Fichier de configuration
-Maintenant que les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html), les [Features of Interest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html), les [Sensors](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html) et les [Observed Properties](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html) sont définis, comment configurer une instance **STEAN**? C'est ici que le **Data Scientist** intervient. Il doit fournir les outils et les formalismes pour accompganger le scientifique et le personnel de terrain dans l'intégration de leurs données vers le modèle de données SensorThings.  
+Maintenant que les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html), les [Features of Interest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html), les [Sensors](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html) et les [Observed Properties](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html) sont définis, comment configurer une instance **STEAN**? C'est ici que le **Data Scientist** intervient. Il doit fournir les outils et les formalismes pour accompagner le scientifique et le personnel de terrain dans l'intégration de leurs données vers le modèle de données SensorThings.  
 
-Dans la cas d'un observatoire, nous avons produit un fichier tableur dit de configuration. Les informations collectées au travers de ce fichier sont traitées par un script Python permettant de configuer une instance STEAN. L'alimentation en données sera effectuée ultérieurement.
+Dans le cas d'un observatoire, nous avons produit un fichier tableur dit de configuration. Les informations collectées au travers de ce fichier sont traitées par un script Python permettant de configuer une instance STEAN. L'alimentation en données sera effectuée ultérieurement.
 
 <a id="fonc_conf"></a>
 ### 3.2. Comment ce fichier de configuration fonctionne-t-il?  
@@ -109,7 +109,7 @@ Pensez à créer un fichier de paramètrage; Voir un exemple [param_template.con
 <a id="data"></a>  
 ## 4. Les données  
 Bref rappel du contexte: l'observatoire ORE Agrhys dispose déjà d'un système de données que nous voulons faire évoluer vers le standard OGC Sensorthings.  
-Ce tranferst nécessite 2 étapes, l'import des données historiques et actualisation des nouvelles données.  
+Ce transfert nécessite 2 étapes, l'import des données historiques et actualisation des nouvelles données.  
 
 <a id="exp_histo"></a>
 ### 4.1 Exportation CSV 
