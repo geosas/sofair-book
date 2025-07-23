@@ -1,7 +1,7 @@
 ## Configurer une API SensorThings
 
 ```{admonition} Un travail d'équipe
-La configuration d'un service SensorThings consite à décrire les différentes entités ou (objets) qui le composent.
+La configuration d'un service SensorThings consiste à décrire les différentes entités ou (objets) qui le composent.
 Elle résulte d'un travail, le plus souvent itératif, mélant différentes compétences et différents profils.
 ```
 
