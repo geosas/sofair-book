@@ -13,5 +13,5 @@ Illustration du travail d'équipe itératif nécessaire lors de la phase de conf
 ```
 Le resultat de ces échanges peut être compilé dans un tableur ou chaque entité de l'observatoire sera décrite et regroupée par onglets correspondants aux différentes familles d'objets SensorThings.
 
-Lien de téléchargement du [fichier de configuration](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_configuration_STEAN.xlsm?ref_type=heads)
-...
+Lien de téléchargement du [fichier de configuration](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_configuration_STEAN.xlsm?ref_type=heads) modèle ayant servi pour configurer une instance Sensorthings de l'observatopire ORE Agrhys.
+
