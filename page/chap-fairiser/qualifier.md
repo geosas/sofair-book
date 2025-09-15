@@ -17,20 +17,21 @@ Quelle que soit la définition retenue, **la qualité des données consiste à d
 
 --> Ce que dit le standard SensorThings
 
---> l'expérience du BRGM
+--> L'expérience du BRGM
 
---> l'expérience d'AgrHyS
+--> L'expérience d'AgrHyS
 
-#### La qualification et le SensorThings 
+#### La qualification et le SensorThings
 
 --> Panorama des différentes options d'implémentation de la qualification dans un STA.
 
 Pour chaque option, on pourrait détailler :
+
 - Principe/explication
-- Illustration par un schéma, une capture d'écran, ...
+- Illustration par un schéma, une capture d'écran...
 - Détail du chemin de la qualification du capteur au STA
-- Exemple de réutilisation : requête, viewer, ...
-- Cout/gain en terme de stockage, de temps d'accès, ...
+- Exemple de réutilisation : requête, viewer...
+- Cout/gain en terme de stockage, de temps d'accès...
 
 1. 2 services distincts. Cas de CityOrchestra. **Tom**
 2. All in One. **Mario**
