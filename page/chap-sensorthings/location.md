@@ -7,8 +7,8 @@ Une **location** indique la position d'une **Thing**.
 Dans le cas d'un observatoire, une **location** fait référence généralement à des coordonnées GPS.
 ```
 
-## **2. Propriètés**  
-Une **location** posséde des paramètres obligatoires et des propriétés optionnelles.
+## **2. Propriétés**  
+Une **location** possède des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
 |---|---|---|---|
@@ -36,7 +36,7 @@ Dans d'un observatoire, la **thing** et la **location** étant étroitement lié
 
 #### **2.3. location** (obligatoire)  
 
-Le champ **location** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **location** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser un **Sensor**.  
 
 ***Recommandations***
 

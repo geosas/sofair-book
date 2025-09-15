@@ -1,90 +1,94 @@
-# **Sensor**  
+# **Sensor**
 
-## **1. Définition** 
-Un **Sensor** est un instrument qui observe, ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.  
+## **1. Définition**
+
+Un **Sensor** est un instrument qui observe ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.
 
 ```{tip}
-Dans le cas d'un observatoire, un **Sensor** est le plus souvent:
-* un capteur
-* une analyse physico-chimique
-* une valeur calculée à partir de mesures.
+Dans le cas d'un observatoire, un **Sensor** est le plus souvent :
+
+- un capteur,
+- une analyse physico-chimique,
+- une valeur calculée à partir de mesures.
 ```
 
-## **2. Propriètés**  
-Un **Sensor** posséde des paramètres obligatoires et des propriétés optionnelles.
+## **2. Propriétés**
 
-|  Nom |  Définition | Format | Exigences |
-|---|---|---|---|
-| **name** | Étiquette correspondant à un **Sensor**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
-| **description** | Courte description du **Sensor**. | Chaine de caractères  | Obligatoire |
-| **encoding type** | Défini le type de métadonnée. | html ou pdf ou SensorML | Obligatoire |
-| **metadata** | Description détaillée du capteur, lien vers la documentation | dépend de encoding type. | Obligatoire |
-| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
+Un **Sensor** possède des paramètres obligatoires et des propriétés optionnelles.
 
-### **2.1. name** (obligatoire) 
+| Nom               | Définition                                                                                      | Format                   | Exigences   |
+| ----------------- | ----------------------------------------------------------------------------------------------- | ------------------------ | ----------- |
+| **name**          | Étiquette correspondant à un **Sensor**, généralement un nom descriptif court.                  | Chaine de caractères     | Obligatoire |
+| **description**   | Courte description du **Sensor**.                                                               | Chaine de caractères     | Obligatoire |
+| **encoding type** | Définit le type de métadonnée.                                                                  | HTML ou PDF ou SensorML  | Obligatoire |
+| **metadata**      | Description détaillée du capteur, lien vers la documentation                                    | dépend de encoding type. | Obligatoire |
+| **properties**    | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON               | Optionnel   |
+
+### **2.1. name** (obligatoire)
+
 Le champ **name** correspond à une étiquette/un identifiant le **Sensor**, généralement sous la forme d’un nom descriptif court.
 
-***Recommandations***  
+**_Recommandations_**
 
 Il est recommandé de faire apparaitre le type du capteur et le modèle (informations techniques).
 
-***Exemples***  
+**_Exemples_**
 
-* OTT Thalimede  
-* Wimesure Pt100  
-* Turbidimeter Ponsel
+- OTT Thalimede
+- Wimesure Pt100
+- Turbidimeter Ponsel
 
-### **2.2. description** (obligatoire)  
+### **2.2. description** (obligatoire)
 
 Le champ **description** contient une courte description le **Sensor**.
 
-***Recommandations***  
+**_Recommandations_**
 
-* Il est recommandé d'expliciter le **Sensor**, surtout dans le cas d'utilisattion d'un codage. 
+- Il est recommandé d'expliciter le **Sensor**, surtout dans le cas d'utilisattion d'un codage.
 
-***Exemples***  
+**_Exemples_**
 
-* Analyseur en ligne de phosphore
-* releve de niveau d'eau sur echelle limnimetrique
-* Capteur d'oxygène dissous dans l'eau et de température de l'eau  
+- Analyseur en ligne de phosphore
+- Relève de niveau d'eau sur échelle limnimétrique
+- Capteur d'oxygène dissous dans l'eau et de température de l'eau
 
-#### **2.3. encoding type** (obligatoire)  
+#### **2.3. encoding type** (obligatoire)
 
-Le champ **encoding type** se référe à des valeurs prédéfinies (html ou pdf ou SensorML) et défini le codage des métadonnées.
+Le champ **encoding type** se réfère à des valeurs prédéfinies (HTML ou PDF ou SensorML) et définit le codage des métadonnées.
 
-***Recommandations***  
+**_Recommandations_**
 
-* Dans le cas d'un **sensor**, l'encodage se référe au type de documentation, le plus souent une URL ou un PDF. 
+- Dans le cas d'un **sensor**, l'encodage se réfère au type de documentation, le plus souent une URL ou un PDF.
 
-***Exemples***  
+**_Exemples_**
 
-* html
-* PDF
+- HTML
+- PDF
 
-#### **2.4. metadata** (obligatoire)  
+#### **2.4. metadata** (obligatoire)
 
 Le champ **metadata** indique la source de la description détaillée du **sensor**.
 
-***Recommandations***  
+**_Recommandations_**
 
-* Lien vers le site constructeur ou un fichier PDF. 
+- Lien vers le site constructeur ou un fichier PDF.
 
-***Exemples***  
+**_Exemples_**
 
-* https://www.pme.com/wp-content/uploads/PME-miniDOT-Manual-2021.pdf
-* https://vanessen.com/images/PDFs/Diver-ProductManual-en.pdf  
+- https://www.pme.com/wp-content/uploads/PME-miniDOT-Manual-2021.pdf
+- https://vanessen.com/images/PDFs/Diver-ProductManual-en.pdf
 
-#### **2.5. properties** (optionel)  
+#### **2.5. properties** (optionnel)
 
-Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser un **Sensor**.  
+Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser un **Sensor**.
 
-***Recommandations***
+**_Recommandations_**
 
-* Il peut être intéressant de renseigner les caractéristique stechniques du capteurs.
+- Il peut être intéressant de renseigner les caractéristiques techniques du capteur.
 
-***Exemples***  
+**_Exemples_**
 
-* ORE AgrHyS
+- ORE AgrHyS
 
 ```json
 {
@@ -98,7 +102,8 @@ Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont défi
   Conductivité +/- 0,1% de la valeur mesurée"
 }
 ```
-### **3. Exemples de Sensor**   
+
+### **3. Exemples de Sensor**
 
 ```json
 {
