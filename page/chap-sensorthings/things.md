@@ -1,64 +1,62 @@
-# Things
+# **Thing**  
 
-## Définition  
+## **1. Définition** 
+Une **Thing** est comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
+```{tip}
+Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, une **Thing** peut faire référence à:
+* un point ou une zone de mesure.
+* une centrale de mesure.
+* un capteur.
+* ...
+```
 
-L’API SensorThings de l’OGC suit la définition de l’UIT-T, qui définit une « Things » comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
+## **2. Propriètés**  
+Une **Thing** posséde des paramètres obligatoires et des propriétés optionnelles.
 
-## Propriètés
+|  Nom |  Définition | Format | Exigences |
+|---|---|---|---|
+| **name** | Étiquette correspondant à une **Thing**, généralement un nom descriptif court.| Chaine de caractères  | Obligatoire |
+| **description** | Courte description de la **Thing**. | Chaine de caractères  | Obligatoire |
+| **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
+### **2.1. name** (obligatoire) 
+Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
 
-Chaque « Things » DOIT avoir les propriétés obligatoires et PEUT avoir les propriétés optionnelles dans le tableau 1.
+***Recommandations***  
 
-|  Nom         |  Définition                                                                                      |  Format               |  Cardinalité          |
-|--------------|--------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
-| **name**         | Étiquette correspondant à une « Things », généralement un nom descriptif.                        | Chaine de caractères  | Obligatoire           |
-| **description**  | Courte description de la « Things ».                                                             | Chaine de caractères  | Obligatoire           |
-| **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.  | Objet JSON            | Optionnelle (0 ou 1)  |
+Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
 
-Tableau 1. Les différentes propriétés de l’entité « Things ».
+***Exemples***  
 
-### 1. name
+* Station météo Campbell EFELE  
+* Kerbenez Puits E30  
+* Naizin Kervidy Exutoire  
 
+### **2.2. description** (obligatoire)  
 
-Le champ « name » correspond à une étiquette/un identifiant de la « Things », généralement sous la forme d’un nom descriptif.
+Le champ **description** contient une courte description de la **Thing**.
+
+***Recommandations***  
+
+* Il est recommandé d'expliciter la **Thing**, pour éviter l'utilisattion d'acronymes. 
+
+***Exemples***  
+
+* Station météo Campbell personnalisée, équipée du data logger Campbell CR1000
+* Exutoire du bassin versant du Puits
+* Exutoir à Naizin Kervidy
+
+#### **2.3. properties** (optionel)  
+
+Le champ **properties** est un objet JSON (paires/clé-valeur). Elles sont définies à la conception et permet de mieux caractériser une **Thing**.  
 
 ***Recommandations***
 
-    * Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du site.
+* Pas de réelles recommandations. Les propriètés étant non standardisées, ne pas les considérer comme un élément descriminant pouvant être utilisé dans une requête. Nécessite également de bien documenter pour informer les utlisateurs de leurs existances.
 
-***Exemples à suivre***
+***Exemples***  
 
-    * Station météo Campbell EFELE
-    * Kerbenez Puits E30
-    * Naizin Kervidy Exutoire
-
-### 2. description 
-
-Le champ « description » contient une courte description de la « Things ».
-
-***Recommandations***
-
-    * Il est recommandé de faire apparaitre …
-
-***Exemples à suivre***
-
-    * Station météo Campbell personnalisée, équipée du data logger Campbell CR1000
-    * Exutoire du bassin versant du Puits
-    * Exutoir à Naizin Kervidy
-
-#### 3. properties
-
-
-Le champ « properties » est un objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.
-
-***Recommandations***
-
-    * Il est recommandé de faire apparaitre …
-
-***Exemples à suivre***
-
-
-  * SOERE PRO EFELE
+* SOERE PRO EFELE
 ```json
 { 
   "projet": "https://geosas.fr/web/?page_id=2476",  
@@ -66,7 +64,8 @@ Le champ « properties » est un objet JSON contenant les propriétés annotées
   "date de mise en place": "Septembre 2013" 
 }
 ```
-  * ORE AgrHyS
+
+* ORE AgrHyS
 ```json
 { 
   "region": "B_Naizin", 
@@ -74,17 +73,7 @@ Le champ « properties » est un objet JSON contenant les propriétés annotées
   "station": "KERVIDY_B_EXU" 
 }
 ```
-### Relations
-
-Une « Things » DOIT avoir des relations directes avec les autres d’entités énumérés dans le tableau 2. :
-
-|Type d’entité	| Relation	| Description |
-|--------------|-----------|-------------|
-|Location	|1,1	|Une « Location » localise une « Things ». Plusieurs « Things » peuvent être situées sur une même « Location ». Une « Things » PEUT ne pas avoir de « Location ». Une « Things » DEVRAIT avoir un seule « Location ».|
-|HistoricalLocation	|0,N	|Une « Things » a de 0 à N « HistoricalLocations ». Une « HistoricalLocation » a une et une seule « Things ».|
-|Datastream	|0,N	|Une « Things » PEUT avoir de 0 à N « Datastreams ».|
-
-### Exemples de « Things » 
+### **3. Exemples de Thing**   
 
 ```json
 {

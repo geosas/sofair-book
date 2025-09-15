@@ -13,23 +13,25 @@ parts:
       - file: page/chap-sensorthings/things
       - file: page/chap-sensorthings/sensors
       - file: page/chap-sensorthings/observedproperties
-  - caption: SOFAIR
-    chapters:
-    - file: page/chap-sofair/intro
-    - file: page/chap-sofair/portail
-    - file: page/chap-sofair/api
-    - file: page/chap-sofair/gallerie
+      - file: page/chap-sensorthings/location
+      - file: page/chap-sensorthings/datastream
+      - file: page/chap-sensorthings/observation
+      - file: page/chap-sensorthings/featureofinterest
   - caption: FAIRiser un observatoire
     chapters:
+    - file: page/chap-fairiser/intro
     - file: page/chap-fairiser/creer
     - file: page/chap-fairiser/configurer
     - file: page/chap-fairiser/peupler
+    - file: page/chap-fairiser/qualifier
     - file: page/chap-fairiser/rex
       sections:
-      - file: page/chap-fairiser/rex-efele
+      - file: page/chap-fairiser/rex-hydrologue
       - file: page/chap-fairiser/rex-agrhys
       - file: page/chap-fairiser/rex-station-hydro-meteo
       - file: page/chap-fairiser/rex-meteo-france
+      - file: page/chap-fairiser/rex-colishymeaux
+      - file: page/chap-fairiser/rex-efele
   - caption: Voir et télécharger les données
     chapters:
     - file: page/chap-reutiliser/web
@@ -44,6 +46,9 @@ parts:
       sections:
       - file: page/chap-reutiliser/requetes-simples
       - file: page/chap-reutiliser/requetes-avancees
+  - caption: Galerie
+    chapters:
+    - file: page/chap-sofair/portail
   - caption: Développer
     chapters:
     - file: page/chap-dev/stean
@@ -51,6 +56,7 @@ parts:
   - caption: Déployer
     chapters:
     - file: page/chap-deployer/stean
+    - file: page/chap-deployer/STEAN_local_install_Windows
     - file: page/chap-deployer/sofair
   - caption: Référence
     chapters:
