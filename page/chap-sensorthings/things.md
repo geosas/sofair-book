@@ -1,6 +1,6 @@
-# **Thing**
+## **Thing**
 
-## **1. Définition**
+### **1. Définition**
 
 Une **Thing** est comme un objet du monde physique (objets physiques) ou du monde de l’information (objets virtuels) qui peut être identifié et intégré dans des réseaux de communication.
 
@@ -13,7 +13,7 @@ Dans le cas d'un observatoire, tout dépend du grain de précision souhaité, un
 - ...
 ```
 
-## **2. Propriétés**
+### **2. Propriétés**
 
 Une **Thing** possède des paramètres obligatoires et des propriétés optionnelles.
 
@@ -23,7 +23,7 @@ Une **Thing** possède des paramètres obligatoires et des propriétés optionne
 | **description** | Courte description de la **Thing**.                                                             | Chaine de caractères | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON           | Optionnel   |
 
-### **2.1. name** (obligatoire)
+#### **2.1. name** (obligatoire)
 
 Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
 
@@ -37,7 +37,7 @@ Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du si
 - Kerbenez Puits E30
 - Naizin Kervidy Exutoire
 
-### **2.2. description** (obligatoire)
+#### **2.2. description** (obligatoire)
 
 Le champ **description** contient une courte description de la **Thing**.
 
