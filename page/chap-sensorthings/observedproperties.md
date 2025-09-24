@@ -1,6 +1,6 @@
 ## ObservedProperty
 
-## **1. Définition**
+### **1. Définition**
 
 Une **propriété observée** spécifie ou définit le phénomène d'une observation.
 
@@ -12,7 +12,7 @@ Dans le cas d'un observatoire, cette propriété peut-être :
 - ...
 ```
 
-## **2. Propriétés**
+### **2. Propriétés**
 
 Une **propriété observée** possède des paramètres obligatoires et des propriétés optionnelles.
 
@@ -23,7 +23,7 @@ Une **propriété observée** possède des paramètres obligatoires et des propr
 | _description_ | Courte description de la **propriété observée**.                                                | Chaine de caractères | Obligatoire |
 | _properties_  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Optionnel            |
 
-### **2.1. name** (obligatoire)
+#### **2.1. name** (obligatoire)
 
 Le champ **name** correspond au nom du phénomène observé au sens générique.
 
@@ -31,7 +31,7 @@ Le champ **name** correspond au nom du phénomène observé au sens générique.
 
 Le nom étant un nom court et générique, il est recommandé d'ajouter des propiétés optionnelles.
 
-### **2.2. description** (obligatoire)
+#### **2.2. description** (obligatoire)
 
 Le champ **description** contient une courte description la **propriété observée**.
 
