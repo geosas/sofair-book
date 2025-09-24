@@ -1,13 +1,13 @@
 ## Location  
 
-## **1. Définition** 
+### 1. Définition 
 Une **location** indique la position d'une **Thing**. 
 
 ```{tip}
 Dans le cas d'un observatoire, une **location** fait référence généralement à des coordonnées GPS.
 ```
 
-## **2. Propriétés**  
+### 2. Propriétés  
 Une **location** possède des paramètres obligatoires et des propriétés optionnelles.
 
 |  Nom |  Définition | Format | Exigences |
@@ -18,14 +18,14 @@ Une **location** possède des paramètres obligatoires et des propriétés optio
 | **location** | Le type d'emplacement est défini par **encodingType**.| Objet JSON  | Obligatoire |
 | **properties**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON  | Optionnel |
 
-### **2.1. name** (obligatoire) 
+#### 2.1. name (obligatoire) 
 Le champ **name** est un nom court faisant référence à une **thing**.
 
 ***Recommandations***  
 
 Dans d'un observatoire, la **Thing** et la **Location** étant étroitement liées, les noms peuvent être identiques.
 
-### **2.2. description** (obligatoire)  
+#### 2.2. description (obligatoire)  
 
 Le champ **description** contient une courte description de la **location**.
 
@@ -34,7 +34,7 @@ Le champ **description** contient une courte description de la **location**.
 Dans d'un observatoire, la **thing** et la **location** étant étroitement liées, les description peuvent être identiques.
 
 
-#### **2.3. location** (obligatoire)  
+#### 2.3. location (obligatoire)  
 
 Le champ **location** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser un **Sensor**.  
 
@@ -42,7 +42,7 @@ Le champ **location** est un objet JSON (paires clé-valeur). Elles sont défini
 
 * C'est l'endroit préviligié pour renseigner des coordonnées GPS.
 
-***Exemples***  
+### 3. Exemple
 
 * ORE AgrHyS
 
