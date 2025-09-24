@@ -22,15 +22,15 @@ Les différentes entités du SensorThings et leurs relations.
 
 Le paragraphe [Sensing entities](https://docs.ogc.org/is/18-088/18-088.html#sensing-entities2) du document de référénce de l'API SensorThings indique les définitions officielles des entités SensorThings. Les pages suivantes fournissent des définitions simplifiées et adaptaptées à des observatoires, ainsi que les paramètres nécessaires à renseigner pour chacune de ces entités.
 
-## Synthèse
-
+```{Synthèse}
 | SensorThings        | concrètement                                                                                  |
 | :----------------- | :-------------------------------------------------------------------------------------------- |
 | Thing              | Qu'est-ce qui nous intéresse ? Un objet physique ou virtuel qu'on l'on souhaite étudier.      |
 | ObservedProperty   | Qu'est-ce qu'on souhaite observer ? Le phénomène observé.                                     |
 | Sensor             | Comment, avec quel instrument ?                                                               |
-| DataStream         | Qu'est-ce qu'on obtient avec le "sensor" ? Une collection d'observations via un même capteur. |
-| Observation        | L'action de mesurer le phénomène observé                                                      |
+| DataStream         | Qu'est-ce qu'on obtient avec le "sensor" ? Une collection d'observations via un même capteur repésentée par une chronique |
+| Observation        | L'action de mesurer le phénomène observé.                                                      |
 | FeatureOfInterest  | Informations apportant du contexte à la mesure réalisée.                                      |
-| Location           | localisation de l'instrument.                                                                 |
+| Location           | Géolocalisation de l'instrument, du capteur.                                                                 |
 | HistoricalLocation | Historique de localisation de l'instrument.                                                   |
+```
