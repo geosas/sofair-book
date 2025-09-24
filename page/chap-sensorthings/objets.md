@@ -23,7 +23,6 @@ Les différentes entités du SensorThings et leurs relations.
 Le paragraphe [Sensing entities](https://docs.ogc.org/is/18-088/18-088.html#sensing-entities2) du document de référénce de l'API SensorThings indique les définitions officielles des entités SensorThings. Les pages suivantes fournissent des définitions simplifiées et adaptaptées à des observatoires, ainsi que les paramètres nécessaires à renseigner pour chacune de ces entités.
 
 ```{Note}
-Synthèse :
 | SensorThings        | concrètement                                                                                  |
 | :----------------- | :-------------------------------------------------------------------------------------------- |
 | Thing              | Qu'est-ce qui nous intéresse ? Un objet physique ou virtuel qu'on l'on souhaite étudier.      |
