@@ -4,7 +4,7 @@ Le modèle de données SensorThings API repose sur plusieurs entités clés perm
 Voici un résumé des principales entités et de leurs relations :
 
 1. **[Thing](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html)** : représente un objet physique, une machine ou un équipement qui regroupe des capteurs et génère des observations en un point donné. Un **_Thing_** peut avoir plusieurs **_Datastreams_** ou chronique associée. Un **_Thing_** est généralement géolocalisé par sa **_Location_**.
-2. **[FeatureOfInterest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html)** : définit ou décrit un intérêt commun d’observation. C’est une sorte de filtre.
+2. **[FeatureOfInterest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html)** : définit ou décrit l'objet observé (ex: un bassin versant).
 3. **[Sensor](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html)** : représente un capteur ou un dispositif de mesure. Chaque capteur mesure un ou plusieurs types d'observation (_ObservedProperties_). Un **_Sensor_** est associé à un ou plusieurs **_Datastream_**.
 4. **[ObservedProperty](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html)** : définit le phénomène ou la caractéristique mesurée par un capteur, comme par exemple, la température ou l'humidité. Une **_ObservedProperty_** est associée à un ou plusieurs **_Datastreams_**.
 5. **[Location](https://geosas.fr/sofair-book/page/chap-sensorthings/location.html)** : représente la géolocalisation d’un _Thing_. Les coordonnées géographiques sont stockées sous forme de géométries, généralement représentées par des points et plus rarement par des polygones. Une **_Location_** est associée à un **_Thing_**.
@@ -31,6 +31,6 @@ Le paragraphe [Sensing entities](https://docs.ogc.org/is/18-088/18-088.html#sens
 | DataStream         | Qu'est-ce qu'on obtient avec le "sensor" ? Une collection d'observations via un même capteur repésentée par une chronique |
 | Observation        | L'action de mesurer le phénomène observé.                                                      |
 | FeatureOfInterest  | Informations apportant du contexte à la mesure réalisée.                                      |
-| Location           | Géolocalisation de l'instrument, du capteur.                                                                 |
-| HistoricalLocation | Historique de localisation de l'instrument.                                                   |
+| Location           | Géolocalisation de l'instrument, du capteur.                                                          |
+| HistoricalLocation | Historique de localisation de l'instrument. Pertinent pour les capteurs mobiles, généralement sans objet dans le cas des observatoires de recherche. |
 ```
