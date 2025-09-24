@@ -1,6 +1,6 @@
-# **Sensor**
+## **Sensor**
 
-## **1. Définition**
+### **1. Définition**
 
 Un **Sensor** est un instrument qui observe ou mesure, une propriété ou un phénomène dans le but de produire une estimation de sa valeur.
 
@@ -12,7 +12,7 @@ Dans le cas d'un observatoire, un **Sensor** est le plus souvent :
 - une valeur calculée à partir de mesures.
 ```
 
-## **2. Propriétés**
+### **2. Propriétés**
 
 Un **Sensor** possède des paramètres obligatoires et des propriétés optionnelles.
 
@@ -24,7 +24,7 @@ Un **Sensor** possède des paramètres obligatoires et des propriétés optionne
 | **metadata**      | Description détaillée du capteur, lien vers la documentation                                    | dépend de encoding type. | Obligatoire |
 | **properties**    | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON               | Optionnel   |
 
-### **2.1. name** (obligatoire)
+#### **2.1. name** (obligatoire)
 
 Le champ **name** correspond à une étiquette/un identifiant le **Sensor**, généralement sous la forme d’un nom descriptif court.
 
@@ -38,7 +38,7 @@ Il est recommandé de faire apparaitre le type du capteur et le modèle (informa
 - Wimesure Pt100
 - Turbidimeter Ponsel
 
-### **2.2. description** (obligatoire)
+#### **2.2. description** (obligatoire)
 
 Le champ **description** contient une courte description le **Sensor**.
 
