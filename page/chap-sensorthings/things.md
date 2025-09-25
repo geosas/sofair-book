@@ -33,10 +33,12 @@ Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du si
 
 **_Exemples_**
 
-- Station météo Campbell EFELE
-- Kerbenez Puits E30
-- Naizin Kervidy Exutoire
-
+```json
+"name": "Station météo Campbell EFELE"
+```
+```json
+"name": "Naizin Kervidy Exutoire"
+```
 #### 2.2. description (obligatoire)
 
 Le champ **description** contient une courte description de la **Thing**.
@@ -47,9 +49,12 @@ Le champ **description** contient une courte description de la **Thing**.
 
 **_Exemples_**
 
-- Station météo Campbell personnalisée, équipée du data logger Campbell CR1000
-- Exutoire du bassin versant du Puits
-- Exutoir à Naizin Kervidy
+```json
+"description": "Station météo Campbell personnalisée, équipée du data logger Campbell CR1000"
+```
+```json
+"description": "Exutoire du bassin versant de Kervidy à Naizin"
+```
 
 #### 2.3. properties (optionnel)
 
@@ -64,7 +69,7 @@ Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont défi
 - SOERE PRO EFELE
 
 ```json
-{
+ "properties": {
   "projet": "https://geosas.fr/web/?page_id=2476",
   "manuel d'utilisation": "https://s.campbellsci.com/documents/fr/product-brochures/b_cr1000.pdf",
   "date de mise en place": "Septembre 2013"
@@ -74,14 +79,14 @@ Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont défi
 - ORE AgrHyS
 
 ```json
-{
+ "properties": {
   "region": "B_Naizin",
   "domaine": "NAIZIN",
   "station": "KERVIDY_B_EXU"
 }
 ```
 
-### 3. Exemples de Thing
+### 3. Exemples
 
 ```json
 {
