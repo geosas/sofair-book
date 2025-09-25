@@ -66,8 +66,8 @@ Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont défi
 
 **_Exemples_**
 - Observatoire urbain de Beauregard à Rennes
-- 
-ici, on utilise les propriètés [elevation](https://schema.org/elevation) et [image](https://schema.org/image) décrites dans [https://schema.org](https://schema.org). 
+
+Pour cet observatoire, les propriètés [elevation](https://schema.org/elevation) et [image](https://schema.org/image) ont été choisies dans les vocabulaires décrits dans [https://schema.org](https://schema.org). 
 
 ```json
 "properties": {
