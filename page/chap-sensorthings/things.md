@@ -100,7 +100,7 @@ Dans les 2 exemples suivants, les noms de propriètés ont été choisis libreme
 
 ### 3. Exemples
 
-Cet exemple montre le contenu intégral d'une **thing** après injection dans le service SensorThings. Seuls les champs **name**, **description** et **proriètés** ont été renseignés par l'opérateur. Tous les autres champs **@iot.id**, **@iot.selfLink**, **Locations@iot.navigationLink**, **HistoricalLocations@iot.navigationLink**, **Datastreams@iot.navigationLink** et **Datastreams@iot.navigationLink** ont été générés automatiquent par le service.
+Cet exemple montre le contenu intégral d'une **thing** après injection dans le service SensorThings. Seuls les champs *name*, *description* et *proriètés* ont été renseignés par l'opérateur. Tous les autres champs *@iot.id*, *@iot.selfLink*, *Locations@iot.navigationLink*, *HistoricalLocations@iot.navigationLink*, *Datastreams@iot.navigationLink* et *Datastreams@iot.navigationLink* ont été générés automatiquent par le service.
 
 ```json
 {
