@@ -25,7 +25,7 @@ Une **Thing** possède des paramètres obligatoires et des propriétés optionne
 
 #### 2.1. name (obligatoire)
 
-Le champ **name** correspond à une étiquette/un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
+Le champ **name** correspond à une étiquette ou à un identifiant de la **Thing**, généralement sous la forme d’un nom descriptif court.
 
 **_Recommandations_**
 
