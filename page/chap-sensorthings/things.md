@@ -65,7 +65,9 @@ Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont défi
 - Le standard SensorThings ne donne aucune indication concernant les noms des propriètés que l'on peut associer à l'objet Things. On peut donc considérer que le choix de ces noms de proriètés est totalement libre. Cependant, il y a un intérêt à opter pour des noms admis par la communauté du web. Par exemple, [schema.org](https://schema.org/Thing) ou [W3C](https://www.w3.org/TR/vocab-ssn/) proposent des vocabulaires couvrant les entités, les relations entre les entités et les actions pouvant être utlisés comme des propriètés des objets SensorThings.
 
 **_Exemples_**
-- Observatoire urbain Beauregard à Rennes
+- Observatoire urbain de Beauregard à Rennes
+- 
+ici, on utilise les propriètés [elevation](https://schema.org/elevation) et [image](https://schema.org/image) décrites dans [https://schema.org](https://schema.org). 
 
 ```json
 "properties": {
@@ -73,6 +75,8 @@ Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont défi
         "image": "https://geosas.fr/cityorchestra/img/pdm/ST1-1.jpg"
 }
 ```
+
+Dans les 2 exemples suivants, les noms de propriètés sont choisis librement.
 
 - SOERE PRO EFELE
 
