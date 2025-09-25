@@ -62,7 +62,7 @@ Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont défi
 
 **_Recommandations_**
 
-- Pas de réelles recommandations. Les propriétés étant non standardisées, ne pas les considérer comme un élément descriminant pouvant être utilisé dans une requête. Nécessite également de bien documenter pour informer les utlisateurs de leurs existances.
+- Le standard SensorThings ne donne aucune indication concernant les noms des propriètés que l'on peut associer à l'objet Things. On peut donc considérer que le choix de ces noms de proriètés est totalement libre. Cependant, il y a un intérêt à opter pour des noms admis par la communauté du web. Par exemple, [schema.org](https://schema.org/) ou [W3S](https://www.w3.org/TR/vocab-ssn/) proposent des vocabulaires couvrant les entités, les relations entre les entités et les actions ouvant être utlisés comme propriètés des objets SensorThings.
 
 **_Exemples_**
 
