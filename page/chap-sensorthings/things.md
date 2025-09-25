@@ -76,7 +76,7 @@ Pour cet observatoire, les propriètés [elevation](https://schema.org/elevation
 }
 ```
 
-Dans les 2 exemples suivants, les noms de propriètés sont choisis librement.
+Dans les 2 exemples suivants, les noms de propriètés ont été choisis librement.
 
 - SOERE PRO EFELE
 
