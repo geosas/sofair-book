@@ -1,10 +1,10 @@
 ## Location  
 
 ### 1. Définition 
-Une **location** indique la position d'une **Thing**. 
+Une **location** indique la position géographique d'une **Thing**. 
 
 ```{tip}
-Dans le cas d'un observatoire, une **location** fait référence généralement à des coordonnées GPS.
+Dans le cas d'un observatoire, une **location** fait référence généralement à des coordonnées GPS
 ```
 
 ### 2. Propriétés  
