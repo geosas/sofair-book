@@ -20,7 +20,7 @@ Une **observation** possède des paramètres obligatoires et des propriétés op
 
 | Nom                | Définition                                                                                      | Format                                                                                 | Exigences   |
 | ------------------ | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------- |
-| **phenomenonTime** | L'instant ou la période où l'**observation** se produit.                                        | Temps ou interval de temps                                                             | Obligatoire |
+| **phenomenonTime** | L'instant ou la période où l'**observation** se produit.                                        | Temps ou intervalle de temps                                                             | Obligatoire |
 | **result**         | La valeur de l'**observation**.                                                                 | N'importe lequel (dépend du type d'observation défini dans le flux de données associé) | Obligatoire |
 | **resultTime**     | L'heure à laquelle le résultat de l'observation a été généré.                                   | Chaîne de temps ISO 8601                                                               | Obligatoire |
 | **resultQuality**  | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON                                                                             | Optionel    |
