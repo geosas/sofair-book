@@ -6,11 +6,12 @@ Une **observation** est l'action de mesurer ou de déterminer la valeur d'une pr
 Un dispositif physique, un capteur, envoie des observations à un flux de données spécifique (_datastream_).
 
 ```{tip}
-Dans le cas d'un observatoire, une **observation** est souvent :
+Dans le cas d'un observatoire, une **observation** correspond le plus souvent à :
 
-- une valeur mesurée par un capteur.
+- une valeur mesurée par un capteur
+- une mesure manuelle
 - une analyse physicochimqique
-- une mesure manuuelle
+
 ```
 
 ### 2. Propriétés
