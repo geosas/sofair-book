@@ -1,6 +1,6 @@
-## **Observation**
+## Observation
 
-## **1. Définition**
+### 1. Définition
 
 Une **observation** est l'action de mesurer ou de déterminer la valeur d'une propriété. Elle représente une lecture unique par un capteur d'une propriété observée.
 Un dispositif physique, un capteur, envoie des observations à un flux de données spécifique (_datastream_).
@@ -13,7 +13,7 @@ Dans le cas d'un observatoire, une **observation** est souvent :
 - une mesure manuuelle
 ```
 
-## **2. Propriétés**
+### 2. Propriétés
 
 Une **observation** possède des paramètres obligatoires et des propriétés optionnelles.
 
@@ -26,7 +26,7 @@ Une **observation** possède des paramètres obligatoires et des propriétés op
 | **validTime**      | La période pendant laquelle le résultat peut être utilisé.                                      | Chaîne de temps ISO 8601                                                               | Optionel    |
 | **parameters**     | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur. | Objet JSON                                                                             | Optionel    |
 
-### **2.1. phenomenonTime** (obligatoire)
+#### 2.1. phenomenonTime (obligatoire)
 
 Le champ **phenomenonTime** correspond au l'instant où la mesure a été effectuée.
 
@@ -36,9 +36,9 @@ Le champ **phenomenonTime** correspond au l'instant où la mesure a été effect
 "phenomenonTime": "2001-09-07T09:06:00+02:00"
 ```
 
-### **2.2. result** (obligatoire)
+#### 2.2. result (obligatoire)
 
-Le champ **result** a la valeur de l'**observation**. Elle peut prendre n'importe quelle forme.
+Le champ **result** contient la valeur de l'**observation**. Elle peut prendre n'importe quelle forme.
 
 **_Recommandations_**
 
@@ -50,7 +50,7 @@ Le champ **result** a la valeur de l'**observation**. Elle peut prendre n'import
 "result": "0.231"
 ```
 
-#### **2.3. resultTime** (obligatoire)
+#### 2.3. resultTime (obligatoire)
 
 Le champ **resultTime** est l'instant exact de la capture d'observation.
 
@@ -62,7 +62,7 @@ Le champ **resultTime** est l'instant exact de la capture d'observation.
 }
 ```
 
-#### **2.4. resultQuality** (optionnel)
+#### 2.4. resultQuality (optionnel)
 
 Le champ **resultQuality** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser une **observation**.
 
@@ -70,7 +70,7 @@ Le champ **resultQuality** est un objet JSON (paires clé-valeur). Elles sont d�
 
 - C'est l'endroit possible pour qualifier la mesure ou l'observation.
 
-#### **2.5. validTime** (optionnel)
+#### 2.5. validTime (optionnel)
 
 Le champ **validTime** définit une période de validité de l'**observation**.
 
@@ -82,11 +82,11 @@ Le champ **validTime** définit une période de validité de l'**observation**.
 }
 ```
 
-#### **2.6. parameters** (optionnel)
+#### 2.6. parameters (optionnel)
 
 Le champ **parameters** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser une **observation**.
 
-### **3. Exemple d'observation**
+### 3. Exemple d'observation
 
 ```json
 {
