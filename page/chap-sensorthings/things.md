@@ -33,12 +33,9 @@ Il est recommandé de faire apparaitre le type du capteur ainsi que le nom du si
 
 **_Exemples_**
 
-```json
-"name": "Station météo Campbell EFELE"
-```
-```json
-"name": "Naizin Kervidy Exutoire"
-```
+- Station météo Campbell EFELE
+- Naizin Kervidy Exutoire
+
 #### 2.2. description (obligatoire)
 
 Le champ **description** contient une courte description de la **Thing**.
@@ -49,12 +46,9 @@ Le champ **description** contient une courte description de la **Thing**.
 
 **_Exemples_**
 
-```json
-"description": "Station météo Campbell personnalisée, équipée du data logger Campbell CR1000"
-```
-```json
-"description": "Exutoire du bassin versant de Kervidy à Naizin"
-```
+
+- description": "Station météo Campbell personnalisée, équipée du data logger Campbell CR1000"
+- Exutoire du bassin versant de Kervidy à Naizin
 
 #### 2.3. properties (optionnel)
 
