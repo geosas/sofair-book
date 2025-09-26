@@ -1,6 +1,6 @@
 ## Datastream
 
-## **1. Définition**
+### 1. Définition
 
 Un **datastream** représente un flux de données regroupant une collection d'observations mesurant la même propriété observée et produites par le même capteur.
 
@@ -8,7 +8,7 @@ Un **datastream** représente un flux de données regroupant une collection d'ob
 Dans le cas d'un observatoire, ce flux de données fait souvent référence à une valeur physique mesurée émise par un capteur ou une centrale de mesure.
 ```
 
-## **2. Propriétés**
+### 2. Propriétés
 
 Un **datastream** possède des paramètres obligatoires et des propriétés optionnelles.
 
@@ -23,7 +23,7 @@ Un **datastream** possède des paramètres obligatoires et des propriétés opti
 | **phenomenonTime**    | Intervalle temporel des temps de **phénomène** de toutes les observations appartenant à ce flux de données.                                                                                                                                                             | TM_Period (ISO 8601 Time Interval) | Optionnel   |
 | **resultTime**        | L'intervalle temporel des temps de **résultat** de toutes les observations appartenant à ce flux de données.                                                                                                                                                            | TM_Period (ISO 8601 Time Interval) | Optionnel   |
 
-### **2.1. name** (obligatoire)
+#### 2.1. name (obligatoire)
 
 Le champ **name** décrit de façon unique et simple un flux de données.
 
@@ -35,7 +35,7 @@ Dans le cas d'un observatoire, il fait référence à la variation d'une variabl
 
 - Outlet Exutoire_OTT Thalimede_stream level, ici est fait référence au niveau d'eau mesuré par un capteur OTT Thalimed position sur un exutoire.
 
-### **2.2. description** (obligatoire)
+#### 2.2. description (obligatoire)
 
 Le champ **description** contient une courte description le **datastream**.
 
@@ -43,7 +43,7 @@ Le champ **description** contient une courte description le **datastream**.
 
 - Un peu à l'image de **name** mais plus détaillé.
 
-### **2.3. unitOfMeasurement** (obligatoire)
+#### 2.3. unitOfMeasurement (obligatoire)
 
 Le champ **unitOfMeasurement** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser un **datastream**.
 
@@ -64,7 +64,7 @@ Le champ **unitOfMeasurement** est un objet JSON (paires clé-valeur). Elles son
 }
 ```
 
-### **2.4. observationType** (obligatoire)
+#### 2.4. observationType (obligatoire)
 
 Le champ **observationType** est un code prédéfini du type d'observation (avec un type de résultat unique), qui est utilisé par le service pour coder les observations.
 
@@ -72,23 +72,23 @@ Le champ **observationType** est un code prédéfini du type d'observation (avec
 
 - Dans le cas d'un observation, OM_Measurement et OM_Observation sont généralement utilisés. Voir [tableau des codes](https://docs.ogc.org/is/18-088/18-088.html#tab-value-codes-obstypes).
 
-### **2.5. properties** (optionnel)
+#### 2.5. properties (optionnel)
 
 Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser un **datastream**.
 
-### **2.6. observedArea** (optionnel)
+#### 2.6. observedArea (optionnel)
 
 Le champ **observedArea** permet de définir une zone géographique selon un polygone au format GeoJSON.
 
-### **2.7. phenomenonTime** (optionnel)
+#### 2.7. phenomenonTime (optionnel)
 
 Le champ **phenomenonTime** est un intervalle de temps.
 
-### **2.8. resultTime** (optionnel)
+#### 2.8. resultTime** (optionnel)
 
 Le champ **resultTime** est un intervalle de temps.
 
-## **3. Exemples de Datastream**
+### 3. Exemples de Datastream
 
 ```json
 {
