@@ -1,6 +1,6 @@
 ## FeatureOfInterest
 
-## **1. Définition**
+### 1. Définition
 
 Un **FeatureOfInterest** défini ou décrit un intérêt commun d'observation. C'est une sorte de filtre.
 
@@ -13,7 +13,7 @@ Dans le cas d'un observatoire, un **FeatureOfInterest** peut-être :
 - etc
 ```
 
-## **2. Propriétés**
+### 2. Propriétés
 
 Un **FeatureOfInterest** possède des paramètres obligatoires et des propriétés optionnelles.
 
@@ -25,7 +25,7 @@ Un **FeatureOfInterest** possède des paramètres obligatoires et des propriét�
 | **feature**      | La description détaillée de l'élément. Le type de données est défini par encodingType.                                               | Objet JSON           | Obligatoire |
 | **properties**   | Objet JSON contenant les propriétés annotées par l’utilisateur sous forme de paires clé-valeur.                                      | Objet JSON           | Optionnel   |
 
-### **2.1. name** (obligatoire)
+#### 2.1. name (obligatoire)
 
 Le champ **name** correspond à nom du point commun d'intérêt.
 
@@ -39,15 +39,15 @@ Dans le cas d'un observatoire, **FeatureOfInterest** peut-être :
 - une grandeur physique,
 - etc.
 
-### **2.2. description** (obligatoire)
+#### 2.2. description (obligatoire)
 
 Le champ **description** contient une courte description de **FeatureOfInterest**.
 
-#### **2.3. properties** (optionnel)
+#### 2.3. properties (optionnel)
 
 Le champ **properties** est un objet JSON (paires clé-valeur). Elles sont définies à la conception et permettent de mieux caractériser un **FeatureOfInterest**.
 
-### **3. Exemples de FeatureOfInterest**
+### 3. Exemples de FeatureOfInterest
 
 ```json
  {
