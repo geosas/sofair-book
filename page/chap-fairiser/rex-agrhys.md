@@ -53,7 +53,7 @@ Collaboration de 3 compétences
 
 ## 3. Configurer une instance STEAN
 
-[STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus]([https://sensorthings.geosas.fr/](https://geosas.fr/sofair-book/page/biblio.html#id10)
+[STEAN](https://github.com/Mario-35/STEAN) est une implémentation de l'API SensorThings. [Pour en savoir plus](https://geosas.fr/sofair-book/page/biblio.html#id10)
 
 La première difficulté est de déterminer les [Things](https://geosas.fr/sofair-book/page/chap-sensorthings/things.html) et [Features of Interest](https://geosas.fr/sofair-book/page/chap-sensorthings/featureofinterest.html). Que doivent-ils représenter? Ici, le/la scientifique intervient majoritairement.
 La seconde étape est la définition de [Sensors](https://geosas.fr/sofair-book/page/chap-sensorthings/sensors.html) et [Observed Properties](https://geosas.fr/sofair-book/page/chap-sensorthings/observedproperties.html). La/le scientifique travaillent de concert avec le personnel de terrain essentiellement.
@@ -127,7 +127,7 @@ Pensez à créer un fichier de paramètrage. Voir un exemple [param_template.con
 
 ## 4. Les données
 
-Bref rappel du contexte : l'observatoire ORE Agrhys dispose déjà d'un système de données que nous voulons faire évoluer vers le standard OGC Sensorthings.
+Bref rappel du contexte : l'observatoire ORE Agrhys dispose déjà d'un système de données que nous voulons faire évoluer vers le standard **OGC Sensorthings**.
 Ce transfert nécessite 2 étapes, l'import des données historiques et actualisation des nouvelles données.
 
 <a id="exp_histo"></a>
@@ -147,5 +147,10 @@ Le séparateur décimal doit être le point et le codage en UTF8.
 
 ### 4.2 Importation des CSV
 
-L'importation, de données historiques ou nouvelles, s'effectue à l'aide des Notebooks [import_new_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads) et [import_big_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads).
+L'importation, de données historiques ou nouvelles, s'effectue à l'aide du Notebook [import_new_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads)..  
+Le Notebool [import_big_data.ipynb]([https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/archive/import_big_data.ipynb?ref_type=heads) est gardé pour mémoire. Depuis la version 1.2 de STEAN, il n'est plus utile. Le partitionnement de le table Datastream a amélioré les performances. L'injection de fichier CSV de grande taile (13 million de lignes) est supportée.  
 Au préalable, renseigner le fichier de paramétrage [template_param.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads).
+
+### 4.3 Après importation des csv  
+Après l'injection importante de données, il est nécessaire de relancer STEAN. Au démarrage, un processus d'indexation est lancé. Il peut prendre beaucoup de temps, mais le service est maintenu. Des lenteurs sont possibles selon les requêtes effectuées.  
+
