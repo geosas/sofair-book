@@ -19,8 +19,8 @@ Pour une installation type serveur ouvert au monde, voir l'installation sous Lin
 
 <a id="postgresl"></a>
 
-## 1.1 PostgreSQL et PostGIS
-
+## 1.1 PostgreSQL et PostGIS  
+La version 17 de PostgreSQL est recommandée.  
 [www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 Effectuer l'installation suivant les copies d'écran. Stack Builder est nécessaire pour installer de PostGIS.
@@ -130,7 +130,8 @@ host replication all ::1/128 scram-sha-256
 [Revenir en haut](#top)
 <a id="nodejs"></a>
 
-## 1.2 NodeJS et nodemon
+## 1.2 NodeJS et nodemon  
+Dernière version testée, Node.js 22.14.0  
 
 [Télécharger Nodejs](https://nodejs.org/en/download)
 
@@ -197,10 +198,11 @@ Une fois effectué, vous basculez sur la fenêtre de configuration [http://local
 
 Détails des options
 
-- ForceHTTPS : ajoute d'un s aux liens http, soit https.
+- ForceHTTPS : tous les liens seront en https.
 - stripNull : supprime les clés avec des valeurs null (allège le JSON)
 - canDrop : permet de supprimer les contenus de la bases de données, mais pas la base.
 - unique : ajout d'une contrainte, les noms des datatstream doivent être uniques.
+- optimized : 
 
 Détails des extensions
 
