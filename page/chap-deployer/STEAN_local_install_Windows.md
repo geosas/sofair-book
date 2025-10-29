@@ -202,7 +202,6 @@ Détails des options
 - stripNull : supprime les clés avec des valeurs null (allège le JSON)
 - canDrop : permet de supprimer les contenus de la bases de données, mais pas la base.
 - unique : ajout d'une contrainte, les noms des datatstream doivent être uniques.
-- optimized : 
 
 Détails des extensions
 
