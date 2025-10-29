@@ -10,6 +10,7 @@
 - [4. Les données](#data)
   - [4.1. Exportation CSV](#data_histo)
   - [4.2. Importation des CSV](#data_new)
+  - [4.3 Après importation des csv](#data_index)
 
 <a id="top"></a>
 <a id="qui_parle"></a>
@@ -150,6 +151,8 @@ Le séparateur décimal doit être le point et le codage en UTF8.
 L'importation, de données historiques ou nouvelles, s'effectue à l'aide du Notebook [import_new_data.ipynb](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_new_data.ipynb?ref_type=heads)..  
 Le Notebool [import_big_data.ipynb]([https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/import_big_data.ipynb?ref_type=heads](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/archive/import_big_data.ipynb?ref_type=heads) est gardé pour mémoire. Depuis la version 1.2 de STEAN, il n'est plus utile. Le partitionnement de le table Datastream a amélioré les performances. L'injection de fichier CSV de grande taile (13 million de lignes) est supportée.  
 Au préalable, renseigner le fichier de paramétrage [template_param.conf](https://forge.inrae.fr/christophe.geneste/agrhys_stean/-/blob/main/template_param.conf?ref_type=heads).
+
+<a id="data_index"></a>  
 
 ### 4.3 Après importation des csv  
 Après l'injection importante de données, il est nécessaire de relancer STEAN. Au démarrage, un processus d'indexation est lancé. Il peut prendre beaucoup de temps, mais le service est maintenu. Des lenteurs sont possibles selon les requêtes effectuées.  
