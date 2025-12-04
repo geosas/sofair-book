@@ -27,5 +27,6 @@ Pour cela, il a donc fallu imaginer des outils pour "faire voir" ce à quoi ress
 
 Ca force même à réfléchir, au cas-par-cas, ce que désigne exactement chaque Thing. Par exemple on peut partir avec l'idée initiale qu'un station hydrométrique au niveau d'un pont c'est une Thing globale, mais à la réflexion si on mesure quelque chose côté amont, et autre chose côté aval, est-ce que c'est la même Thing ? Si à l'aval il y a par exemple une buse avec un jet dénoyé, il faut peut-être conceptualiser deux Things distinctes, etc. En plus il faut traverser la route pour passer d'un côté à l'autre, on ne peut peut-être pas passer un câble d'alimentation dans la buse... Bref, on peut avoir différentes choses (things) presque au même endroit (location), idem pour un doublet de forages par exemple. Ainsi à plusieurs reprises j'ai finalement "scindé" des Things que j'avais en première intention considérées de façon trop globale et ça, au niveau de la conception, ça aide.
 
+### Echantillons de correspondance
 
-...
+#### Avec l'Autorité Routière Départementale 14
