@@ -28,8 +28,17 @@ Pour cela, il a donc fallu imaginer des outils pour "faire voir" ce à quoi ress
 Ca force même à réfléchir, au cas-par-cas, ce que désigne exactement chaque Thing. Par exemple on peut partir avec l'idée initiale qu'un station hydrométrique au niveau d'un pont c'est une Thing globale, mais à la réflexion si on mesure quelque chose côté amont, et autre chose côté aval, est-ce que c'est la même Thing ? Si à l'aval il y a par exemple une buse avec un jet dénoyé, il faut peut-être conceptualiser deux Things distinctes, etc. En plus il faut traverser la route pour passer d'un côté à l'autre, on ne peut peut-être pas passer un câble d'alimentation dans la buse... Bref, on peut avoir différentes choses (things) presque au même endroit (location), idem pour un doublet de forages par exemple. Ainsi à plusieurs reprises j'ai finalement "scindé" des Things que j'avais en première intention considérées de façon trop globale et ça, au niveau de la conception, ça aide.
 
 ### Echantillons de correspondance
-
 #### *Avec l'Autorité Routière Départementale 14*
 ![ARD 14-1](/img/colishymeaux-ARD1.png)
 ![ARD 14-2](/img/colishymeaux-ARD2.png)
 ![ARD 14-3](/img/colishymeaux-ARD3.png)
+
+#### *Avec l'animateur du site Natura 2000*
+![anim_natura2000](/img//colishymeaux-anim_natura2000.png)
+
+#### *Avec une société qui fournit des sondes spectro UV immergeables*
+![spectro1]([spectro1](img//colishymeaux-spectro1.png))
+![spectro2]([spectro1](img//colishymeaux-spectro2.png))
+
+### Outils de FAIRisation
+Le service https://frost.geosas.fr/colishymeaux/v1.1/ a été créé par Hervé Squividant. Ensuite, j'ai intégralement peuplé le service par des requêtes sous R. J'avais un peu de pratique des API, sous R en particulier (réanalyse ERA5 de l'ECMWF, Météo France, HubEau, etc.) donc ça a été assez simple, le design RESTful est même encore plus simple puisqu'il n'y a pas besoin de charger un package dédié (genre https://cran.r-project.org/package=ecmwfr ou https://cran.r-project.org/package=hubeau). Tout se fait par des requêtes HTTP et des fichiers JSON, on a juste besoin de :
