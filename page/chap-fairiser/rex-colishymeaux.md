@@ -37,8 +37,8 @@ Ca force même à réfléchir, au cas-par-cas, ce que désigne exactement chaque
 ![anim_natura2000](/img//colishymeaux-anim_natura2000.png)
 
 #### *Avec une société qui fournit des sondes spectro UV immergeables*
-![spectro1]([spectro1](/img/colishymeaux-spectro1.png))
-![spectro2]([spectro1](/img/colishymeaux-spectro2.png))
+![spectro1](/img/colishymeaux-spectro1.png)
+![spectro2](/img/colishymeaux-spectro2.png)
 
 ### Outils de FAIRisation
 Le service https://frost.geosas.fr/colishymeaux/v1.1/ a été créé par Hervé Squividant. Ensuite, j'ai intégralement peuplé le service par des requêtes sous R. J'avais un peu de pratique des API, sous R en particulier (réanalyse ERA5 de l'ECMWF, Météo France, HubEau, etc.) donc ça a été assez simple, le design RESTful est même encore plus simple puisqu'il n'y a pas besoin de charger un package dédié (genre https://cran.r-project.org/package=ecmwfr ou https://cran.r-project.org/package=hubeau). 
@@ -117,7 +117,7 @@ for(i in seq_len(nrow(piezos)))
 ```
 Je conserve l'historique daté de l'ensemble des requêtes que j'ai envoyées au service (POST, PATCH ou DELETE), comme cela je peux tracer l'ensemble des modifications successives (déplacement de la position d'un futur capteur après une discussion avec quelqu'un, etc.). Le gros plus est aussi la possibilité d'enrichir la description des things par ajout de photos :
 ```
-hing_info <- list(
+thing_info <- list(
   properties = list(
     Height = 60,
     image = list("https://geosas.fr/metadata/colishymeaux/img/Roulecrotte_RD514_1.JPG",
