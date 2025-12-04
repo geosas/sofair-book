@@ -37,8 +37,94 @@ Ca force même à réfléchir, au cas-par-cas, ce que désigne exactement chaque
 ![anim_natura2000](/img//colishymeaux-anim_natura2000.png)
 
 #### *Avec une société qui fournit des sondes spectro UV immergeables*
-![spectro1]([spectro1](img//colishymeaux-spectro1.png))
-![spectro2]([spectro1](img//colishymeaux-spectro2.png))
+![spectro1]([spectro1](/img/colishymeaux-spectro1.png))
+![spectro2]([spectro1](/img/colishymeaux-spectro2.png))
 
 ### Outils de FAIRisation
-Le service https://frost.geosas.fr/colishymeaux/v1.1/ a été créé par Hervé Squividant. Ensuite, j'ai intégralement peuplé le service par des requêtes sous R. J'avais un peu de pratique des API, sous R en particulier (réanalyse ERA5 de l'ECMWF, Météo France, HubEau, etc.) donc ça a été assez simple, le design RESTful est même encore plus simple puisqu'il n'y a pas besoin de charger un package dédié (genre https://cran.r-project.org/package=ecmwfr ou https://cran.r-project.org/package=hubeau). Tout se fait par des requêtes HTTP et des fichiers JSON, on a juste besoin de :
+Le service https://frost.geosas.fr/colishymeaux/v1.1/ a été créé par Hervé Squividant. Ensuite, j'ai intégralement peuplé le service par des requêtes sous R. J'avais un peu de pratique des API, sous R en particulier (réanalyse ERA5 de l'ECMWF, Météo France, HubEau, etc.) donc ça a été assez simple, le design RESTful est même encore plus simple puisqu'il n'y a pas besoin de charger un package dédié (genre https://cran.r-project.org/package=ecmwfr ou https://cran.r-project.org/package=hubeau). 
+Tout se fait par des requêtes HTTP et des fichiers JSON, on a juste besoin de :
+```
+# Chargement des packages requis
+library(httr)
+library(jsonlite)
+library(rstudioapi) # optionnel
+```
+La connection au service est simple :
+```
+# Fonction pour récupérer un jeton
+get_token <- function(url_logging, user, pswd) {
+  response <- POST(url_logging, body = toJSON(list(user = user, pswd = pswd)), encode = "json")
+  
+  if (status_code(response) == 201) {
+    print("connexion OK")
+    content <- content(response, as = "parsed", type = "application/json")
+    token <- content$token
+    return(token)
+  } else {
+    print(content(response))
+  }
+}
+
+# L'URL du service
+url <- 'https://frost.geosas.fr/colishymeaux/v1.1/'
+
+# Pour éviter de mettre les identifiants en dur dans le script :
+user <- rstudioapi::askForPassword("username :")
+pswd <- rstudioapi::askForPassword("password :")
+url_logging = 'https://frost.geosas.fr/proxy_login'
+
+# Connection
+token=get_token(url_logging,user,pswd)
+```
+Pour créer des things, des sensors, des observed_properties ou des datastreams, c'est simple, on peut même faire des boucles si on a des des catégories de things comme des piézos. Là le couplage avec les packages geospatiaux de R (sf, sp, terra, etc.) est vraiment hyper-pratique, rien à rentrer en dur si on a par exemple les emplacements dans des fichiers shapefile ou geopackage :
+```
+library(sf)
+
+piezos <- read_sf(dsn="/home/lemoinen/IARA/Recherche/CoLiSHyMEaux/draft/",
+                  layer="implantation_piezos_v5")
+piezos <- st_transform(piezos[order(piezos$Nom),],4326)
+piezos$LON <- st_coordinates(piezos)[,1]
+piezos$LAT <- st_coordinates(piezos)[,2]
+
+for(i in seq_len(nrow(piezos)))
+{
+  thing <- piezos[i,]
+  thing_info <- list(
+    name = thing$Nom,
+    description = sprintf("Piézomètre %s, profondeur %d m. Horizon capté : %s",
+                          thingProfondeur,thing$Strati),
+    Locations = list(list(
+      name = thing$Nom,
+      description = sprintf("Piézomètre %s, profondeur %d m. Horizon capté : %s",
+                            thingProfondeur,thing$Strati),
+      encodingType = "application/geo+json",
+      location = list(
+        name = thing$Nom,
+        type = "Feature",
+        geometry = list(
+          type = "Point",
+          coordinates = c(thingLAT)
+        )
+      )
+    ))
+  )
+  
+  # Attention si on veut positionner les things avec une précision suffisante,
+  # il faut écrire 6 décimales au moins aux coordonnées géographiques
+  json_body <- jsonlite::toJSON(thing_info, auto_unbox = TRUE, digits = 6)
+  resp_things <- POST(paste0(url,"Things"), body = json_body, encode = "raw",add_headers(`X-Auth` = token))
+}
+```
+Je conserve l'historique daté de l'ensemble des requêtes que j'ai envoyées au service (POST, PATCH ou DELETE), comme cela je peux tracer l'ensemble des modifications successives (déplacement de la position d'un futur capteur après une discussion avec quelqu'un, etc.). Le gros plus est aussi la possibilité d'enrichir la description des things par ajout de photos :
+```
+hing_info <- list(
+  properties = list(
+    Height = 60,
+    image = list("https://geosas.fr/metadata/colishymeaux/img/Roulecrotte_RD514_1.JPG",
+                 "https://geosas.fr/metadata/colishymeaux/img/Roulecrotte_RD514_2.JPG",
+                 "https://geosas.fr/metadata/colishymeaux/img/entree_buse_RD514.JPG")
+  )
+)
+json_body <- jsonlite::toJSON(thing_info, auto_unbox = TRUE)
+PATCH(paste0(url,"Things(2)"), body = json_body, encode = "raw",add_headers(`X-Auth` = token))
+```
