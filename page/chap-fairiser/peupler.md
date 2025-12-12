@@ -9,4 +9,13 @@ Les méthodes d'alimentation en données d'um modèle de données Sensorthing d�
 ### Quelques exemples  
 Vous pouves consulter les retours d'expériences pour plus de détails de mise en oeuvre.  
 
-*Importation de données historiques ou par campagne annuelle de mise en ligne de données*  
+**Importation de données historiques ou par campagne annuelle de mise en ligne de données**  
+Dans ce cas, prenons l'exemple d'importation de données via des fichiers textes au format CSV.
+
+Les étapes:  
+* Obtention des fichiers CSV dans un formlisme quelconque.
+* Mise en forme des fichiers de données selon un formalisme acceptée par l'API
+* Importation des données selon la solution technique:  
+    * Frost: par script Python, découpage du fichier de données, créer d'un trame au format Json à envoyer au service, rebouclage selon le nombre de découâge.
+    * STEAN: par script Python, importation des fichiers CSV au bon formalisme un par un.
+
